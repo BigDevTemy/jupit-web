@@ -21,6 +21,14 @@ const Index = ()=>{
                    
                 </div>
             </div>
+            <div className='herobody'>
+                    <div className='heroText'>
+                        <h1>Secure and Easy to USE</h1>
+                    </div>
+                    <div className='mobilePhone'>
+                            Hello
+                    </div>
+            </div>
         </div>
     )
 }
