@@ -1,17 +1,24 @@
 import '../../assets/css/Home/hero.css'
-
+import logo from '../../assets/images/jupit.svg'
 const Index = ()=>{
     return (
         <div className="Hero">
             <div className='nav'>
                 <div className='logoDiv'>
-                        LOGOG
+                       <img src={logo}/>
                 </div>
                 <div className='navItems'>
-                    Wallet
+                    <div>About us</div>
+                    <div>Wallet</div>
+                    <div>Exchange</div>
+                    <div>Explorer</div>
+                    <div>Who We Are</div>
+
                 </div>
                 <div className='authButtons'>
-                    <button>Login</button>
+                    <div className='loginbtn'>Login</div>
+                    <div className='signUpbtn'>Signup</div>
+                   
                 </div>
             </div>
         </div>
