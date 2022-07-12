@@ -26,7 +26,7 @@ const Index = ()=>{
                         <h1>Secure and Easy to USE</h1>
                     </div>
                     <div className='mobilePhone'>
-                            Hello
+                            
                     </div>
             </div>
         </div>
