@@ -125,8 +125,8 @@
     font-size: 64px;
     text-align: left;
     font-weight: bold;
-    margin-top: 10px;
     color: #1D2D3F;
+   
   
     
 }
@@ -137,6 +137,7 @@
     justify-content: flex-start;
     font-family: Inter;
     font-size: 16px;
+    
 }
 
 .secure_text{
@@ -149,7 +150,7 @@
 }
 .email{
     width: 80%;
-    margin-top: 20px;
+    margin-top: 40px;
     
     display: flex;
     justify-content: flex-start;
