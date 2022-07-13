@@ -23,7 +23,18 @@ const Index = ()=>{
             </div>
             <div className='herobody'>
                     <div className='heroText'>
-                        <h1>Secure and Easy to USE</h1>
+                        <div className='joinus'>Join our crypto exchange platform</div>
+                        <div className='textcontent'>
+                                <div className='secure'>
+                                    Secure and easy <br/> way to trade.    
+                                </div>  
+                        </div>
+                        <div className='secure_text'>
+                            You can not discover new oceans unless you have the courage to lose<br/> the sight of your shore...and move on.
+                        </div>
+                        <div className='email'>
+                                <input type="email" className='form-control' />
+                        </div>
                     </div>
                     <div className='mobilePhone'>
                             
