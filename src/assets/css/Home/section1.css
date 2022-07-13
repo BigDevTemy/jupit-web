@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+.section1{
+    width:100%;
+    min-height: 50vh;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    
+}
+
+.globeSession{
+    width: 100%;
+    margin-left: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+}
+
+.globeSession > div{
+    flex: 1 1 50%;
+}
+
+.globeSession > div:nth-child(2){
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.globe > img{
+    width: 70%;
+}
+.gateway{
+    color:#FFB74A;
+    font-family: Inter;
+    
+}
+.gatewayText{
+    color:#1D2D3F;
+    font-size: 32px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Inter;
+    width: 80%;
+}
+.getitnow{
+    margin-top: 30px;
+}
+
+.getitnowBtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #1c1c93;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.BCQparent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+  
+}
+.Institution{
+    width: 80%;
+    font-family: Inter;
+    font-size: 14px;
+    color: #848484;
+    text-align: left;
+    margin-top: 20px;
+}
