@@ -102,6 +102,12 @@
     min-height: 100vh;
     background-color: #1c1c93;
 
+
+}
+
+.herobody>div:nth-child(2) > img{
+    margin-top: 40px;
+    width: 80%;
 }
 
 
@@ -144,5 +150,28 @@
 .email{
     width: 80%;
     margin-top: 20px;
-    background-color: #000;
+    
+    display: flex;
+    justify-content: flex-start;
+}
+.email >input{
+    width: 60%;
+    height: 60px;
+    padding:20px;
+    font-size: 25px;
+    
+}
+
+.tryBtn{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #1c1c93;
+    color: #FEFCFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-left: 10px;
+     font-family: Inter;
+     font-size: 18px;
 }

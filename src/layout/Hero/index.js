@@ -1,5 +1,6 @@
 import '../../assets/css/Home/hero.css'
 import logo from '../../assets/images/jupit.svg'
+import Phone from '../../assets/images/phone1.png'
 const Index = ()=>{
     return (
         <div className="Hero">
@@ -33,11 +34,11 @@ const Index = ()=>{
                             You can not discover new oceans unless you have the courage to lose<br/> the sight of your shore...and move on.
                         </div>
                         <div className='email'>
-                                <input type="email" className='form-control' />
+                            <input type="email"  placeholder="Enter your email" className='form-control' /> <div className='tryBtn'>Try now</div>
                         </div>
                     </div>
                     <div className='mobilePhone'>
-                            
+                            <img src={Phone}/>
                     </div>
             </div>
         </div>
