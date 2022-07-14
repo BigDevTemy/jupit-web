@@ -13,14 +13,12 @@ const Index = ()=>{
                                 </div>
                             </div>
                     </div>
-                    <div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                    <div className='specificIcon'>
+                        <div>Temiloluwa</div>
+                        <div>Odewumi</div>
                         
-
                     </div>
+                    
             </div>
         </div>
     )
