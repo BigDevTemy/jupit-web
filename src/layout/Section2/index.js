@@ -4,7 +4,20 @@ const Index = ()=>{
     return (
         <div className="section2">
             <div className='statement'>
-                    Hello
+                    <div>
+                            <div className='wemakecrypoeasy'>We make crypto easy.</div>
+                            <div className='specific'>Specific cryptocurrencies work and get a bit of  crypto to try out for yourself. Here are a few reasons why you should choose besnik crypto</div>
+                            <div className='getitnow'>
+                                <div className='getitnowBtn'>
+                                    Learn more
+                                </div>
+                            </div>
+                    </div>
+                    <div>
+
+                        
+
+                    </div>
             </div>
         </div>
     )

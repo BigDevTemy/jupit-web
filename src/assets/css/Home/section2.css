@@ -1,13 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
 .section2{
     width:100%;
-    height: 100vh;
-    margin-top: 100px;
+    min-height: 50vh;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    margin-top:150px;
 
 }
 .statement{
     width: 100%;
     margin-right: 90px;
     margin-left: 90px;
-    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
 
+}
+.statement > div:nth-child(1){
+    flex: 1 1 40%;
+  
+    text-align: left;
+}
+.statement > div:nth-child(2){
+    flex: 1 1 60%;
+  
+}
+.wemakecrypoeasy{
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: bold;
+    color: #1D2D3F;
+}
+.specific{
+    margin-top: 20px;
+    color: #848484;
+    font-family: Inter;
+    font-size: 16px;
 }
