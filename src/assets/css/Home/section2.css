@@ -19,11 +19,12 @@
 
 }
 .statement > div:nth-child(1){
-    flex: 1 1 40%;
+    flex: 1 1 30%;
     text-align: left;
 }
 .statement > div:nth-child(2){
     flex: 1 1 60%;
+    padding-left: 30px;
   
 }
 .wemakecrypoeasy{
@@ -50,8 +51,7 @@
 .specificIcon > div{
     flex: 1 1 calc(50% - 20px);
     margin: 10px;
-    height: 200px;
-    
+    height: 100px;
     display: flex;
 
 }
@@ -64,9 +64,19 @@
     margin-left: 10px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    color: #1D2D3F;
+    text-align: left;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    
+}
+.securestorage{
+    color:#1D2D3F;
     font-family: Inter;
     font-weight: bold;
-    height: 100%;
+}
+.We_store{
+    margin-top: 25px;
+    font-size: 14px;
+    width: 90%;
 }
