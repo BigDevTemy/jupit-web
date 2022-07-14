@@ -16,7 +16,8 @@ const Index = ()=>{
                     <div className='specificIcon'>
                         <div>Temiloluwa</div>
                         <div>Odewumi</div>
-                        
+                        <div>Vincent</div>
+                        <div>Ademilola</div>
                     </div>
                     
             </div>
