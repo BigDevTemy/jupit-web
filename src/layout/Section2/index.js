@@ -1,5 +1,5 @@
 import '../../assets/css/Home/section2.css'
-
+import icon1 from '../../assets/images/icons/Group.png'
 const Index = ()=>{
     return (
         <div className="section2">
@@ -14,7 +14,19 @@ const Index = ()=>{
                             </div>
                     </div>
                     <div className='specificIcon'>
-                        <div>Temiloluwa</div>
+                        <div>
+                             <div className='side'>
+                                <div>
+                                    <img src={icon1}/>
+                                </div>
+                                <div>
+                                    <div>Secure storage</div>
+                                    <div>
+                                        We store the vast majority of the digital assets in secure offline storage.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div>Odewumi</div>
                         <div>Vincent</div>
                         <div>Ademilola</div>
