@@ -1,8 +1,9 @@
-.footer{
+.my_footer{
     width:100%;
     min-height: 50vh;
     height: 100%;
     display: flex;
     justify-content:center;
     margin-top:150px;
+    background-color: #F3F5F6;
 }

@@ -5,6 +5,7 @@ import Section3 from '../../layout/Section3'
 import Section4 from '../../layout/Section4'
 import Section5 from '../../layout/Section5'
 import Section6 from '../../layout/Section6'
+import Footer from '../../component/Footer'
 const Index = ()=>{
     return (
         <div className="Home">
@@ -15,6 +16,7 @@ const Index = ()=>{
             <Section4/>
             <Section5/>
             <Section6/>
+            <Footer/>
         </div>
     )
 }
