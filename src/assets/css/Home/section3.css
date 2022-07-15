@@ -1,0 +1,58 @@
+.section3{
+    width:100%;
+    min-height: 50vh;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    margin-top:150px;
+    
+}
+
+.yourgateway{
+    width: 100%;
+    margin-right: 90px;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.yourgateway > div{
+    flex:1 1 50%;
+    
+}
+
+.yourgateway > div:nth-child(2){
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.yourgateway > div:nth-child(1){
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align:left;
+    
+}
+.globaleconomy{
+    font-size: 16px;
+    color: #FFB74A;
+}
+.CryptoWallet{
+    font-size: 42px;
+    font-family: Inter;
+    font-weight: bold;
+    color: #1D2D3F;
+}
+.bitcoinuses{
+    margin-top: 40px;
+    width: 80%;
+    font-size: 16px;
+    font-family: Inter;
+    color:#848484;
+    text-align: justify;
+}
+
+
