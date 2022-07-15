@@ -14,9 +14,15 @@ const Index = ()=>{
                     <div className='quote'><img src={quote} className="quoteImg"/></div>
                    
                 </div>
-                <div className='testimoniaComment'>
-                    
-
+                <div className='Comment'>
+                       
+                       <div className='mycard'>
+                            Welome
+                       </div>
+                       <div className='mycard'>
+                            Welome
+                       </div>
+                        
                 </div>
                 
                 

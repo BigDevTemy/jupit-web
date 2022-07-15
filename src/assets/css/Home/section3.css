@@ -55,10 +55,15 @@
     text-align: justify;
 }
 .cardTestimonia{
-    width:200px;
-    height: 200px;
+    width:400px;
+    margin: 10px;
+    height: 250px;
     border-radius: 15px;
     background-color: #fff;
+}
+.item{
+    background-color: #848484;
+   
 }
 
 
