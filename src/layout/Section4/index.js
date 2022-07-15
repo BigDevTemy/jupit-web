@@ -17,44 +17,48 @@ const Index = ()=>{
                     <div className='quote'><img src={quote} className="quoteImg"/></div>
                    
                 </div>
+               
                 <div className='Comment'>
-                       
-                       <div className='mycard'>
-                            <div className='clientName'>
-                                <div>
-                                    <img src={Client1} />
+                    <OwlCarousel className='owl-theme' items={2} lazyLoad  loop margin={10}>
+                        <div className='item'>
+                            <div className='mycard'>
+                                <div className='clientName'>
+                                    <div>
+                                        <img src={Client1} />
+                                        
+                                    </div>
+                                    <div>
+                                        <div className='name'>Hector Berlin</div>
+                                        <div className='country'>South Africa</div>
+                                    </div>
                                     
                                 </div>
-                                <div>
-                                    <div className='name'>Alexander Nicole</div>
-                                    <div className='country'>Nigerian</div>
+                                <div className='all_crypto'>All your crypto in one place</div>
+                                <div className='message'>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .
                                 </div>
-                                
-                            </div>
-                            <div className='all_crypto'>All your crypto in one place</div>
-                            <div className='message'>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .
-                            </div>
-                       </div>
-                       
-                       <div className='mycard'>
-                            <div className='clientName'>
-                                <div>
-                                    <img src={Client2} />
+                             </div>
+                        </div>
+                        <div className='item'>
+                            <div className='mycard'>
+                                <div className='clientName'>
+                                    <div>
+                                        <img src={Client2} />
+                                        
+                                    </div>
+                                    <div>
+                                        <div className='name'>Hector Colombo</div>
+                                        <div className='country'>Russia</div>
+                                    </div>
                                     
                                 </div>
-                                <div>
-                                    <div className='name'>Hector Colombo</div>
-                                    <div className='country'>Nigerian</div>
+                                <div className='all_crypto'>All your crypto in one place</div>
+                                <div className='message'>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .
                                 </div>
-                                
-                            </div>
-                            <div className='all_crypto'>All your crypto in one place</div>
-                            <div className='message'>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .
-                            </div>
-                       </div>
-                        
+                        </div>
+                        </div>
+                    </OwlCarousel>
                 </div>
                 
                 

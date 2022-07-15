@@ -1,0 +1,37 @@
+.section6{
+    width:100%;
+    min-height: 50vh;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    margin-top:150px;
+    margin-bottom: 50px;
+    padding: 20px;
+    flex-direction: column;
+ 
+}
+.formDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.form{
+    width: 50%;
+  
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.fm-group{
+    margin: 10px !important;
+}
+.btn-primary-me{
+    background-color: #1c1c93;
+    color: #fff;
+    margin-top: 10px;
+}
+.fg-input{
+    height: 50px;
+}

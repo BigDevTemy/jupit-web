@@ -6,6 +6,7 @@
     display: flex;
     justify-content:center;
     margin-top:150px;
+    margin-bottom: 50px;
 }
 .card{
     display: flex;
@@ -90,4 +91,10 @@
     font-family: Inter;
     padding: 20px;
 }
+.owl{
+    width: 100%;
+}
 
+.item{
+    background-color: transparent;
+}
