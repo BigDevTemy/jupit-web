@@ -54,5 +54,11 @@
     color:#848484;
     text-align: justify;
 }
+.cardTestimonia{
+    width:200px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #fff;
+}
 
 

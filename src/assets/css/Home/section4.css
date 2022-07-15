@@ -8,6 +8,7 @@
 }
 .card{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     width:90%;
     height: 350px;
@@ -18,10 +19,11 @@
 
 }
 .testimonia{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     height:100px ;
-    background-color: #1c1c93;
+    background-color: #000;
 }
 .easiest{
     
@@ -36,6 +38,11 @@
 }
 .quote > img{
     width: 40%;
+}
+.testimoniaComment{
+    width: 100%;
+    background-color: aqua;
+    
 }
 
 
