@@ -5,6 +5,8 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Client1 from '../../assets/images/Mask Group.png'
+import Client2 from '../../assets/images/Mask Group (1).png'
+
 
 const Index = ()=>{
     return (
@@ -29,9 +31,28 @@ const Index = ()=>{
                                 </div>
                                 
                             </div>
+                            <div className='all_crypto'>All your crypto in one place</div>
+                            <div className='message'>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .
+                            </div>
                        </div>
+                       
                        <div className='mycard'>
-                            Welome
+                            <div className='clientName'>
+                                <div>
+                                    <img src={Client2} />
+                                    
+                                </div>
+                                <div>
+                                    <div className='name'>Hector Colombo</div>
+                                    <div className='country'>Nigerian</div>
+                                </div>
+                                
+                            </div>
+                            <div className='all_crypto'>All your crypto in one place</div>
+                            <div className='message'>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .
+                            </div>
                        </div>
                         
                 </div>
