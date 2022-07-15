@@ -29,6 +29,11 @@
     font-family: Inter;
     color: #fff;
 }
+.quote{
+    
+    display: flex;
+    justify-content: flex-end;
+}
 .quote > img{
     width: 40%;
 }
