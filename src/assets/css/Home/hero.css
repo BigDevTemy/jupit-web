@@ -281,19 +281,18 @@
     flex:0 0 60%;
     display: flex;
     flex-direction: column;
-    
-    padding-left: 80px;
+    padding-left: 5%;
     
 }
 .heroContent > div:nth-child(2){
     flex:0 0 40%;
     display: flex;
     justify-content: flex-end;
-    background-color: #000;
+    
 }
 .heroContent>div:nth-child(2)> img{
     width: 70%;
-    background-color: #FFA000;
+    
 }
 .contentHero > div:nth-child(1){
     font-family: 'Montserrat', sans-serif; 
@@ -313,6 +312,23 @@
 .heroButton{
     display: flex;
     justify-content: flex-start;
-    background-color: #fff;
-    padding-left: 6%;
+    padding-left: 5%;
+    
+}
+.heroButton > div{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FFA000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Montserrat'sans-serif;
+} 
+.heroButton>div:nth-child(2){
+    margin-left: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    
 }
