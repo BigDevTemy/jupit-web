@@ -225,7 +225,11 @@
 
 .Tab > div:nth-child(3){
     flex:0 0 20%;
-    background-color: rgb(133, 24, 24);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;   
 }
 .feature{
     background-color: #979797 !important;
@@ -238,6 +242,7 @@
 }
 .navItems > div{
     cursor: pointer;
+    align-self: center;
 }
 .navItems> div:nth-child(2){
     width: 150px;
@@ -259,4 +264,8 @@
     width: 150px;
     color: #FFF; 
     font-family: 'Montserrat', sans-serif;   
+}
+.registerbtn{
+    background-color: #FFA000 !important;
+    font-family: 'Montserrat', sans-serif !important;   
 }

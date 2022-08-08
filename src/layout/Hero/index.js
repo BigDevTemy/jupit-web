@@ -20,7 +20,10 @@ const Index = ()=>{
                             <div>Who we are</div>
                         </div>
                         <div>
-                            <div>Feature</div>
+                            <div>Signin</div>
+                            <button className='btn btn-md registerbtn'>
+                                Register
+                            </button>
                         </div>
                    </div>
             </div>
