@@ -1,9 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 .my_footer{
     width:100%;
     min-height: 50vh;
     height: 100%;
     display: flex;
     justify-content:center;
-    margin-top:150px;
-    background-color: #F3F5F6;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+
+.footerBg>img{
+    width: 100%;
+    margin-top: 0px;
+}
+.footerContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    
+    
+}
+
+.userCount{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 40px;
+    color: #fff;
+}
+.userText{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #fff;
+
+}
+.whatareyou{
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Montserrat',sans-serif;
+    color:#fff;
+    margin-top: 8%;
+}
+
+.footerBtn{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FFA000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Montserrat'sans-serif;
+    margin-top: 20px;
 }
