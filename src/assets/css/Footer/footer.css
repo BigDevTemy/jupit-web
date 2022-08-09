@@ -72,9 +72,7 @@
 .footerInfor > div{
     flex:1 1 calc(33.333% -20px);
     margin: 10px;
-    
-    
-    
+    background-color: #FFA000;
 }
 
 .footerInfor>div:nth-child(1){
@@ -111,9 +109,23 @@
     font-size: 20px;
     font-family: 'Montserrat' sans-serif;
 }
+
 .link{
     width: 100%;
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex:1 1 calc(25%-20px);
+    
+}
+.link > div{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #fff;
+    cursor: pointer;
 }
 
 

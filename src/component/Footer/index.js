@@ -45,6 +45,12 @@ const Index= ()=>{
                                         <div>What We Do</div>
                                         <div>Our Team</div>
                                     </div>
+                                    <div>
+                                        <div>About Us</div>
+                                        <div>FAQ</div>
+                                        <div>What We Do</div>
+                                        <div>Our Team</div>
+                                    </div>
                                 </div>
                             </div>
                             
