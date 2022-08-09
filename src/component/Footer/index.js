@@ -57,11 +57,37 @@ const Index= ()=>{
 
                         </div>
 
+                        <div>
+                            <div className='blog'>
+                                <img src={blogpost1} className="blogImg"/>
+                                <span>WHY LEARN CRYPTO EXCHANGE</span>
+                            </div>
+
+                            <div className='blog'>
+                                <img src={blogpost2} className="blogImg"/>
+                                <span>WHY LEARN CRYPTO EXCHANGE</span>
+                            </div>
+
+                            <div className='blog'>
+                                <img src={blogpost3} className="blogImg"/>
+                                <span>WHY LEARN CRYPTO EXCHANGE</span>
+                            </div>
+                            <div className='blog'>
+                                <img src={blogpost3} className="blogImg"/>
+                                <span>WHY LEARN CRYPTO EXCHANGE</span>
+                            </div>
 
 
+                        </div>
+                        <div>
+                                <div className='socialmedia'>
+                                    <img src={facebook} className="socialmedia-img"/>
+                                    <img src={twitter} className="socialmedia-img"/>
+                                    <img src={instagram} className="socialmedia-img"/>
+                                    <img src={linkedin} className="socialmedia-img"/>
+                                </div>
 
-                        <div>2</div>
-                        <div>3</div>
+                        </div>
                 </div>
                    
             
