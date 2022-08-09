@@ -5,7 +5,7 @@
     height: 100%;
     display: flex;
     justify-content:center;
-    align-items: center;
+   
     flex-direction: column;
     background: url('../../images/BackgroundFooter.svg');
     background-position: center;
@@ -14,19 +14,14 @@
      
 }
 
-.footerBg>img{
-    width: 100%;
-    min-height: 50vh;
-    height: 100%;
-    margin-top: 0px;
-}
+
 .footerContent{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 0%;
     
     
     
@@ -67,23 +62,32 @@
 .footerInfor{
     width: 100%;
     display: flex;
-    padding-left: 8%;
-    padding-right: 8%;
+    flex-wrap: wrap;
+    flex-direction: row;
     margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
 }
+.footerInfor > div{
+    flex:1 1 calc(33.333% -20px);
+    margin: 10px;
+    background-color: #FFA000;
+    
+    
+}
+
 .footerInfor>div:nth-child(1){
-    flex:0 0 calc(50%- 20px);
-    text-align: left;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
 }
-.footerInfor>div:nth-child(1)> div >img{
-    width: 30%;
-}
-.footerInfor>div:nth-child(1)> small {
-    font-size: 18px;
-    color: #fff;
-}
+
+
+
+
 .quickLink{
     width: 100%;
     margin-top: 20px;
@@ -92,16 +96,46 @@
     color: #fff;
     font-family: 'Montserrat',sans-serif;
     font-size: 14px;
-   
-    
+
 }
 .quickLink > div{
-    flex:0 0 33.333%;
+    flex:0 0 20%;
     margin: 10px;
+    
 }
 .quickLinkDiv{
     margin-top: 40px;
     color: #fff;
     font-family: 'Montserrat',sans-serif;
     font-size: 18px;
+}
+.blog{
+    margin-bottom: 10px;
+}
+.blog1{
+    display: flex;
+}
+.blog1-img > img{
+    width: 50%;
+}
+.blog1-title > div{
+    font-size: 14px;
+    font-family: 'Montserrat' sans-serif;
+    text-align: left;
+    color: #fff;
+    align-self: center;
+}
+.blog1-title>div:nth-child(1){
+    font-family: 'Montserrat'sans-serif;
+    font-size: 18px;
+}
+.blog1-title>div:nth-child(2){
+    font-family: 'Montserrat'sans-serif;
+    font-size: 14px;
+}
+.socialmedia{
+    display: flex;
+}
+.socialmedia  img{
+    width: 20%;
 }
