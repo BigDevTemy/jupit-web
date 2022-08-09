@@ -342,3 +342,9 @@
     border: 1px solid #fff;
     
 }
+.link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex:1 1 calc(25%)
+}

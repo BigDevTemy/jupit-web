@@ -19,7 +19,41 @@ const Index= ()=>{
                 <div className='footerBtn'>Get Started</div>
 
                 <div className='footerInfor'>
-                        <div>1</div>
+                        <div>
+                            <div>
+                                <img src={footerLogo} className="footerlogo"/>
+                                <small>...simplicity exchange</small>
+                            </div>
+                            <div className='QuickLink'>
+                                <div>Quick Link</div>
+                                <div className='link'>
+                                    <div>
+                                        <div>About Us</div>
+                                        <div>FAQ</div>
+                                        <div>What We Do</div>
+                                        <div>Our Team</div>
+                                    </div>
+                                    <div>
+                                        <div>About Us</div>
+                                        <div>FAQ</div>
+                                        <div>What We Do</div>
+                                        <div>Our Team</div>
+                                    </div>
+                                    <div>
+                                        <div>About Us</div>
+                                        <div>FAQ</div>
+                                        <div>What We Do</div>
+                                        <div>Our Team</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+
+
+
+
                         <div>2</div>
                         <div>3</div>
                 </div>
