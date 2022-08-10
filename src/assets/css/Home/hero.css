@@ -11,6 +11,19 @@
     position: relative;
     
 }
+.HeroOthers{
+    width:100%;
+    height: 60vh;
+    background: url('../../images/BackgroundFooter.svg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .nav{
     width: 100%;
     height: 50px;
@@ -240,15 +253,26 @@
    
 }
 
-.Tab > div:nth-child(3){
+.signupDiv{
     flex:0 0 20%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color:#fff;
     font-family: 'Montserrat', sans-serif; 
     border-left:2px solid #fff; 
+    color:#fff;
 }
+
+.signupDivScroll{
+    flex:0 0 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; 
+    border-left:2px solid #000; 
+    color:#000;
+}
+
 .feature{
     background-color: #979797 !important;
     color: #fff;
@@ -257,32 +281,23 @@
 .navItems{
     display: flex;
     flex-direction: row;
+    
 }
 .navItems > div{
     cursor: pointer;
     align-self: center;
 }
-.navItems> div:nth-child(2){
+.navLink{
     width: 150px;
     color: #FFF; 
+    font-family: 'Montserrat', sans-serif;   
+}
+.navLinkScroll{
+    width: 150px;
+    color: #000; 
     font-family: 'Montserrat', sans-serif;   
 }
 
-.navItems> div:nth-child(3){
-    width: 150px;
-    color: #FFF;
-    font-family: 'Montserrat', sans-serif;    
-}
-.navItems> div:nth-child(4){
-    width: 150px;
-    color: #FFF; 
-    font-family: 'Montserrat', sans-serif;   
-}
-.navItems> div:nth-child(5){
-    width: 150px;
-    color: #FFF; 
-    font-family: 'Montserrat', sans-serif;   
-}
 .registerbtn{
     background-color: #FFA000 !important;
     font-family: 'Montserrat', sans-serif !important;   
@@ -354,5 +369,10 @@
     margin-left: 10px;
     background-color: transparent;
     border: 1px solid #fff;
+    
+}
+
+.underline{
+    border:3px solid #FFA000;
     
 }

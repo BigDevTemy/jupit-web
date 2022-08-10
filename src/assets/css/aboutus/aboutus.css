@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.aboutus{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+   
+}
+
+.whoweare > h1{
+    color:#000;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 50px;
+}
+.whoweare{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 60%;
+    font-family: 'Montserrat',sans-serif;
+    min-height: 30vh;
+    height: 100%;
+    padding: 30px;
+    margin-top: 40px;
+}
+.whoweare >p{
+    text-align: left;
+}
+
+.ourmission{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 30vh;
+    height: 100%;
+    margin-top: 40px;
+    
+}
+
+.ourmission > h1{
+    color:#fff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 50px;
+}
+.ourmission >p{
+    text-align: left;
+    color: #fff;
+}

@@ -15,13 +15,13 @@ const Index = ({scroll})=>{
                     <img src={scroll > 0 ? jupit :logo} className="imgLogo"/>
                 </div>
                 <div className='navItems'>
-                    <div><Link to='/aboutus'><button className='btn btn-md feature'>About us</button></Link></div>
-                    <div>Product</div>
-                    <div>What Defines Us</div>
-                    <div>Faq</div>
-                    <div>Contact</div>
+                    <div className={scroll > 0 ? 'navLinkScroll':'navLink'}><Link to='/aboutus'><button className='btn btn-md feature'>About us</button></Link></div>
+                    <div className={scroll > 0 ? 'navLinkScroll':'navLink'}>Product</div>
+                    <div className={scroll > 0 ? 'navLinkScroll':'navLink'}>What Defines Us</div>
+                    <div className={scroll > 0 ? 'navLinkScroll':'navLink'}>Faq</div>
+                    <div className={scroll > 0 ? 'navLinkScroll':'navLink'}>Contact</div>
                 </div>
-                <div>
+                <div className={scroll >0 ? 'signupDivScroll':'signupDiv'}>
                     <div>Signin</div>
                     <button className='btn btn-md registerbtn'>
                         Register
