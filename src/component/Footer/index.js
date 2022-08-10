@@ -30,22 +30,17 @@ const Index= ()=>{
                                     <div>
                                         <div>About Us</div>
                                         <div>FAQ</div>
-                                        <div>What We Do</div>
+                                        <div>What Defines Us</div>
                                         <div>Our Team</div>
                                     </div>
                                     
                                     <div>
-                                        <div>About Us</div>
-                                        <div>FAQ</div>
-                                        <div>What We Do</div>
-                                        <div>Our Team</div>
+                                        <div>Product</div>
+                                        <div>Legal</div>
+                                        <div>Policy</div>
+                                        <div>Contact</div>
                                     </div>
-                                    <div>
-                                        <div>About Us</div>
-                                        <div>FAQ</div>
-                                        <div>What We Do</div>
-                                        <div>Our Team</div>
-                                    </div>
+                                   
                                 </div>
                             </div>
                             

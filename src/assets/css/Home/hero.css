@@ -196,6 +196,7 @@
     height: 100vh;
     display: flex;
     top: 0;
+    margin-top: 6%
     
 }
 
@@ -203,7 +204,10 @@
     background-color: transparent;
     display: flex;
     flex-direction: row;
-    margin-top: 60px;
+    margin-top: 50px;
+    position: fixed;
+    z-index:3;
+    width: 100%;
 }
 .imgLogo{
     width: 50%;
