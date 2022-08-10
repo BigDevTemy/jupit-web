@@ -35,20 +35,64 @@
     display: flex;
     width: 100%;
     align-items: flex-start;
-    justify-content: space-between;
     width: 100%;
     min-height: 30vh;
     height: 100%;
     margin-top: 40px;
     
 }
+.ourmission > div:nth-child(1){
+    flex:1 1 60%;
+}
+.ourmission > div:nth-child(2){
+    flex:1 1 40%;
+}
 
-.ourmission > h1{
-    color:#fff;
+.ourmission >div:nth-child(1){
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    
+}
+
+
+.ourmission > div > h1{
+    color:#000;
     font-family: 'Montserrat',sans-serif;
     font-size: 50px;
 }
-.ourmission >p{
+.ourmission >div:nth-child(1) > p{
     text-align: left;
-    color: #fff;
+    color: #000;
+    font-family: 'Montserrat',sans-serif;
 }
+
+.logo{
+    width: 80%;
+}
+
+.vision{
+    margin-top:50px;
+}
+.ourmission >div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 30vh;
+    height: 100%;
+    align-self: center
+}
+.ourmission >div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+}
+.ourmission >div:nth-child(2) > div >img{
+    width: 50%;
+}
+

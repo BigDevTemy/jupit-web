@@ -13,8 +13,20 @@ const Index = ()=>{
 
             </div>
             <div className='ourmission'>
+                
                 <div>
-                    <img src={Jupit}/>
+                    <h1>Our Mission</h1>
+                    <p>
+                        Our platform is intended mainly to simplify your daily exchange in a most reliable and secured way..
+                    </p>
+
+                    <h1 className="vision">Our Vision</h1>
+                    <p>
+                    Our vision is to advance the use of borderless currency within the Africa communities. We want to make sure anyone and everyone who wants to engage in borderless payments gets prompt and clear access in their transactions.
+                    </p>
+                </div>
+                <div>
+                    <img src={Jupit} className='logo'/>
                 </div>
                 
 
