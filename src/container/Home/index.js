@@ -9,17 +9,15 @@ import Footer from '../../component/Footer'
 import Header from '../../component/header'
 import { useEffect, useState } from 'react'
 const Index = ()=>{
-    const [scroll,setscrollPosition] =useState(0)
+    const [scroll,setscrollPosition] = useState(0)
 
     const handleScroll = () => {
         const position = window.pageYOffset;
-        setscrollPosition(position)
-        console.log('scroll',scroll)
-        // getscroll(position)
+        setscrollPosition(window.pageYOffset)
         
+        // getscroll(position) 
     };
     
-   
     useEffect(()=>{
         window.addEventListener('scroll', handleScroll, { passive: true });
         return () => {
@@ -28,7 +26,7 @@ const Index = ()=>{
     },[])
     return (
         <div className="Home">
-            <Header />
+            <Header scroll={scroll} />
             <Hero/>
             <Section1/>
             <Section2/>

@@ -201,14 +201,24 @@
 }
 
 .Tab{
-    background-color: transparent;
+    
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 10px;
     position: fixed;
     z-index:3;
     width: 100%;
+   
 }
+
+.Tabbg{
+    background-color: transparent;
+}
+.TabCg{
+    background-color: #fff;
+}
+
 .imgLogo{
     width: 50%;
 }
@@ -216,7 +226,7 @@
     flex:0 0 20%;
     background-color: transparent;
     align-items: center;
-    justify-content: center0;
+    justify-content: center;
     
     align-self: center;
     text-align: left;
