@@ -116,9 +116,17 @@
     width: 100%;
     margin-top: 20px;
     display: flex;
+    align-items: center;
     justify-content: center;
     font-size: 18px;
     font-family: 'Montserrat',sans-serif;
+    flex-direction: column;
+   
+}
+.smallText{
+    font-size: 18px;
+    text-align: right;
+    color:#1c1c93
 }
 .aboutPlatform >div{
     width: 50%;
@@ -129,11 +137,13 @@
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 18px;
     font-family: 'Montserrat',sans-serif;
+    flex-direction: column;
 }
 .aboutPlatformII >div{
-    width: 70%;
+    width: 50%;
 }
 .ceopunditDiv{
     width: 100%;

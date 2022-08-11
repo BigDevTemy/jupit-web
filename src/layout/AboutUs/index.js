@@ -55,22 +55,24 @@ const Index = ()=>{
 
             <div className='ourmission'>
                     <div>
-                            <div className="mtitle">OUR MISSION</div>
-                            <div className='msubtext'>Jupit Mission Statement</div>
+                            <div className="mtitle">PROVIDING RELIABLE SOLUTIONS</div>
+                            {/* <div className='msubtext'>Jupit Mission Statement</div> */}
                     </div>
                     <div className='aboutPlatform'>
                         <div>Our platform is intended mainly to simplify your daily exchange in a most reliable and secured way.</div>
+                        <div className='smallText'>- Mission</div>
                     </div>
                
             </div>
 
             <div className='ourmission'>
                     <div>
-                            <div className="mtitle">OUR VISION</div>
-                            <div className='msubtext'>Jupit Vision Statement</div>
+                            <div className="mtitle">BORDERLESS FREEDOM</div>
+                            {/* <div className='msubtext'>Jupit Vision Statement</div> */}
                     </div>
                     <div className='aboutPlatformII'>
                         <div>Our vision is to advance the use of borderless currency within the Africa communities. We want to make sure anyone and everyone who wants to engage in borderless payments gets prompt and clear access in their transactions.</div>
+                        <div className='smallText'>- Vision</div>
                     </div>
                
             </div>
@@ -92,7 +94,7 @@ const Index = ()=>{
             <div className='crew'>
                         <div>
                             <div className="mtitle">OUR SQUAD</div>
-                            <div className='msubtext'>Our Awesome Team</div>
+                            {/* <div className='msubtext'>Our Awesome Team</div> */}
                         </div>
                         <div className='teamDiv'>
                                 <div className='teammember' data-aos="flip-left">
