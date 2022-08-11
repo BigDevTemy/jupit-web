@@ -1,6 +1,10 @@
 import '../../assets/css/aboutus/aboutus.css'
 import about1 from '../../assets/images/about1.png'
 import googleplay from '../../assets/images/googleplay.svg'
+import image1 from '../../assets/images/1.jpg'
+import image4 from '../../assets/images/4.jpg'
+import image5 from '../../assets/images/5.jpg'
+import favicon from '../../assets/images/favicon.svg'
 const Index = ()=>{
     return (
         <div className="aboutus">
@@ -83,6 +87,118 @@ const Index = ()=>{
                         <div>
                             <div className="mtitle">OUR SQUAD</div>
                             <div className='msubtext'>Our Awesome Team</div>
+                        </div>
+                        <div className='teamDiv'>
+                                <div className='teammember'>
+                                    <div>
+                                        <img src={image1}/>
+                                    </div>
+                                    <div className='teambody'>
+                                        <div className='teamdescription'>
+                                        <div className='circleDetails'>
+                                                <div>
+                                                    Femi A. Somoye.
+                                                </div>
+                                                <div>
+                                                    Business Manager.
+                                                </div>
+                                            </div>
+                                            <div className='circle'>
+                                                <img src={favicon} className="fav"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div className='teammember'>
+                                    <div>
+                                        <img src={image4}/>
+                                    </div>
+                                    <div className='teambody'>
+                                        <div className='teamdescription'>
+                                            <div className='circleDetails'>
+                                                <div>
+                                                    Ejire Sylvester.
+                                                </div>
+                                                <div>
+                                                   Finance Manager
+                                                </div>
+                                            </div>
+                                            <div className='circle'>
+                                                <img src={favicon} className="fav"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div className='teammember'>
+                                    <div>
+                                        <img src={image5}/>
+                                    </div>
+                                    <div className='teambody'>
+                                        <div className='teamdescription'>
+                                            <div className='circleDetails'>
+                                                <div>
+                                                    Oladimeji  Qazeem.
+                                                </div>
+                                                <div>
+                                                   Operation Manager
+                                                </div>
+                                            </div>
+                                            <div className='circle'>
+                                                <img src={favicon} className="fav"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div className='teammember'>
+                                    <div>
+                                        <img src={image5}/>
+                                    </div>
+                                    <div className='teambody'>
+                                        <div className='teamdescription'>
+                                            <div className='circleDetails'>
+                                                <div>
+                                                    Peace  Oriola.
+                                                </div>
+                                                <div>
+                                                   Brand Specialist.
+                                                </div>
+                                            </div>
+                                            <div className='circle'>
+                                                <img src={favicon} className="fav"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                  
+                                   
+                                </div>
+                                <div className='teammember'>
+                                    <div>
+                                        <img src={image5}/>
+                                    </div>
+                                    <div className='teambody'>
+                                        <div className='teamdescription'>
+                                            <div className='circleDetails'>
+                                                <div>
+                                                    Temiloluwa  Vincent.
+                                                </div>
+                                                <div>
+                                                   Software Developer.
+                                                </div>
+                                            </div>
+                                            <div className='circle'>
+                                                <img src={favicon} className="fav"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                  
+                                   
+                                </div>
+                              
                         </div>
 
             </div>
