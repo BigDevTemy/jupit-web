@@ -14,17 +14,19 @@ const Index = ()=>{
     };
     
     useEffect(()=>{
+        window.scrollTo(0,0)
         window.addEventListener('scroll', handleScroll, { passive: true });
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
+        
     },[])
     return (
         <div className="Home">
             <Header scroll={5}/>
             <Hero/>
             <PolicyLayout/>
-            {/* <Footer/> */}
+            <Footer/>
         
             
         </div>
