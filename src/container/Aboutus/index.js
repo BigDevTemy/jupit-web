@@ -24,6 +24,7 @@ const Index = ()=>{
             <Header scroll={5}/>
             <Hero/>
             <Aboutuslayout/>
+            <Footer/>
         
             
         </div>
