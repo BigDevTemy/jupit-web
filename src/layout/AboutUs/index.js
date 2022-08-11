@@ -29,11 +29,11 @@ const Index = ()=>{
                 </div>
                 <div>
                     <div>1,200,578</div>
-                    <div>Asset Undermanagement Crypto</div>
+                    <div>Asset Crypto</div>
                 </div>
                 <div>
                     <div>1,500,578</div>
-                    <div>Asset Undermanagement Fiat</div>
+                    <div>Asset Fiat</div>
                 </div>
                 <div>
                     <div>1,500,578</div>
@@ -43,22 +43,27 @@ const Index = ()=>{
 
 
             <div className='ourmission'>
-                
-                <div>
-                    <h1>Our Mission</h1>
-                    <p>
-                        Our platform is intended mainly to simplify your daily exchange in a most reliable and secured way..
-                    </p>
+                    <div>
+                            <div className="mtitle">OUR MISSION</div>
+                            <div className='msubtext'>Jupit Mission Statement</div>
+                    </div>
+                    <div className='aboutPlatform'>
+                        <div>Our platform is intended mainly to simplify your daily exchange in a most reliable and secured way.</div>
+                    </div>
+               
+            </div>
 
-                    <h1 className="vision">Our Vision</h1>
-                    <p>
-                    Our vision is to advance the use of borderless currency within the Africa communities. We want to make sure anyone and everyone who wants to engage in borderless payments gets prompt and clear access in their transactions.
-                    </p>
-                </div>
-                <div>
-                    {/* <img src={Jupit} className='logo'/> */}
-                </div>
-                
+            <div className='ourmission'>
+                    <div>
+                            <div className="mtitle">OUR VISION</div>
+                            <div className='msubtext'>Jupit Vision Statement</div>
+                    </div>
+                    <div className='aboutPlatformII'>
+                        <div>Our vision is to advance the use of borderless currency within the Africa communities. We want to make sure anyone and everyone who wants to engage in borderless payments gets prompt and clear access in their transactions.</div>
+                    </div>
+               
+            </div>
+            <div className='ceopunditDiv'>
 
             </div>
 
