@@ -5,11 +5,17 @@ import image1 from '../../assets/images/1.jpg'
 import image4 from '../../assets/images/4.jpg'
 import image5 from '../../assets/images/5.jpg'
 import favicon from '../../assets/images/favicon.svg'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 const Index = ()=>{
+    useEffect(()=>{
+        Aos.init({duration:2000})
+},[])
     return (
         <div className="aboutus">
            
-            <div className='whoweare'>
+            <div className='whoweare' data-aos="fade-up">
                 <div>
                     <div className='title'>
                         <div>Who we are?</div>
@@ -22,8 +28,8 @@ const Index = ()=>{
                         with a focus on dependability matched with satisfaction.
                     </p>
                 </div>
-                <div>
-                    <img src={about1}/>
+                <div data-aos="fade-up">
+                    <img src={about1} />
                 </div>
 
             </div>
@@ -76,7 +82,7 @@ const Index = ()=>{
                         <small>Get ready to start an interesting journey.</small>
                         <small>Our services and simplicity will aid you walk through the world of crytoexchange.</small>
                     </div>
-                    <div className='ceopunditdiv2'>
+                    <div className='ceopunditdiv2' data-aos="flip-right">
                         <img src={googleplay}/>
                     </div>
                 </div>
@@ -89,7 +95,7 @@ const Index = ()=>{
                             <div className='msubtext'>Our Awesome Team</div>
                         </div>
                         <div className='teamDiv'>
-                                <div className='teammember'>
+                                <div className='teammember' data-aos="flip-left">
                                     <div>
                                         <img src={image1}/>
                                     </div>
@@ -110,7 +116,7 @@ const Index = ()=>{
                                     </div>
                                    
                                 </div>
-                                <div className='teammember'>
+                                <div className='teammember'  data-aos="flip-right">
                                     <div>
                                         <img src={image4}/>
                                     </div>
@@ -131,7 +137,7 @@ const Index = ()=>{
                                     </div>
                                    
                                 </div>
-                                <div className='teammember'>
+                                <div className='teammember'  data-aos="flip-right">
                                     <div>
                                         <img src={image5}/>
                                     </div>
@@ -152,7 +158,7 @@ const Index = ()=>{
                                     </div>
                                    
                                 </div>
-                                <div className='teammember'>
+                                <div className='teammember'  data-aos="flip-left">
                                     <div>
                                         <img src={image5}/>
                                     </div>
@@ -175,7 +181,7 @@ const Index = ()=>{
                                   
                                    
                                 </div>
-                                <div className='teammember'>
+                                <div className='teammember'  data-aos="flip-up">
                                     <div>
                                         <img src={image5}/>
                                     </div>
