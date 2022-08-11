@@ -1,0 +1,54 @@
+.policy{
+    width:100%;
+    height: 100%;
+   background-color: #f5f7fb;
+   display: flex;
+   justify-content: center;
+   padding: 50px;
+}
+.privacyText{
+    width: 80%;
+    min-height: 100vh;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    
+    text-align: left;
+    
+}
+.policyText-Title{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.policyText-Content{
+    
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: justify;
+}
+.paragraph{
+    margin-left: 20px;
+    
+}
+.paragraph > div{
+    font-weight: bold;
+}
+.paragraph > p{
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.alphabelt{
+    font-weight: bold;
+}
+.specialParagraph{
+    display: flex;
+}
+.divalphabelt{
+    margin-left: 20px;
+}

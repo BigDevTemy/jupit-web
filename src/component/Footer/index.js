@@ -8,6 +8,8 @@ import twitter from '../../assets/images/twitter.png'
 import instagram from '../../assets/images/instagram.png'
 import linkedin from '../../assets/images/linkedin.png'
 import facebook from '../../assets/images/facebook.png'
+import { Link } from 'react-router-dom'
+import { Link as ScrollLink } from 'react-scroll'
 const Index= ()=>{
     return (
         <div className="my_footer">
@@ -32,6 +34,12 @@ const Index= ()=>{
                                         <div>FAQ</div>
                                         <div>What Defines Us</div>
                                         <div>Our Team</div>
+                                    </div>
+                                    <div>
+                                        <div><Link to='/policy'>Policy</Link></div>
+                                        <div>Anti-Money Laundering</div>
+                                        <div>Legal</div>
+                                        <div>Contact</div>
                                     </div>
                                     
                                     <div>
