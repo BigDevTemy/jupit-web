@@ -52,6 +52,18 @@ const Index = ()=>{
                 </div>
             </div>
 
+            <div className='ourmission'>
+                    <div>
+                            <div className="mtitle">WHAT DEFINES US</div>
+                            {/* <div className='msubtext'>Jupit Mission Statement</div> */}
+                    </div>
+                    <div className='aboutPlatform'>
+                        <div className='whatdefinesus'>At Jupit, we understand that digital currencies can be adopted in a fair and facilitated structure and that's why we've done a few exceptionally curious things to help you seamlessly and consistently trade or exchange your advanced digital currencies among friends and family. Jupit is preeminent with astonishing values.</div>
+                        
+                    </div>
+               
+            </div>
+
 
             <div className='ourmission'>
                     <div>
@@ -93,7 +105,7 @@ const Index = ()=>{
 
             <div className='crew'>
                         <div>
-                            <div className="mtitle">OUR SQUAD</div>
+                            <div className="mtitle">OUR AWESOME SQUAD</div>
                             {/* <div className='msubtext'>Our Awesome Team</div> */}
                         </div>
                         <div className='teamDiv'>
