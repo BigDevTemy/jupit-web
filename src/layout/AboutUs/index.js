@@ -1,5 +1,6 @@
 import '../../assets/css/aboutus/aboutus.css'
 import about1 from '../../assets/images/about1.png'
+import googleplay from '../../assets/images/googleplay.svg'
 const Index = ()=>{
     return (
         <div className="aboutus">
@@ -64,6 +65,25 @@ const Index = ()=>{
                
             </div>
             <div className='ceopunditDiv'>
+                <div className='Opacity'></div>
+                <div className='ceopundit'>
+                    <div className='ceopunditdiv1'>
+                        <div>CEO PUNDIT</div>
+                        <small>Get ready to start an interesting journey.</small>
+                        <small>Our services and simplicity will aid you walk through the world of crytoexchange.</small>
+                    </div>
+                    <div className='ceopunditdiv2'>
+                        <img src={googleplay}/>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div className='crew'>
+                        <div>
+                            <div className="mtitle">OUR SQUAD</div>
+                            <div className='msubtext'>Our Awesome Team</div>
+                        </div>
 
             </div>
 
