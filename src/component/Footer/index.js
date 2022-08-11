@@ -36,7 +36,7 @@ const Index= ()=>{
                                         <div>Our Team</div>
                                     </div>
                                     <div>
-                                        <div><Link to='/policy'>Policy</Link></div>
+                                        <div><Link to='/privacy-policy'>Policy</Link></div>
                                         <div>Anti-Money Laundering</div>
                                         <div>Legal</div>
                                         <div>Contact</div>
