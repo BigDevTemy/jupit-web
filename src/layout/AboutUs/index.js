@@ -1,17 +1,47 @@
 import '../../assets/css/aboutus/aboutus.css'
-import Jupit from '../../assets/images/jupit.svg'
+import about1 from '../../assets/images/about1.png'
 const Index = ()=>{
     return (
         <div className="aboutus">
+           
             <div className='whoweare'>
-                <h1>Who we are?</h1>
-                <p>
-                    We're all about simplifying your daily exchange.
-                    Beyond operating a secure channel, we're dedicated to providing you with the best service,
-                    with a focus on dependability matched with satisfaction.
-                </p>
+                <div>
+                    <div className='title'>
+                        <div>Who we are?</div>
+                        <small>who we are @ jupit.</small>
+                    </div>
+                    
+                    <p>
+                        We're all about simplifying your daily exchange.<br/>
+                        Beyond operating a secure channel, we're dedicated to providing you with the best service,
+                        with a focus on dependability matched with satisfaction.
+                    </p>
+                </div>
+                <div>
+                    <img src={about1}/>
+                </div>
 
             </div>
+            <div className='achievement'>
+                <div>
+                    <div>1,578</div>
+                    <div>Users</div>
+                </div>
+                <div>
+                    <div>1,200,578</div>
+                    <div>Asset Undermanagement Crypto</div>
+                </div>
+                <div>
+                    <div>1,500,578</div>
+                    <div>Asset Undermanagement Fiat</div>
+                </div>
+                <div>
+                    <div>1,500,578</div>
+                    <div>Assets</div>
+                </div>
+            </div>
+
+
             <div className='ourmission'>
                 
                 <div>
@@ -26,7 +56,7 @@ const Index = ()=>{
                     </p>
                 </div>
                 <div>
-                    <img src={Jupit} className='logo'/>
+                    {/* <img src={Jupit} className='logo'/> */}
                 </div>
                 
 

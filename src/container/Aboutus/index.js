@@ -21,7 +21,7 @@ const Index = ()=>{
     },[])
     return (
         <div className="Home">
-            <Header scroll={scroll}/>
+            <Header scroll={5}/>
             <Hero/>
             <Aboutuslayout/>
         

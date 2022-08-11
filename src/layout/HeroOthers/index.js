@@ -10,15 +10,12 @@ const Index = ()=>{
    
     return (
         <div className="HeroOthers">
-           <div>
-                <h1 style={{color:'#fff',marginTop:20}}>About Us</h1>
-                <hr className='underline'/>
-           </div>
-           <div>
-               
-           </div>
-           
-
+             <div className='Opacity'></div>
+             <div className='OpacityText'>
+                    <h1>About Us</h1>
+                    <hr className='underline'/>
+                </div>
+          
         </div>
     )
 }

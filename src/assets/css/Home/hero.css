@@ -13,8 +13,8 @@
 }
 .HeroOthers{
     width:100%;
-    height: 60vh;
-    background: url('../../images/BackgroundFooter.svg');
+    height: 80vh;
+    background:url('../../images/aboutus-banner.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -23,6 +23,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.Opacity{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    
 }
 .nav{
     width: 100%;
