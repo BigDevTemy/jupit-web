@@ -2,6 +2,7 @@ import '../../assets/css/Home/section5.css'
 import Processor from '../../assets/images/processor.png'
 import Server from '../../assets/images/server.png'
 import Security from '../../assets/images/security.png'
+import Aos from 'aos'
 const Index = ()=>{
     return (
         <div className="section5">
@@ -11,7 +12,7 @@ const Index = ()=>{
                     Cryptocurrency in Every Wallet™
                 </div>
                     <div className='motto'>
-                         <div>
+                         <div data-aos="flip-right">
                                 <div className='motoImageDiv'>
                                     <img src={Processor}/>
                                 </div>
@@ -25,7 +26,7 @@ const Index = ()=>{
                                     Read more
                                 </div>
                         </div>
-                        <div>
+                        <div data-aos="flip-right">
                             <div className='motoImageDiv'>
                                 <img src={Security}/>   
                             </div>
@@ -40,7 +41,7 @@ const Index = ()=>{
                             </div>
                             
                         </div>
-                        <div>
+                        <div data-aos="flip-right">
                             <div className='motoImageDiv'>
                                 <img src={Server}/>           
                             </div>

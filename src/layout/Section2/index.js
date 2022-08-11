@@ -3,11 +3,12 @@ import icon1 from '../../assets/images/icons/Group.png'
 import icon2 from '../../assets/images/icons/award.png'
 import icon3 from '../../assets/images/icons/trade.png'
 import icon4 from '../../assets/images/icons/user.png'
+import Aos from 'aos';
 const Index = ()=>{
     return (
         <div className="section2">
             <div className='statement'>
-                    <div>
+                    <div data-aos="zoom-out-down">
                             <div className='wemakecrypoeasy'>We make crypto easy.</div>
                             <div className='specific'>Specific cryptocurrencies work and get a bit of  crypto to try out for yourself. Here are a few reasons why you should choose besnik crypto</div>
                             <div className='getitnow'>
@@ -16,7 +17,7 @@ const Index = ()=>{
                                 </div>
                             </div>
                     </div>
-                    <div className='specificIcon'>
+                    <div className='specificIcon' data-aos="fade-up">
                         <div>
                              <div className='side'>
                                 <div>

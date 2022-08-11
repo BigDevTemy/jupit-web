@@ -14,7 +14,7 @@ const Index = ()=>{
                             </div>
                         </div>
                     </div>
-                    <div className='mobile'>
+                    <div className='mobile' data-aos="fade-up-left">
                         <img src={mobile}/>
                     </div>
                 </div>
