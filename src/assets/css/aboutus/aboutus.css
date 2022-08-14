@@ -265,3 +265,65 @@
 .aboutPlatform > .whatdefinesus{
     width: 80%;
 }
+.corevalues{
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #fff;
+}
+.jupitvalues{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    flex-direction: row;
+    
+    
+}
+.jupitvalues > div{
+    flex:0 0 calc(20% - 20px);
+    margin: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    color: #000;
+    display:flex ;
+   
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Montserrat' sans-serif;
+    box-shadow: 2px 3px #888888;
+    
+}
+.jupitvalues > div > div:nth-child(2){
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: 'Roboto',sans-serif;
+}
+.span_name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat' sans-serif;
+}
+
+.ceoSpeech{
+    width: 80%;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.ceo-name{
+    margin-top: 10px;
+    font-size: 16px;
+    
+}
+.ceo-name > div{
+    font-size: 14px;
+    font-family: 'Jura',sans-serif;
+}

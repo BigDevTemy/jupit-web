@@ -88,7 +88,7 @@ const Index = ()=>{
                     </div>
                
             </div>
-            <div className='ceopunditDiv'>
+            {/* <div className='ceopunditDiv'>
                 <div className='Opacity'></div>
                 <div className='ceopundit'>
                     <div className='ceopunditdiv1'>
@@ -101,12 +101,57 @@ const Index = ()=>{
                     </div>
                 </div>
                 
+            </div> */}
+            <div className='corevalues'>
+                <div className='msubtext addcolor'>OUR CORE VALUES</div>
+                <div className='jupitvalues'>
+                    <div className='j' data-aos="fade-up">
+                        <div><span className='span_name'>J</span>ubilant</div>
+                        <div>
+                            We're grateful, positive, laugh and accelerate each other. We work hard and make it fun too.
+                        </div>
+                    </div>
+                    <div className='u' data-aos="fade-down">
+                        <div><span className='span_name'>U</span>nity</div>
+                        <div>
+                        Diversity is celebrated in unity. Combining the individual experiences, diverse abilities, and distinctive talents of each team member creates unstoppable momentum and propels unthinkable accomplishments.
+                        </div>
+                    </div>
+                    <div className='p' data-aos="fade-up">
+                        <div><span className='span_name'>P</span>assion</div>
+                        <div>
+                            With our Passion at the heart of everything we do, we nurture ideas, inspire excellence, and find creative ways to eliminate obstacles to help us serve our customers better.
+                        </div>
+                    
+                    </div>
+                    <div className='i' data-aos="fade-down">
+                        <div><span className='span_name'>I</span>nnovation</div>
+                        <div>
+                            With our Passion at the heart of everything we do, we nurture ideas, inspire excellence, and find creative ways to eliminate obstacles to help us serve our customers better.
+                        </div>
+                    </div>
+                    <div className='t' data-aos="fade-up">
+                        <div><span className='span_name'>T</span>eam Spirit</div>
+                        <div>
+                        Our team is made of the most brilliant minds that are consistently demonstrating an unselfish commitment to work with others to create a collaborative culture.
+                        </div>
+                    </div>
+                </div>
+                <div className='ceoSpeech'>
+                    “ I believe a few things are difficult to get done in life and your digital currency exchanges shouldn't be one of them. That's why at Jupit, we have created a secure channel to help you seamlessly and consistently trade your advanced digital currencies. And it is also important that people can hold their advanced digital currency securely when exchanging with friends and families around world. Now this isn´t just about opportunity anymore; we want to make sure everyone who wants to engage in borderless payments gets prompt and clear access in their transactions.”
+                </div>
+                <div className='ceo-name'>
+                    <div> -Femi A. Somoye</div>
+                    <div>Business Manger/Co-founder</div>
+                </div>
+
+
             </div>
 
             <div className='crew'>
                         <div>
                             {/* <div className="mtitle">OUR AWESOME SQUAD</div> */}
-                            <div className='msubtext addColor'>OUR AWESOME SQUAD</div>
+                            <div className='msubtext'>OUR AWESOME SQUAD</div>
                         </div>
                         <div className='teamDiv'>
                                 <div className='teammember' data-aos="flip-left">
