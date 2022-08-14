@@ -105,8 +105,8 @@ const Index = ()=>{
 
             <div className='crew'>
                         <div>
-                            <div className="mtitle">OUR AWESOME SQUAD</div>
-                            {/* <div className='msubtext'>Our Awesome Team</div> */}
+                            {/* <div className="mtitle">OUR AWESOME SQUAD</div> */}
+                            <div className='msubtext addColor'>OUR AWESOME SQUAD</div>
                         </div>
                         <div className='teamDiv'>
                                 <div className='teammember' data-aos="flip-left">

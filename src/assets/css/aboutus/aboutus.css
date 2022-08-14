@@ -107,6 +107,9 @@
     color: #1c1c93;
     font-family: 'Montserrat',sans-serif;
 }
+.addColor{
+    color:#1c1c93 !important;
+}
 .msubtext{
     font-size: 26px;
     color: #7A7485;
