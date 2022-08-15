@@ -138,12 +138,29 @@ const Index = ()=>{
                     </div>
                 </div>
                 <div className='ceoSpeech'>
-                    “ I believe a few things are difficult to get done in life and your digital currency exchanges shouldn't be one of them. That's why at Jupit, we have created a secure channel to help you seamlessly and consistently trade your advanced digital currencies. And it is also important that people can hold their advanced digital currency securely when exchanging with friends and families around world. Now this isn´t just about opportunity anymore; we want to make sure everyone who wants to engage in borderless payments gets prompt and clear access in their transactions.”
+                    <div>
+                        <div className='circleCEOimg' data-aos="flip-down">
+                                
+                        </div>
+
+                        <div className='ceo-name' > Femi A. Somoye</div>
+                        <div className='ceo-title'>Business Manager/CEO</div>
+
+                    </div>
+                    
+                   
+                   <div>
+                        <div data-aos="zoom-out">
+                            “I believe a few things are difficult to get done in life and your digital currency exchanges shouldn't be one of them.
+                            That's why at Jupit, we have created a secure channel to help you seamlessly and consistently trade your advanced
+                            digital currencies. And it is also important that people can hold their advanced digital currency securely when
+                            exchanging with friends and families around world. Now this isn´t just about opportunity anymore; we want to
+                            make sure everyone who wants to engage in borderless payments gets prompt and clear access in their
+                            transactions.”
+                        </div>
+                   </div>
                 </div>
-                <div className='ceo-name'>
-                    <div> -Femi A. Somoye</div>
-                    <div>Business Manger/Co-founder</div>
-                </div>
+               
 
 
             </div>
