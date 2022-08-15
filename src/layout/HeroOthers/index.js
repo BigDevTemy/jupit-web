@@ -6,13 +6,13 @@ import umbrella from '../../assets/images/umbrella.svg'
 import { Link } from 'react-router-dom'
 import { Link as ScrollLink } from 'react-scroll'
 import { useEffect, useState } from 'react'
-const Index = ()=>{
+const Index = ({title})=>{
    
     return (
         <div className="HeroOthers">
              <div className='Opacity'></div>
              <div className='OpacityText'>
-                    <h1>About Us</h1>
+                    <h1>{title}</h1>
                     <hr className='underline'/>
                 </div>
           

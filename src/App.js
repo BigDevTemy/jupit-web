@@ -4,6 +4,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from './container/Home'
 import Aboutus from './container/Aboutus'
 import Policy from './container/Policy'
+import OTC from './container/otc'
 import 'aos/dist/aos.css'
 import { useEffect, useState } from 'react';
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/privacy-policy" element={<Policy />} />
+          <Route path="/otc" element={<OTC />} />
         </Routes>
     </div>
   );

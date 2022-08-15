@@ -1,0 +1,9 @@
+.whatis{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.whatis > div{
+    flex:1 1 calc(50% - 20px);
+    margin: 10px;
+}

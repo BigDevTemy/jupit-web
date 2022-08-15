@@ -1,5 +1,6 @@
+
+import OTClayout from '../../layout/Otclayout'
 import Hero from '../../layout/HeroOthers'
-import Aboutuslayout from '../../layout/AboutUs'
 import Footer from '../../component/Footer'
 import Header from '../../component/header'
 import { useEffect, useState } from 'react'
@@ -12,7 +13,6 @@ const Index = ()=>{
         
         // getscroll(position) 
     };
-    
     useEffect(()=>{
         window.scrollTo(0,0)
         window.addEventListener('scroll', handleScroll, { passive: true });
@@ -20,15 +20,14 @@ const Index = ()=>{
             window.removeEventListener('scroll', handleScroll);
         };
     },[])
+
     return (
-        <div className="Home">
+        <div>
             <Header scroll={5}/>
-            <Hero title="About Us"/>
-            <Aboutuslayout/>
-            <Footer/>
-        
-            
+            <Hero title='OTC'/>
+            <OTClayout/> 
         </div>
     )
 }
+
 export default Index;
