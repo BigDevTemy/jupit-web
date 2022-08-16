@@ -26,7 +26,7 @@ const Index = ()=>{
             <Header scroll={5}/>
             <Hero title='OTC'/>
             <OTClayout/> 
-            
+            <Footer/>
         </div>
     )
 }
