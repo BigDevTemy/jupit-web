@@ -64,10 +64,10 @@ const Index = ()=>{
                             </div>
                                 
                         </div>
-
-                        
-                        
-                        
+ 
+                    </div>
+                    <div>
+                        In addition, the Jupit OTC desk support settlement in more than one fiat currency and digital assets currencies:
                     </div>
             </div>
             
