@@ -25,7 +25,7 @@ const Index = ()=>{
         <div>
             <Header scroll={5}/>
             <Hero title='OTC'/>
-            {/* <OTClayout/>  */}
+            <OTClayout/> 
         </div>
     )
 }
