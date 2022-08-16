@@ -146,6 +146,42 @@ const Index = ()=>{
 
                        </div>
                     </div>
+
+                    <div className='form'>
+                        <div className='start'>Start Your Borderless Journey Here</div>
+                        <div className='ourOTCtitle'>Complete the form and seatback, we will contact you soon.</div>
+                        <div className='myform'>
+                            <div className='form-group myInput'>
+                                <label>Provide your Name</label>
+                                <input type='text' className='form-control' placeholder='Provide your Name'/>
+                            </div>
+                            <div className='form-group myInput'>
+                                <label>Provide your Email Address</label>
+                                <input type='email' className='form-control' placeholder='Provide your Email Address'/>
+                            </div>
+                            <div className='form-group myInput'>
+                                <label>Provide your Phonenumber</label>
+                                <input type='text' className='form-control' placeholder='Provide your Phonenumber'/>
+                            </div>
+                            <div className='form-group myInput'>
+                                <label>Provide your Address</label>
+                                <input type='text' className='form-control' placeholder='Provide your Address'/>
+                            </div>
+                            <div className='form-group myInput'>
+                                <label>Provide your Alternative Phonenumber</label>
+                                <input type='text' className='form-control' placeholder='Provide your Alternative Phonenumber'/>
+                            </div>
+                            <div className='form-group myInput'>
+                                <label>Provide your Whatsapp No</label>
+                                <input type='text' className='form-control' placeholder='Provide your Whatsapp No.'/>
+                            </div>
+                            <div className='form-group'>
+                                <label>Provide your ID Type.</label>
+                                <input type='text' className='form-control' placeholder='Provide your ID Type.'/>
+                            </div>
+                        </div>
+                    
+                    </div>
                     
             </div>
             
