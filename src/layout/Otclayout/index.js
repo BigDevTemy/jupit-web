@@ -82,8 +82,8 @@ const Index = ()=>{
                                     <div>Etherum (ETH)</div>
                                     <div>Tether (USDT)</div>
                                     <div>USD Coin (USDC)</div>
-                                    <div>Binance (BUSD)</div>
-                                    <div>Binance (BNB)</div>
+                                    <div>Binance USD(BUSD)</div>
+                                    <div>Binance Coin (BNB)</div>
                                     <div>And more..</div>
                                 </div>
                                 <div>

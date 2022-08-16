@@ -5,6 +5,8 @@ import Home from './container/Home'
 import Aboutus from './container/Aboutus'
 import Policy from './container/Policy'
 import OTC from './container/otc'
+import CRYTOASSET from './container/cryptoasset'
+import GIFTCARD from './container/giftcard'
 import 'aos/dist/aos.css'
 import { useEffect, useState } from 'react';
 function App() {
@@ -38,6 +40,8 @@ function App() {
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/privacy-policy" element={<Policy />} />
           <Route path="/otc" element={<OTC />} />
+          <Route path="/our-cryptoasset" element={<CRYTOASSET />} />
+          <Route path="/our-giftcard" element={<GIFTCARD />} />
         </Routes>
     </div>
   );
