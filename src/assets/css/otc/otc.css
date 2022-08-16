@@ -172,10 +172,12 @@
    
     
 }
-.form{
+.xform{
 
     
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
     min-height: 25vh;
     height: 100%;
@@ -189,6 +191,7 @@ background-color: #fff;
     width: 40%;
     align-self: center;
     margin-top: 20px;
+    
 
 }
 

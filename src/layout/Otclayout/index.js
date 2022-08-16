@@ -152,7 +152,7 @@ const Index = ()=>{
                        </div>
                     </div>
 
-                    <div className='form'>
+                    <div className='xform'>
                         <div className='start'>Start Your Borderless Journey Here</div>
                         <div className='ourOTCtitle'>Complete the form and seatback, we will contact you soon.</div>
                         <div className='myform'>
