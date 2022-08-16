@@ -1,7 +1,10 @@
 import '../../assets/css/otc/otc.css'
 import Trainer from '../../assets/images/trainer.jpg'
 import Circle from '../../assets/images/service-image-2.png'
-import logo1 from '../../assets/images/x.png'
+import feature6 from '../../assets/images/feature-6.png'
+import feature2 from '../../assets/images/feature-2.png'
+import feature7 from '../../assets/images/feature-7.png'
+import feature3 from '../../assets/images/feature-3.png'
 const Index = ()=>{
     return (
         <div>
@@ -27,7 +30,7 @@ const Index = ()=>{
                     </div>
                     <div className='tradeType'>
                         <div className='moreFacts'>
-                                <div><img src={logo1}/></div>
+                                <div><img src={feature3}/></div>
                                 <div>Block Trades</div>
                                 <div>
                                     a minimum amount of 5,000 USDT or equivalent.
@@ -36,7 +39,7 @@ const Index = ()=>{
                         </div>
 
                         <div className='moreFacts'>
-                            <div><img src={logo1}/></div>
+                            <div><img src={feature7}/></div>
                             <div>Competitive Rate</div>
                             <div>
                                 Our trading desk provides you with a custom quote instantly and securely.
@@ -45,7 +48,7 @@ const Index = ()=>{
                         </div>
 
                         <div className='moreFacts'>
-                            <div><img src={logo1}/></div>
+                            <div><img src={feature2}/></div>
                             <div>Fast Settlement</div>
                             <div>
                             Execute your trades in seconds without the involvement of any third-party and get settlement for your trade almost instantaneous.
@@ -54,7 +57,7 @@ const Index = ()=>{
                         </div>
 
                         <div className='moreFacts'>
-                            <div><img src={logo1}/></div>
+                            <div><img src={feature6}/></div>
                             <div>24/7 Trade</div>
                             <div>
                              Our team is well positioned to manage your trade execution at any time of the day.
