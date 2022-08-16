@@ -66,8 +66,28 @@ const Index = ()=>{
                         </div>
  
                     </div>
-                    <div>
-                        In addition, the Jupit OTC desk support settlement in more than one fiat currency and digital assets currencies:
+                    <div className='inadditonal'>
+                        <div> In addition, the Jupit OTC desk support settlement in more than one fiat currency and digital assets currencies:</div>
+                        <div className='checks'>
+                                <div>
+                                    <div>Digital assets:</div>
+                                    <div>Bitcoin (BTC)</div>
+                                    <div>Etherum (ETH)</div>
+                                    <div>Tether (USDT)</div>
+                                    <div>USD Coin (USDC)</div>
+                                    <div>Binance (BUSD)</div>
+                                    <div>Binance (BNB)</div>
+                                    <div>And more..</div>
+                                </div>
+                                <div>
+                                     <div>Fiat currencies:</div>
+                                     <div>Naira (NGN)</div>
+                                     <div>US Dollars (USD)</div>
+                                     <div>US Dollars (USD)</div>
+                                     <div>Euro (EUR)</div>
+                                     <div>British Pounds (GBP)</div>
+                                </div>
+                        </div>
                     </div>
             </div>
             

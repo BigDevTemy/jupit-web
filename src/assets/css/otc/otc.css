@@ -91,3 +91,23 @@
     align-items: center;
     
 }
+
+.inadditonal > div{
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+}
+.checks{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.checks > div{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: left;
+    
+}
+.checks > div>div{
+    margin-top: 10px;
+}
