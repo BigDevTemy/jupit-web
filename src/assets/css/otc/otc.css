@@ -38,6 +38,10 @@
     min-height: 100vh;
     height: 100%;
     padding: 40px;
+    background: url('../../images/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .largeOrders{
     font-family: 'Montserrat',sans-serif;
@@ -47,5 +51,24 @@
     font-size: 14px;
     font-family: 'Montserrat',sans-serif;
     color: #848484;
+    margin-top: 10px;
+}
+.tradeType{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+
+}
+.tradeType > div{
+    flex: 1 1 calc(50% - 20px);
+    /* background-color: #848484; */
+    margin: 10px;
+}
+.moreFacts> div:nth-child(2){
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
     margin-top: 10px;
 }

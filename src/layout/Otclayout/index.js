@@ -1,6 +1,7 @@
 import '../../assets/css/otc/otc.css'
 import Trainer from '../../assets/images/trainer.jpg'
 import Circle from '../../assets/images/service-image-2.png'
+import logo1 from '../../assets/images/x.png'
 const Index = ()=>{
     return (
         <div>
@@ -22,7 +23,21 @@ const Index = ()=>{
                         Jupit OTC - Built for large orders
                     </div>
                     <div className='ourOTCtitle'>
-                    Our OTC Service offers more than secure and discreet transactions and deep liquidity.
+                        Our OTC Service offers more than secure and discreet transactions and deep liquidity.
+                    </div>
+                    <div className='tradeType'>
+                        <div className='moreFacts'>
+                            <div><img src={logo1}/></div>
+                            <div>Block Trades</div>
+                            <div>
+                                a minimum amount of 5,000 USDT or equivalent.
+                            </div>
+                            
+                            
+                        </div>
+                        <div>Competitive Rate</div>
+                        <div>Fast Settlement</div>
+                        <div>24/7 Trade</div>
                     </div>
             </div>
             
