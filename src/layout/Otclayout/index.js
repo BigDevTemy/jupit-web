@@ -7,21 +7,26 @@ import feature7 from '../../assets/images/feature-7.png'
 import feature3 from '../../assets/images/feature-3.png'
 import serviceimage from '../../assets/images/service-image-1.png'
 import {FaArrowRight} from 'react-icons/fa'
+import Aos from 'aos';
+import { useEffect } from 'react'
 const Index = ()=>{
+    useEffect(()=>{
+        Aos.init({duration:2000})
+},[])
     return (
         <div>
-            <div className="whatis">
-                <div>
+            <div className="whatis" >
+                <div data-aos="fade-down">
                         <div className='jupitTitle'>What is Jupit OTC Desk?</div>
                         <div className='jupittext'>
                             Our Over-The-Counter (OTC) desk is by nature a secure and bespoke service that allows institutions, high net-worth individuals and high-volume traders to trade off the Jupit App with access to instant trade execution and settlement services that are discreet, secure and ultra-competitive.
                         </div>
                 </div>
-                <div>
+                <div data-aos="fade-up" >
                     <img src={Circle}/>
                 </div>
 
-               
+                 
             </div>
             <div className='jupitBuilt'>
                     <div className='largeOrders'>
@@ -32,37 +37,37 @@ const Index = ()=>{
                     </div>
                     <div className='tradeType'>
                         <div className='moreFacts'>
-                                <div><img src={feature3}/></div>
-                                <div>Block Trades</div>
-                                <div>
+                                <div data-aos="fade-down-right"><img src={feature3}/></div>
+                                <div data-aos="fade-up">Block Trades</div>
+                                <div data-aos="fade-up">
                                     a minimum amount of 5,000 USDT or equivalent.
                                 </div>
                                     
                         </div>
 
                         <div className='moreFacts'>
-                            <div><img src={feature7}/></div>
-                            <div>Competitive Rate</div>
-                            <div>
+                            <div data-aos="fade-down-left"><img src={feature7}/></div>
+                            <div data-aos="fade-up">Competitive Rate</div>
+                            <div data-aos="fade-up">
                                 Our trading desk provides you with a custom quote instantly and securely.
                             </div>
                                 
                         </div>
 
                         <div className='moreFacts'>
-                            <div><img src={feature2}/></div>
-                            <div>Fast Settlement</div>
-                            <div>
-                            Execute your trades in seconds without the involvement of any third-party and get settlement for your trade almost instantaneous.
+                            <div data-aos="fade-up-right"><img src={feature2}/></div>
+                            <div data-aos="fade-up">Fast Settlement</div>
+                            <div data-aos="fade-up">
+                                Execute your trades in seconds without the involvement of any third-party and get settlement for your trade almost instantaneous.
                             </div>
                                 
                         </div>
 
                         <div className='moreFacts'>
-                            <div><img src={feature6}/></div>
-                            <div>24/7 Trade</div>
-                            <div>
-                             Our team is well positioned to manage your trade execution at any time of the day.
+                            <div data-aos="fade-down-left"><img src={feature6}/></div>
+                            <div data-aos="fade-up">24/7 Trade</div>
+                            <div data-aos="fade-up">
+                                Our team is well positioned to manage your trade execution at any time of the day.
                             </div>
                                 
                         </div>
@@ -92,13 +97,13 @@ const Index = ()=>{
                         </div>
                     </div>
                     <div className='tradeflow'>
-                       <div>
+                       <div data-aos="flip-down">
                             <img src={serviceimage}/>
 
                        </div>
-                       <div>
+                       <div data-aos="fade-down">
                             <div className='ourtradeflow'>Our OTC Trade Flow</div>
-                            <div className='signup'>
+                            <div className='signup' >
                                 <div>
                                     <FaArrowRight color='#3042c9'/>
                                 </div>
