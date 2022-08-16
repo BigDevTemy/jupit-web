@@ -34,8 +34,10 @@
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-end;
     flex-direction: column;
+    
+    
 }
 .Opacity{
     width: 100%;
@@ -425,4 +427,15 @@
 .product-properties:hover{
     display: block !important;
     background-color: #000;
+}
+
+.jupitOTC{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30px;
+    width: 50%;
+    text-align: left;
+    margin-top: 10%;
+    margin-right: 3%;
+    padding-left: 10px;
+    
 }

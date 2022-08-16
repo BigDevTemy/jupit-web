@@ -10,7 +10,9 @@ const Index = ({title})=>{
    
     return (
         <div className="HeroOtc">
-             
+             <div className='jupitOTC'>
+                Jupit OTC: Block trades with secure and personalized services.
+             </div>
           
         </div>
     )
