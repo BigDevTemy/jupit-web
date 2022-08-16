@@ -197,8 +197,13 @@
     
 }
 .myform > div{
-    margin: 20px;
+    margin: 0px;
 }
 .myInput{
     text-align: left;
+}
+
+.btn-primary{
+    margin-top: 20px;
+    background-color: #1c1c93 !important;
 }

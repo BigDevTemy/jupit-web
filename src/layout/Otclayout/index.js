@@ -175,9 +175,12 @@ const Index = ()=>{
                                 <label>Provide your Whatsapp No</label>
                                 <input type='text' className='form-control' placeholder='Provide your Whatsapp No.'/>
                             </div>
-                            <div className='form-group'>
+                            <div className='form-group myInput'>
                                 <label>Provide your ID Type.</label>
                                 <input type='text' className='form-control' placeholder='Provide your ID Type.'/>
+                            </div>
+                            <div className='form'>
+                                <input type='button' value='Submit' className='btn btn-primary'/>
                             </div>
                         </div>
                     
