@@ -27,17 +27,44 @@ const Index = ()=>{
                     </div>
                     <div className='tradeType'>
                         <div className='moreFacts'>
-                            <div><img src={logo1}/></div>
-                            <div>Block Trades</div>
-                            <div>
-                                a minimum amount of 5,000 USDT or equivalent.
-                            </div>
-                            
-                            
+                                <div><img src={logo1}/></div>
+                                <div>Block Trades</div>
+                                <div>
+                                    a minimum amount of 5,000 USDT or equivalent.
+                                </div>
+                                    
                         </div>
-                        <div>Competitive Rate</div>
-                        <div>Fast Settlement</div>
-                        <div>24/7 Trade</div>
+
+                        <div className='moreFacts'>
+                            <div><img src={logo1}/></div>
+                            <div>Competitive Rate</div>
+                            <div>
+                                Our trading desk provides you with a custom quote instantly and securely.
+                            </div>
+                                
+                        </div>
+
+                        <div className='moreFacts'>
+                            <div><img src={logo1}/></div>
+                            <div>Fast Settlement</div>
+                            <div>
+                            Execute your trades in seconds without the involvement of any third-party and get settlement for your trade almost instantaneous.
+                            </div>
+                                
+                        </div>
+
+                        <div className='moreFacts'>
+                            <div><img src={logo1}/></div>
+                            <div>24/7 Trade</div>
+                            <div>
+                             Our team is well positioned to manage your trade execution at any time of the day.
+                            </div>
+                                
+                        </div>
+
+                        
+                        
+                        
                     </div>
             </div>
             
