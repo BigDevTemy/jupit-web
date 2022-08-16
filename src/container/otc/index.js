@@ -1,6 +1,6 @@
 
 import OTClayout from '../../layout/Otclayout'
-import Hero from '../../layout/HeroOthers'
+import Hero from '../../layout/HeroOTC'
 import Footer from '../../component/Footer'
 import Header from '../../component/header'
 import { useEffect, useState } from 'react'
@@ -25,7 +25,7 @@ const Index = ()=>{
         <div>
             <Header scroll={5}/>
             <Hero title='OTC'/>
-            <OTClayout/> 
+            {/* <OTClayout/>  */}
         </div>
     )
 }

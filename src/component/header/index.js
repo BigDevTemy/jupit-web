@@ -16,7 +16,14 @@ const Index = ({scroll})=>{
                 </div>
                 <div className='navItems'>
                     <div className={scroll > 0 ? 'navLinkScroll':'navLink'}><Link to='/aboutus'><button className='btn btn-md feature'>About us</button></Link></div>
-                    <div className={scroll > 0 ? 'navLinkScroll':'navLink'}>Product</div>
+                    <div className={scroll > 0 ? 'navLinkScroll product':'navLink product'}>
+                        Product
+                        <div className='product-properties hidden'>
+                            <div>Crypto Products</div>
+                            <div>Gift Cards</div>
+                            <div>OTC</div>
+                        </div>
+                    </div>
                     <div className={scroll > 0 ? 'navLinkScroll':'navLink'}>What Defines Us</div>
                     <div className={scroll > 0 ? 'navLinkScroll':'navLink'}>Faq</div>
                     <div className={scroll > 0 ? 'navLinkScroll':'navLink'}>Contact</div>
