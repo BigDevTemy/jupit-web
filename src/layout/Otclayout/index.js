@@ -21,6 +21,9 @@ const Index = ()=>{
                     <div className='largeOrders'>
                         Jupit OTC - Built for large orders
                     </div>
+                    <div className='ourOTCtitle'>
+                    Our OTC Service offers more than secure and discreet transactions and deep liquidity.
+                    </div>
             </div>
             
         </div>
