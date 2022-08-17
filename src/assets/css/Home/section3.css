@@ -28,6 +28,12 @@
     
     display: flex;
     justify-content: flex-end;
+    
+}
+.yourgateway > div:nth-child(2) > img{
+    
+  width: 100%;
+    
 }
 .yourgateway > div:nth-child(1){
     
