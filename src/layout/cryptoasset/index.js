@@ -5,6 +5,7 @@ import fast from '../../assets/images/fast.png'
 import secure from '../../assets/images/secure.png'
 import customer from '../../assets/images/customer.png'
 import happyclient from '../../assets/images/happy-client.png'
+import laptop from '../../assets/images/laptop.png'
 const Index = ()=>{
     return (
         <div className="crypto-asset">
@@ -54,6 +55,15 @@ const Index = ()=>{
                             </div>
                         </div>
                     </div>
+            </div>
+
+            <div class="your-crypto">
+                <div className='laptopDiv'>
+                
+                    <div>
+                       
+                    </div>
+                </div>
             </div>
         </div>
     )

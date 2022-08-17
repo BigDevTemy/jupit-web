@@ -45,7 +45,7 @@
 }
 .mostused{
     width: 100%;
-    min-height: 80vh;
+    min-height: 50vh;
     padding: 5%;
     height: 100%;
     display: flex;
@@ -88,3 +88,33 @@
     width: 20%;
     margin-bottom: 10px;
 }
+
+.your-crypto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    width: 100%;
+    min-height: 70vh;
+    height: 100%;
+    
+}
+
+.laptopDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.laptopDiv > div{
+    
+   background:url('../../images/laptop.png');
+   background-repeat: no-repeat;
+   background-position: top left;
+   background-size: cover;
+   height: 150vh;
+}
+
+
