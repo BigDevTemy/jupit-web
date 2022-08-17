@@ -27,6 +27,7 @@ const Index = ()=>{
             <Header scroll={5}/>
             <Hero title='Crypto Products'/>
             <CryptoLayout/>
+            <Footer/>
         </div>
     )
 }

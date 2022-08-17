@@ -12,7 +12,7 @@ const Index = ({scroll})=>{
     return (
             <div className={scroll > 0 ? 'Tab TabCg' :'Tab Tabbg'}>
                 <div>
-                    <img src={scroll > 0 ? jupit :logo} className="imgLogo"/>
+                    <Link to="/"><img src={scroll > 0 ? jupit :logo} className="imgLogo"/></Link>
                 </div>
                 <div className='navItems'>
                     <div className={scroll > 0 ? 'navLinkScroll':'navLink'}><Link to='/aboutus'><button className='btn btn-md feature'>About us</button></Link></div>
@@ -22,6 +22,8 @@ const Index = ({scroll})=>{
                             <button  className={scroll > 0 ? 'dropbtn scrolldown':'dropbtn scrollnone'}>Product</button>
                             <div class="dropdown-content">
                                 <Link to='/otc'>OTC</Link>
+                                <Link to='/our-cryptoasset'>Crypto Assets</Link>
+                                
                                 
                             </div>
                         </div>
