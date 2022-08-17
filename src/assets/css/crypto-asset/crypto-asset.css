@@ -102,19 +102,97 @@
 
 .laptopDiv{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    height: 100%;
+    height: 100%;   
 }
 
 
-.laptopDiv > div{
+.laptopDiv > div:nth-child(1){
     
    background:url('../../images/laptop.png');
    background-repeat: no-repeat;
-   background-position: top left;
+   background-position: center;
    background-size: cover;
-   height: 150vh;
+   height: 100vh;
+   
+}
+.spotlight{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
 }
 
+.SportlightDiv{
+    display: flex;
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif;
+    width: 50%;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+    
+}
+.SportlightDiv> div:nth-child(1){
+    flex:1 1 20%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.SportlightDiv> div:nth-child(2){
+    flex:1 1 80%;
+    text-align: left;
+}
+.check{
+    margin-right: 10px;
+    align-self: center;
+}
+.Yourcrypto{
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif;
+}
 
+.YourcryptoText{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+}
+.whatyoucando{
+    width: 100%;
+    background-color: #f5f7fb;
+    min-height: 100vh;
+    height: 100%;
+    padding: 5%;
+}
+
+.whatyoucando_title{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 25px;
+}
+
+.getStarted{
+    margin-top: 50px;
+}
+
+.createAccount{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.createAccount> div{
+    font-family: 'Montserrat',sans-serif;
+}
+
+.hr{
+    width: 20%;
+    border: 1px solid #1c1c93;
+    background-color: #1c1c93;
+}
+.acctImage{
+    width: 20%;
+}
+.acctImageText{
+    margin-top: 10px
+}

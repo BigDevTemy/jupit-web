@@ -5,7 +5,11 @@ import fast from '../../assets/images/fast.png'
 import secure from '../../assets/images/secure.png'
 import customer from '../../assets/images/customer.png'
 import happyclient from '../../assets/images/happy-client.png'
-import laptop from '../../assets/images/laptop.png'
+import account from '../../assets/images/account.png'
+import bank from '../../assets/images/bank.png'
+import buy from '../../assets/images/buy.png'
+import {TiArrowRightThick} from 'react-icons/ti'
+import {FiCheckCircle} from 'react-icons/fi'
 const Index = ()=>{
     return (
         <div className="crypto-asset">
@@ -59,12 +63,98 @@ const Index = ()=>{
 
             <div class="your-crypto">
                 <div className='laptopDiv'>
-                
+                    <div className='mockup'></div>
                     <div>
-                       
+                        <div className='spotlight'>
+                            <div className='SportlightDiv'>
+                                <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
+                                <div className='Yourcrypto'>Your crypto on-the-go</div>
+                            </div>
+                            <div className='YourcryptoText'>
+                                Manage your wallet easily anywhere, anytime, and from any device.
+                            </div>
+                        </div>
+
+                        <div className='spotlight'>
+                            <div className='SportlightDiv'>
+                                <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
+                                <div className='Yourcrypto'>You are in control</div>
+                            </div>
+                            <div className='YourcryptoText'>
+                            Have complete control of your funds on our secured platform.
+                            </div>
+                        </div>
+
+                        <div className='spotlight'>
+                            <div className='SportlightDiv'>
+                                <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
+                                <div className='Yourcrypto'>Move Beyond borders</div>
+                            </div>
+                            <div className='YourcryptoText'>
+                                Complete your payments around the world instantly with your asset on Jupit.
+                            </div>
+                        </div>
+
+                        
+                        
+                        
                     </div>
                 </div>
             </div>
+            <div className='whatyoucando'>
+                    <div className='whatyoucando_title'>What can you do  with your Jupit Account?</div>
+                    <div className='whychooseus'>
+                        <div>
+                            <div className='transaction-img'><img src={fast}/></div>
+                            <div className='transaction'>Sell And Buy</div>
+                            <div className='transaction-text'>Sell and buy at the best rate and cash out fiat to your bank account instantly.</div>
+                        </div>
+                        <div>
+                            <div className='transaction-img'><img src={secure}/></div>
+                            <div className='transaction'>Send and Receive</div>
+                            <div className='transaction-text'>
+                                Transfer or receive assets with ease, no matter where you are or who you are with.
+                            </div>
+                        </div>
+                        <div>
+                            <div className='transaction-img'><img src={customer}/></div>
+                            <div className='transaction'>Hodl</div>
+                            <div className='transaction-text'>
+                                Hold your crypto assets safe and secure in your Jupit account indefinitely. We have you covered!
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                    <div className="whatyoucando_title getStarted">Get started in a few minutes</div>
+                    <div className='createAccount'>
+                        <div>
+                            <div>
+                                <img src={account} className="acctImage"/>
+                            </div>
+                            <div className='acctImageText'>
+                                Create an Account
+                            </div>
+                            </div>
+                        <hr className='hr'/>
+                        <div>
+                            <div>
+                                <img src={bank} className="acctImage"/>
+                            </div>
+                            <div className='acctImageText'>Link Your Bank Account</div>
+                        </div>
+                           
+                        <hr className='hr'/>
+                        <div>
+                            <div>
+                                <img src={buy} className="acctImage"/>
+                            </div>
+                            <div className='acctImageText'>Start buying and Selling</div>
+                        </div>
+                    </div>
+                    <div><button className='btn btn-primary btn-lg'>Get Started</button></div>
+            </div>
+            
         </div>
     )
 }
