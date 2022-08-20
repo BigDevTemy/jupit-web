@@ -113,19 +113,19 @@ const Index = ()=>{
             <div className='whatyoucando'>
                     <div className='whatyoucando_title'>What can you do  with your Jupit Account?</div>
                     <div className='whychooseus'>
-                        <div data-aos="fade-up">
+                        <div data-aos="fade-up" class="fade-up">
                             <div className='transaction-img' data-aos="flip-right"><img src={buy1}/></div>
                             <div className='transaction'>Sell And Buy</div>
                             <div className='transaction-text'>Sell and buy at the best rate and cash out fiat to your bank account instantly.</div>
                         </div>
-                        <div data-aos="fade-up">
+                        <div data-aos="fade-up" class="fade-up">
                             <div className='transaction-img' data-aos="flip-right"><img src={datatransfer}/></div>
                             <div className='transaction'>Send and Receive</div>
                             <div className='transaction-text'>
                                 Transfer or receive assets with ease, no matter where you are or who you are with.
                             </div>
                         </div>
-                        <div  data-aos="fade-up">
+                        <div  data-aos="fade-up" class="fade-up">
                             <div className='transaction-img' data-aos="flip-right"><img src={Hodl}/></div>
                             <div className='transaction'>Hodl</div>
                             <div className='transaction-text'>

@@ -78,11 +78,21 @@
     
     
 }
+.fade-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .transaction-text{
     color:#000;
     margin-top: 10px;
     font-family: 'Montserrat',sans-serif;
-    font-size: 12px;
+    font-size: 14px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
 .transaction-img > img{
     width: 20%;
