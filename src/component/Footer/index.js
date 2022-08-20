@@ -55,29 +55,20 @@ const Index= ()=>{
 
                         </div>
 
-                        <div>
-                            <div className='blog'>
-                                <img src={blogpost1} className="blogImg"/>
-                                <span>WHY LEARN CRYPTO EXCHANGE</span>
-                            </div>
+                        <div className='blogParent'>
+                                <div className='blogger'>
+                                    <div className='blog'>
+                                        <img src={blogpost1} className="blogImg"/>
+                                        <span>WHY LEARN CRYPTO EXCHANGE</span>
+                                    </div>
 
-                            <div className='blog'>
-                                <img src={blogpost2} className="blogImg"/>
-                                <span>WHY LEARN CRYPTO EXCHANGE</span>
-                            </div>
-
-                            <div className='blog'>
-                                <img src={blogpost3} className="blogImg"/>
-                                <span>WHY LEARN CRYPTO EXCHANGE</span>
-                            </div>
-                            <div className='blog'>
-                                <img src={blogpost3} className="blogImg"/>
-                                <span>WHY LEARN CRYPTO EXCHANGE</span>
-                            </div>
-
-
+                                    <div className='blog'>
+                                        <img src={blogpost2} className="blogImg"/>
+                                        <span>WHY LEARN CRYPTO EXCHANGE</span>
+                                    </div>
+                                </div>
                         </div>
-                        <div>
+                        <div className='socialmediaParent'>
                                 <div className='socialmedia'>
                                     <img src={facebook} className="socialmedia-img"/>
                                     <img src={twitter} className="socialmedia-img"/>

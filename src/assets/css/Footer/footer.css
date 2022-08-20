@@ -145,8 +145,16 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
+.blogger{
+    display: none;
+    flex-direction: column;
+    background-color: #FFA000;
+}
+
 .blog{
     margin: 10px;
+    
+    
 }
 
 .blog  span{
@@ -157,7 +165,12 @@
 }
 .socialmedia{
     display: flex;
-
+   
+}
+.socialmediaParent{
+   
+    display: flex;
+    align-items: flex-end;
 }
 .blogImg{
     width: 20%;
@@ -171,6 +184,9 @@
 .socialmedia-img{
     width: 15%;
 }
+
+
+
 
 
 
