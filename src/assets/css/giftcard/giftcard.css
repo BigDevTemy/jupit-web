@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.giftcardParent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section1-giftcard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.section1-giftcard > div:nth-child(1){
+    flex:1 1 50%;
+    
+    
+}
+.section1-giftcard > div:nth-child(1) img{
+    
+    width: 100%;
+}
+.section1-giftcard > div:nth-child(2){
+    flex:1 1 50%;
+    
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 40px;
+    text-align: justify;
+
+}
+
+.section1-giftcard > div:nth-child(2) p{
+    font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+
+}
+
+
+.h2-join{
+    margin-bottom: 20px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.section2-giftcard{
+    margin-top: 0px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-giftcard > small{
+    font-size: 25px !important;
+    font-family: 'Montserrat'sans-serif;
+    color: #848484;
+}
+.ourdiff{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;   
+}
+
+.ourdiff > div{
+    flex:1 1 calc(33.333% - 20px);
+    margin: 10px;
+}
+.ourdiff > div>div:nth-child(1){
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+}
+.ourdiff > div>div:nth-child(2){
+    font-family: 'Montserrat',sans-serif;
+    font-size: 16px;
+    padding: 20px;
+   
+}

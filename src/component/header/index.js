@@ -21,17 +21,34 @@ const Index = ({scroll})=>{
                         <div class="dropdown">
                             <button  className={scroll > 0 ? 'dropbtn scrolldown':'dropbtn scrollnone'}>Product</button>
                             <div class="dropdown-content">
-                                <Link to='/otc'>OTC</Link>
+                                
                                 <Link to='/our-cryptoasset'>Crypto Assets</Link>
+                                <Link to='/our-giftcard'>Gift Card</Link>
+                                <Link to='/otc'>OTC</Link>
                                 
                                 
                             </div>
                         </div>
 
                     </div>
-                    <div className={scroll > 0 ? 'navLinkScroll':'navLink'}>What Defines Us</div>
-                    <div className={scroll > 0 ? 'navLinkScroll':'navLink'}>Faq</div>
+                    <div className={scroll > 0 ? 'navLinkScroll product':'navLink product'}>
+                        
+                        <div class="dropdown">
+                            <button  className={scroll > 0 ? 'dropbtn scrolldown':'dropbtn scrollnone'}>Resources</button>
+                            <div class="dropdown-content">
+                                <Link to='/our-cryptoasset'>Blog</Link>
+                                <Link to='/our-cryptoasset'>FAQs</Link>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+
+                    </div>
                     <div className={scroll > 0 ? 'navLinkScroll':'navLink'}>Contact</div>
+                    
+                    
                 </div>
                 <div className={scroll >0 ? 'signupDivScroll':'signupDiv'}>
                     <div>Signin</div>

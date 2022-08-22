@@ -3,6 +3,7 @@ import OTClayout from '../../layout/Otclayout'
 import Hero from '../../layout/HeroOthers'
 import Footer from '../../component/Footer'
 import Header from '../../component/header'
+import GiftcardLaylout from '../../layout/giftcard'
 import { useEffect, useState } from 'react'
 const Index = ()=>{
     const [scroll,setscrollPosition] = useState(0)
@@ -25,6 +26,7 @@ const Index = ()=>{
         <div>
             <Header scroll={5}/>
             <Hero title='Gift Cards'/>
+            <GiftcardLaylout/>
             
         </div>
     )

@@ -302,6 +302,8 @@
 }
 .navItems{
     display: flex;
+    
+    justify-content: space-around;
     flex-direction: row;
     
 }
@@ -310,12 +312,13 @@
     align-self: center;
 }
 .navLink{
-    width: 150px;
+    width: 100%;
+
     color: #FFF; 
     font-family: 'Montserrat', sans-serif;   
 }
 .navLinkScroll{
-    width: 150px;
+    width: 100%;
     color: #000; 
     font-family: 'Montserrat', sans-serif;   
 }

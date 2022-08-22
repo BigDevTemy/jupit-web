@@ -24,7 +24,7 @@ const Index= ()=>{
                         <div>
                             <div>
                                 <img src={footerLogo} className="footerlogo"/>
-                                <small>...simplicity exchange</small>
+                                <small>...simplifying exchange</small>
                             </div>
                             <div className='QuickLink'>
                                 <div>Quick Link</div>

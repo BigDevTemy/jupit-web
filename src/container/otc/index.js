@@ -1,6 +1,6 @@
 
 import OTClayout from '../../layout/Otclayout'
-import Hero from '../../layout/HeroOTC'
+import Hero from '../../layout/HeroOthers'
 import Footer from '../../component/Footer'
 import Header from '../../component/header'
 import { useEffect, useState } from 'react'
@@ -24,7 +24,7 @@ const Index = ()=>{
     return (
         <div>
             <Header scroll={5}/>
-            <Hero title='OTC'/>
+            <Hero title='Over The Counter (OTC)'/>
             <OTClayout/> 
             <Footer/>
         </div>
