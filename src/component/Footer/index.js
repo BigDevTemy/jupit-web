@@ -27,49 +27,54 @@ const Index= ()=>{
                                 <small>...simplifying exchange</small>
                             </div>
                             <div className='QuickLink'>Quick Link</div>
-                            <div className='link'>
-                                <div>
-                                    <div className='titleLink'>Company</div>
-                                    <div>About Us</div>
-                                    <div>Contact Us</div>
+                            <div className='linkParent'>
+                                <div className='link'>
+                                    <div>
+                                        <div className='titleLink'>Company</div>
+                                        <div>About Us</div>
+                                        <div>Contact Us</div>
+                                        
+                                    </div>
+                                    <div>
+                                        <div className='titleLink'>Product</div>
+                                        <div>Bitcoin</div>
+                                        <div>Usdt</div>
+                                        <div>Gift Card</div>
+                                        <div>OTC</div>
+                                        
+                                    </div>
+                                    <div>
+                                        <div className='titleLink'>Legal</div>
+                                        <div><Link to='/privacy-policy'>Terms Of Service</Link></div>
+                                        <div><Link to='/privacy-policy'>Policy</Link></div>
+                                        <div><Link to='/privacy-policy'>Anti-Money laundering Policy</Link></div>
+                                        
+                                    </div>
                                     
-                                </div>
-                                <div>
-                                    <div className='titleLink'>Product</div>
-                                    <div>Bitcoin</div>
-                                    <div>Usdt</div>
-                                    <div>Gift Card</div>
-                                    <div>OTC</div>
-                                    
-                                </div>
-                                <div>
-                                    <div className='titleLink'>Legal</div>
-                                    <div><Link to='/privacy-policy'>Terms Of Service</Link></div>
-                                    <div><Link to='/privacy-policy'>Policy</Link></div>
-                                    <div><Link to='/privacy-policy'>Anti-Money laundering Policy</Link></div>
-                                    
-                                </div>
+                                    <div className='resources'>
+                                        <div className='titleLink'>Resources</div>
+                                        <div>Blog</div>
+                                        <div>FAQ</div>
+                                        
+                                    </div>
                                 
-                                <div>
-                                    <div className='titleLink'>Resources</div>
-                                    <div>Blog</div>
-                                    <div>FAQ</div>
-                                    
                                 </div>
-                            
+                                <div className='supportParent'>
+                                    <div className='support' style={{marginTop:20}}><a href="malito:support@jupitapp.co" style={{color:"#fff",textDecoration:"none"}}>support@jupitapp.co</a></div>
+                                    <div><a href="tel:+2348028651917" style={{color:"#fff",textDecoration:"none"}}>+2348028651917</a></div>
+                                    <div className='socialmedia'>
+                                        <img src={facebook} className="socialmedia-img"/>
+                                        <img src={twitter} className="socialmedia-img"/>
+                                        <img src={instagram} className="socialmedia-img"/>
+                                    </div>
+                                </div>
+
                             </div>
+                            
                         </div>
 
                         
-                        <div className='socialmediaParent'>
-                                <div className='socialmedia'>
-                                    <img src={facebook} className="socialmedia-img"/>
-                                    <img src={twitter} className="socialmedia-img"/>
-                                    <img src={instagram} className="socialmedia-img"/>
-                                    <img src={linkedin} className="socialmedia-img"/>
-                                </div>
-
-                        </div>
+                        
                 </div>
                    
             

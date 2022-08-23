@@ -79,7 +79,7 @@
    flex-direction: column;
    justify-content: flex-start;
    color: #fff;
-   background-color: #FFA000;
+   
    align-items: flex-start;
 }
 .logoReal{
@@ -90,21 +90,34 @@
 
 .socialmedia{
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
    
 }
 .socialmediaParent{
     display: flex;
-    align-items: flex-end;
- 
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+}
+
+.socialmediaParent > div{
     width: 100%;
 }
 .socialmedia{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    
+}
+.socialmedia {
+    width: 100%;
 }
 .socialmedia-img{
-    width: 7%;
+    width: 20%;
 }
 .QuickLink{
     display: flex;
@@ -128,8 +141,26 @@
     font-family: 'Montserrat'sans-serif;
     font-weight: bold;
 }
-
-
+.linkParent{
+    display: flex;
+    width: 100%;
+}
+.supportParent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+.supportParent >div{
+    margin-top: 10px;
+}
+.resources{
+    padding-right: 10%;
+}
+.link{
+    text-decoration: none;
+}
 
 
 
