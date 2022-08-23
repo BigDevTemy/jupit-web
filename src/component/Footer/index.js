@@ -67,6 +67,7 @@ const Index= ()=>{
                                         <img src={twitter} className="socialmedia-img"/>
                                         <img src={instagram} className="socialmedia-img"/>
                                     </div>
+                                    <div className='reserved'>@ 2022 Jupit | All Right Reserved. </div>
                                 </div>
 
                             </div>
