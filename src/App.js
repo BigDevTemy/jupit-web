@@ -7,6 +7,7 @@ import Policy from './container/Policy'
 import OTC from './container/otc'
 import CRYTOASSET from './container/cryptoasset'
 import GIFTCARD from './container/giftcard'
+import BLOG from './container/blog'
 import 'aos/dist/aos.css'
 import { useEffect, useState } from 'react';
 function App() {
@@ -42,6 +43,7 @@ function App() {
           <Route path="/otc" element={<OTC />} />
           <Route path="/our-cryptoasset" element={<CRYTOASSET />} />
           <Route path="/our-giftcard" element={<GIFTCARD />} />
+          <Route path="/blog" element={<BLOG/>} />
         </Routes>
     </div>
   );
