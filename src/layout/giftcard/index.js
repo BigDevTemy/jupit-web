@@ -1,5 +1,8 @@
 import '../../assets/css/giftcard/giftcard.css'
 import GiftCard from '../../assets/images/giftcard1.png'
+import convinent from '../../assets/images/remote.jpg'
+import secured from '../../assets/images/secured.jpg'
+import bestrate from '../../assets/images/bestrate.png'
 const Index = ()=>{
     return (
         <div className="giftcardParent">
@@ -27,12 +30,18 @@ const Index = ()=>{
                 <div className='ourdiff'>
 
                     <div>
+                        <div>
+                            <img src={bestrate} />
+                        </div>
                         <div>Best Rate</div>
                         <div>
                             We Offer the best rate in the market for whatever giftcard you want to trade.
                         </div>
                     </div>
                     <div>
+                        <div>
+                            <img src={convinent} />
+                        </div>
                         <div>Convinent</div>
                         <div>
                             Exchange your gift card, anytime using our modern giftcard trading channel.
@@ -40,6 +49,9 @@ const Index = ()=>{
                         
                     </div>
                     <div>
+                        <div>
+                            <img src={secured} />
+                        </div>
                         <div>Trust & Secure</div>
 
                         <div>

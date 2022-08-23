@@ -27,6 +27,7 @@ const Index = ()=>{
             <Header scroll={5}/>
             <Hero title='Gift Cards'/>
             <GiftcardLaylout/>
+            <Footer/>
             
         </div>
     )
