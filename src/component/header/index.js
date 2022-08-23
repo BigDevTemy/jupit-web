@@ -37,7 +37,7 @@ const Index = ({scroll})=>{
                             <button  className={scroll > 0 ? 'dropbtn scrolldown':'dropbtn scrollnone'}>Resources</button>
                             <div class="dropdown-content">
                                 <Link to='/blog'>Blog</Link>
-                                <Link to='/'>FAQs</Link>
+                                <Link to='/faq'>FAQs</Link>
                                 
                                 
                                 
