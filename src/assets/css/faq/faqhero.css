@@ -26,13 +26,14 @@
     width: 100%;
     min-height: 100vh;
     height: 100%;
-    padding: 20px;
+    padding: 5%;
     background-color: #f8f9ff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top:40px;
+    margin-top:0px;
+
 
 }
 
@@ -53,6 +54,16 @@
     font-weight: bold;
     font-family: candara;
     color:#fff;
+   
+}
+
+.faq-answer >p{
+    text-align: justify;
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+    color: #000;
+    
+    
    
 }
 

@@ -14,60 +14,53 @@ const Index= ()=>{
     return (
         <div className="my_footer">
             <div className='footerContent'>
-                <div className='userCount'>12,500,601 </div>
+                <div className='userCount'>3,620 </div>
                 <div className='userText'>Users & Still Counting</div>
 
                 <div className='whatareyou'>What are you waiting for?</div>
                 <div className='footerBtn'>Get Started</div>
 
                 <div className='footerInfor'>
-                        <div>
-                            <div>
+                        <div className='footerlogoarea'>
+                            <div className='logoReal'>
                                 <img src={footerLogo} className="footerlogo"/>
                                 <small>...simplifying exchange</small>
                             </div>
-                            <div className='QuickLink'>
-                                <div>Quick Link</div>
-                                <div className='link'>
-                                    <div>
-                                        <div>About Us</div>
-                                        <div>FAQ</div>
-                                        <div>What Defines Us</div>
-                                        <div>Our Team</div>
-                                    </div>
-                                    <div>
-                                        <div><Link to='/privacy-policy'>Policy</Link></div>
-                                        <div>Anti-Money Laundering</div>
-                                        <div>Legal</div>
-                                        <div>Contact</div>
-                                    </div>
+                            <div className='QuickLink'>Quick Link</div>
+                            <div className='link'>
+                                <div>
+                                    <div className='titleLink'>Company</div>
+                                    <div>About Us</div>
+                                    <div>Contact Us</div>
                                     
-                                    <div>
-                                        <div>Product</div>
-                                        <div>Legal</div>
-                                        <div>Policy</div>
-                                        <div>Contact</div>
-                                    </div>
-                                   
                                 </div>
-                            </div>
+                                <div>
+                                    <div className='titleLink'>Product</div>
+                                    <div>Bitcoin</div>
+                                    <div>Usdt</div>
+                                    <div>Gift Card</div>
+                                    <div>OTC</div>
+                                    
+                                </div>
+                                <div>
+                                    <div className='titleLink'>Legal</div>
+                                    <div><Link to='/privacy-policy'>Terms Of Service</Link></div>
+                                    <div><Link to='/privacy-policy'>Policy</Link></div>
+                                    <div><Link to='/privacy-policy'>Anti-Money laundering Policy</Link></div>
+                                    
+                                </div>
+                                
+                                <div>
+                                    <div className='titleLink'>Resources</div>
+                                    <div>Blog</div>
+                                    <div>FAQ</div>
+                                    
+                                </div>
                             
-
+                            </div>
                         </div>
 
-                        <div className='blogParent'>
-                                <div className='blogger'>
-                                    <div className='blog'>
-                                        <img src={blogpost1} className="blogImg"/>
-                                        <span>WHY LEARN CRYPTO EXCHANGE</span>
-                                    </div>
-
-                                    <div className='blog'>
-                                        <img src={blogpost2} className="blogImg"/>
-                                        <span>WHY LEARN CRYPTO EXCHANGE</span>
-                                    </div>
-                                </div>
-                        </div>
+                        
                         <div className='socialmediaParent'>
                                 <div className='socialmedia'>
                                     <img src={facebook} className="socialmedia-img"/>
