@@ -10,7 +10,8 @@ const Index = ()=>{
             <div className='statement'>
                     <div data-aos="zoom-out-down">
                             <div className='wemakecrypoeasy'>We make crypto easy.</div>
-                            <div className='specific'>Specific cryptocurrencies work and get a bit of  crypto to try out for yourself. Here are a few reasons why you should choose besnik crypto</div>
+                            <div className='specific'>We make sure that every cryptocurrency payment and transaction are processed
+seamlessly and quickly so that you could enjoy the result and avoid any trouble.</div>
                             <div className='getitnow'>
                                 <div className='getitnowBtn'>
                                     Learn more
@@ -24,9 +25,9 @@ const Index = ()=>{
                                     <img src={icon1}/>
                                 </div>
                                 <div>
-                                    <div className='securestorage'>Secure storage</div>
+                                    <div className='securestorage'>Fast Transaction</div>
                                     <div className='We_store'>
-                                        We store the vast majority of the digital assets in secure offline storage.
+                                    Fast and easy-to-use trading services in one integrated platform.
                                     </div>
                                 </div>
                             </div>
@@ -37,9 +38,9 @@ const Index = ()=>{
                                     <img src={icon4}/>
                                 </div>
                                 <div>
-                                    <div className='securestorage'>Protected by insurance</div>
+                                    <div className='securestorage'>Secure Wallet</div>
                                     <div className='We_store'>
-                                      Cryptocurrency stored on our servers is covered by our insurance policy.
+                                    You can rest easy knowing that your asset is safe with us anytime!.
                                     </div>
                                 </div>
                             </div>
@@ -50,9 +51,9 @@ const Index = ()=>{
                                     <img src={icon3}/>
                                 </div>
                                 <div>
-                                    <div className='securestorage'>Industry best practices</div>
+                                    <div className='securestorage'>Built for You</div>
                                     <div className='We_store'>
-                                    Besnik crypto supports a variety of the most popular digital crypto currencies.
+                                    We want anyone and everyone with need for cryptocurrency gets prompt and clear access in their transactions.
                                     </div>
                                 </div>
                             </div>
@@ -63,9 +64,9 @@ const Index = ()=>{
                                     <img src={icon4}/>
                                 </div>
                                 <div>
-                                    <div className='securestorage'>Trade Assets</div>
+                                    <div className='securestorage'>Customer First</div>
                                     <div className='We_store'>
-                                    Discover new and innovative crypto assets with over 200 spot trading pairs and 25 margin.
+                                    We pride ourselves on providing excellent customer service.
                                     </div>
                                 </div>
                             </div>

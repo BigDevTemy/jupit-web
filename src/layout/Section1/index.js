@@ -16,12 +16,13 @@ const Index = ()=>{
                     <img src={Globe}/>
                 </div>
                 <div className='BCQparent' data-aos="fade-up">
-                    <div className='gateway'>Your gateway to your global economy</div>
+                    <div className='gateway'>Your gateway to bordeless freedom.</div>
                     <div className='gatewayText'>
-                        BCQ crypto lending, trading, and custody for worldwide
+                        Trade with confidence on Nigeria’s safest digital asset exchange.
                     </div>
                     <div className='Institution'>
-                        Institutional Markets is a full-stack crypto services platform that works worldwide with crypto-native businesses and institutional clients on trading, and custody solutions.
+                    By building this simple and secure solution for trading digital assets,
+we hope to have eliminate the limits that previous forestalled everybody.
                     </div>
                     <div className='getitnow'>
                         <div className='getitnowBtn'>
