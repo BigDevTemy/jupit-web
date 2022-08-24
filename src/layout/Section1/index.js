@@ -21,8 +21,7 @@ const Index = ()=>{
                         Trade with confidence on Nigeria’s safest digital asset exchange.
                     </div>
                     <div className='Institution'>
-                    By building this simple and secure solution for trading digital assets,
-we hope to have eliminate the limits that previous forestalled everybody.
+                        By building this simple and secure solution for trading digital assets,we hope to have eliminate the limits that previous forestalled everybody.
                     </div>
                     <div className='getitnow'>
                         <div className='getitnowBtn'>
