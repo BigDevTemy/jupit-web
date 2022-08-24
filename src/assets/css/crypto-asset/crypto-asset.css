@@ -119,7 +119,7 @@
 
 .laptopDiv > div:nth-child(1){
     
-   background:url('../../images/laptop.png');
+   background:url('../../images/laptoporiginal.png');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
