@@ -16,7 +16,7 @@ const Index = ()=>{
                    <div className='heroContent'>
                         <div className='contentHero'>
                             <div>Make your digital assets transactions easier anywhere anytime.</div>
-                            <div>A place for everyone who simply buy and sell digital assets. It takes 120 seconds</div>
+                            <div>A place for everyone who want to simply buy and sell digital assets. It takes just 120 seconds!</div>
                         </div>
                         <div>
                             <img src={umbrella}/>

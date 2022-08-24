@@ -1,0 +1,43 @@
+.section7{
+    width: 100%;
+    min-height: 80vh;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding:5%;
+    
+}
+
+.section7 > div{
+    flex:1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.section7 >div:nth-child(1){
+    width: 100%;
+   
+}
+.section7 >div:nth-child(2){
+    width: 100%;
+    
+}
+.section7 >div:nth-child(2) img{
+    width: 100%;
+    
+}
+.bestService{
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: bold;
+    color: #1D2D3F;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
+.startJourney{
+    font-size: 14px;
+    font-family: 'Montserrat'sans-serif;
+}
