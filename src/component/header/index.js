@@ -46,7 +46,7 @@ const Index = ({scroll})=>{
                         </div>
 
                     </div>
-                    <div className={scroll > 0 ? 'navLinkScroll':'navLink'}>Contact</div>
+                    <div className={scroll > 0 ? 'navLinkScroll':'navLink'}><ScrollLink to='contact'>Contact</ScrollLink></div>
                     
                     
                 </div>

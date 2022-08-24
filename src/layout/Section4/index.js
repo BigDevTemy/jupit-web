@@ -19,7 +19,7 @@ const Index = ()=>{
                 </div>
                
                 <div className='Comment'>
-                    <OwlCarousel className='owl-theme' items={2} lazyLoad  loop margin={10}>
+                    <OwlCarousel className='owl-theme' items={2} lazyLoad  loop margin={10} dots >
                         <div className='item'>
                             <div className='mycard'>
                                 <div className='clientName'>
@@ -57,6 +57,25 @@ const Index = ()=>{
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .
                                 </div>
                         </div>
+                        </div>
+                        <div className='item'>
+                            <div className='mycard'>
+                                <div className='clientName'>
+                                    <div>
+                                        <img src={Client1} />
+                                        
+                                    </div>
+                                    <div>
+                                        <div className='name'>Hector Berlin</div>
+                                        <div className='country'>South Africa</div>
+                                    </div>
+                                    
+                                </div>
+                                <div className='all_crypto'>All your crypto in one place</div>
+                                <div className='message'>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled .
+                                </div>
+                             </div>
                         </div>
                     </OwlCarousel>
                 </div>

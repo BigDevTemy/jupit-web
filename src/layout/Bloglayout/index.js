@@ -4,16 +4,22 @@ import profile from '../../assets/images/Mask Group.png'
 import blogpost1 from '../../assets/images/blogpost-2.png'
 import blogpost2 from '../../assets/images/blogpost-3.png'
 import blogpost3 from '../../assets/images/blogpost-4.png'
+import { useEffect } from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 const Index = ()=>{
+    useEffect(()=>{
+        Aos.init({duration:2000})
+},[])
     return(
         <div className="blogParent">
             <div className='blogStart'>
-                    <div>
+                    <div data-aos="fade-up">
                         <div><img src={blog1}/></div>
                         
                     </div>
 
-                    <div>
+                    <div data-aos="fade-up">
                         <div className='topicSection'><span>PRODUCT. 8TH AUGUST 2022</span></div>
                         <div className='interview'>Interview - What is Like to work remotely in a big size company?</div>
                         <div className='shortnote'>
@@ -31,7 +37,7 @@ const Index = ()=>{
                     </div>
                     
             </div>
-            <div className='blogOthers'>
+            <div className='blogOthers' data-aos="fade-up">
                 <div>   
                       <div><img src={blogpost1}/>  </div>
                       <div className='categoryBlog'>

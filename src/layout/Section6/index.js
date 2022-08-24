@@ -1,7 +1,7 @@
 import '../../assets/css/Home/section6.css'
 const Index=()=>{
     return (
-        <div className="section6">
+        <div className="section6" id="contact">
                    <div className='CryptoWallet'>Get in touch</div>
                    <div className='formDiv'>
                     <div className='form'>
