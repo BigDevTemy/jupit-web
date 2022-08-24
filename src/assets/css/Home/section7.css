@@ -3,6 +3,8 @@
     min-height: 80vh;
     height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
     padding:5%;
@@ -38,6 +40,20 @@
     margin-top: 10px;
 }
 .startJourney{
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Montserrat'sans-serif;
+    font-weight: 300;
+}
+
+.instantTransaction{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 20px;
+    
+}
+
+.instantTransaction>div{
+    flex:1 1 50%;
+    margin-bottom: 20px;
 }
