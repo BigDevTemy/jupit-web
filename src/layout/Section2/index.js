@@ -9,7 +9,7 @@ const Index = ()=>{
         <div className="section2">
             <div className='statement'>
                     <div data-aos="zoom-out-down">
-                            <div className='wemakecrypoeasy'>We make crypto easy.</div>
+                            <div className='wemakecrypoeasy'>Best Service that Works for You.</div>
                             <div className='specific'>We make sure that every cryptocurrency payment and transaction are processed
 seamlessly and quickly so that you could enjoy the result and avoid any trouble.</div>
                             <div className='getitnow'>

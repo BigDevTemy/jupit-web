@@ -51,9 +51,11 @@
     text-align: left;
     margin-top: 20px;
     
+    
 }
 
 .instantTransaction>div{
     flex:1 1 50%;
     margin-bottom: 20px;
+    font-family: 'Montserrat' sans-serif;
 }

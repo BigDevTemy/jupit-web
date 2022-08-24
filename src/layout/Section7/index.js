@@ -11,7 +11,7 @@ const Index = ()=>{
     return (
         <div className='section7' data-aos="fade-up">
             <div >
-                <div className='bestService'>Best Service that Works for You.</div>
+                <div className='bestService'>We make crypto easy.</div>
                 <div className='startJourney'>Start your journey with us, you can't go wrong with the classics.</div>
                 <div className='instantTransaction'>
                     <div><FaCheckDouble color='#4bb543' style={{marginRight:5}}/>Instant Transaction</div>
