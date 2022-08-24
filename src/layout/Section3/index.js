@@ -21,6 +21,16 @@ const Index = ()=>{
                     <div className='Install'>
                         <div className='installapp'>INSTALL THE APP</div>
                         <div className='installprogress'>Install Our Progressive Web App(PWA) for faster access</div>
+                        <div className='Installapp'>
+                            The PWA works just like your regular App, it’s super easy and convenient. To install, please follow the process below:
+                        </div>
+                        <div>On your Mobile device:</div>
+                        <div>- Launch Browser</div>
+                        <div>- Navigate to the Browser Options (Android) or</div>
+                        <div>- Tap the share button (IOS)</div>
+                        <div>- Select Add Page to Home Screen.</div>
+                        
+
 
                     </div>
                 </div>
