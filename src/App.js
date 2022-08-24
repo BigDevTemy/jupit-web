@@ -9,6 +9,7 @@ import CRYTOASSET from './container/cryptoasset'
 import GIFTCARD from './container/giftcard'
 import BLOG from './container/blog'
 import FAQ from './container/Faq'
+import CONTACT from './container/contact'
 import 'aos/dist/aos.css'
 import { useEffect, useState } from 'react';
 function App() {
@@ -46,6 +47,7 @@ function App() {
           <Route path="/our-giftcard" element={<GIFTCARD />} />
           <Route path="/blog" element={<BLOG/>} />
           <Route path="/faq" element={<FAQ/>} />
+          <Route path="/contact" element={<CONTACT/>} />
         </Routes>
     </div>
   );
