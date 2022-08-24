@@ -31,8 +31,9 @@ const Index= ()=>{
                                 <div className='link'>
                                     <div>
                                         <div className='titleLink'>Company</div>
-                                        <div>About Us</div>
-                                        <div>Contact Us</div>
+                                       
+                                        <div> <Link to='/aboutus' style={{textDecoration:'none',color:'#fff'}}>About Us</Link></div>
+                                        <div> <Link to='/' style={{textDecoration:'none',color:'#fff'}}>Contact Us</Link></div>
                                         
                                     </div>
                                     <div>
@@ -45,9 +46,9 @@ const Index= ()=>{
                                     </div>
                                     <div>
                                         <div className='titleLink'>Legal</div>
-                                        <div><Link to='/privacy-policy'>Terms Of Service</Link></div>
-                                        <div><Link to='/privacy-policy'>Policy</Link></div>
-                                        <div><Link to='/privacy-policy'>Anti-Money laundering Policy</Link></div>
+                                        <div><Link to='/privacy-policy' style={{textDecoration:'none',color:'#fff'}}>Terms Of Service</Link></div>
+                                        <div><Link to='/privacy-policy'style={{textDecoration:'none',color:'#fff'}}>Policy</Link></div>
+                                        <div><Link to='/privacy-policy'style={{textDecoration:'none',color:'#fff'}}>Anti-Money laundering Policy</Link></div>
                                         
                                     </div>
                                     
