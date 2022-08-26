@@ -110,59 +110,162 @@ const Index = ()=>{
                         </div>
 
                     </div>
+
                     <div className='policyText'>
-                        <div className='policyText-Title'>More information is provided below.</div>
+                        <div className='policyText-Title'>Security and unauthorized Use</div>
                         <div className='policyText-content'>
+                            <p> Jupit remains committed to providing adequate data and information security to ensure that the detection and prevention of fraudulent and unauthorized access to Jupit user accounts, however, it is of utmost importance that Jupit Users treat the credentials used to access Jupit Platform as confidential information and avoid the disclosure of same to anybody.</p>
+                            <p>You hereby agree that you are responsible for maintaining adequate confidentiality and control of any and all credentials that you use to access the Jupit Services or Jupit Platform. You acknowledge that Jupit shall not in any way be liable for any loss, damage or costs caused by authorized or unauthorized use of your Jupit user account credentials.</p>
+                            <p>
+                            Jupit will never request for your credentials via email, SMS, phone call or any other means of communications other than the Jupit Platform accessible through www.jupitapp.com/. If you receive such communication, please disregard and contact us below –
+                            </p>
+                            <p>Customer Service Desk</p>
+                            <p>Email address: hello@jupitapp.co</p>
+                        
+                        </div>
+
+                    </div>
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Transaction Cancellation, Modification or Refund.</div>
+                        <div className='policyText-content'>
+                            
                             <p className='paragraph'>
                               
-                                <p className='specialParagraph'>
-                                    <p className='alphabelt'>a.</p>
-                                        <p className='divalphabelt'>
-                                            <span className='alphabelt'>Public identity check specialist/organizations</span> - In request to distinguish and forestall deceitful transaction and conform to pertinent regulations and administrative prerequisites, we might impart your information to third party identity confirmation specialist/organizations who will verify your identity/personality against accessible openly available reports and other public database.
-                                        </p>	
-                                </p>
-                                <p className='specialParagraph'>
-                                    <p className='alphabelt'>b.</p>
-                                        <p className='divalphabelt'>
-                                            <span className='alphabelt'>Banks and other monetary institution</span> - In request to handle payments and settlements and follow appropriate regulations and administrative necessities we might impart your information to banks and monetary establishments.
-                                        </p>	
-                                </p>
+                              <p className='specialParagraph'>
+                                  <p className='alphabelt'>a.</p>
+                                      <p className='divalphabelt'>
+                                        Jupit remains committed to providing adequate data and information security to ensure that the detection and prevention of fraudulent and unauthorized access to Jupit user accounts, however, it is of utmost importance that Jupit Users treat the credentials used to access Jupit Platform as confidential information and avoid the disclosure of same to anybody.
+                                      </p>	
+                              </p>
+                              <p className='specialParagraph'>
+                                  <p className='alphabelt'>b.</p>
+                                      <p className='divalphabelt'>
+                                        Payments for services on Jupit Platform are non-refundable, irrevocable and cannot be changed after the transaction is confirmed by the user.
+                                      </p>	
+                              </p>
 
-                                <p className='specialParagraph'>
-                                    <p className='alphabelt'>c.</p>
-                                        <p className='divalphabelt'>
-                                            <span className='alphabelt'>Service providers</span> - We might impart your information to service source that we connect with their administrations to execute different business capacities. Instances of these service instructions incorporate: cloud depository, network infrastructure, product campaigns, data analytics and so forth.
-                                        </p>	
-                                </p>
-                                <p className='specialParagraph'>
-                                    <p className='alphabelt'>d.</p>
-                                        <p className='divalphabelt'>
-                                            <span className='alphabelt'>Proficient consultants</span> - We might impart your information to proficient consultants to avail ourselves with specialized, monetary or lawful counseling administrations or in consistence with our lawful commitments.
-                                        </p>	
-                                </p>
-                                <p className='specialParagraph'>
-                                    <p className='alphabelt'>e.</p>
-                                        <p className='divalphabelt'>
-                                            <span className='alphabelt'>Organizations or other establishments during corporate redesigns</span> - If an adjustment of our corporate design happens because of the deal, move or consolidation of parts of our business or our resources or that of another establishment by us, then, at that point, the new corporate substance might involve your own information similarly as set out in this protection strategy. You will get earlier notification of any adjustment of appropriate approaches.
-                                        </p>	
-                                </p>
+                              <p className='specialParagraph'>
+                                  <p className='alphabelt'>c.</p>
+                                      <p className='divalphabelt'>
+                                        In the case of any bad or zero-value gift card, you must directly contact your source to escalate your complaint.
+                                      </p>	
+                              </p>
+                              
+                              <p className='specialParagraph'>
+                                  <p className='alphabelt'>d.</p>
+                                      <p className='divalphabelt'>
+                                      In the case of cryptocurrency transactions, there shall be no cancellation, reversal or amendment after the transaction has been completed.
+                                      </p>	
+                              </p>
+                              <p className='specialParagraph'>
+                                  <p className='alphabelt'>e.</p>
+                                      <p className='divalphabelt'>
+                                      In the case of cryptocurrency transactions, there shall be no cancellation, reversal or amendment after the transaction has been completed.
+                                      </p>	
+                              </p>
 
-                                <p className='specialParagraph'>
-                                    <p className='alphabelt'>f.</p>
-                                        <p className='divalphabelt'>
-                                            <span className='alphabelt'>Law Enforcement/Regulatory proxy and authorities</span> - We might impart your information to regulation authorization proxy and authorities assuming we are limited by regulation or any legitimate technique to share same or when we trust sincerely that the exposure of your data is important to forestall actual damage or monetary misfortune, to report presumed criminal behavior, or to research infringement of our Terms of Services or some other relevant arrangements.
-                                        </p>	
-                                </p>
+                             
+                          </p>
+                        
+                        </div>
 
+                    </div>
 
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Unsupported currencies</div>
+                        <div className='policyText-content'>
+                            <p> Unsupported digital assets that are deposited into our system on unrelated wallets cannot be refunded. Jupit reserves the right to consider such case individually. Any decisions made by Jupit with respect to such assets deposited when they are no longer supported are final and cannot be contested.</p>
+                           
+                        </div>
 
+                    </div>
 
-                                
-                            </p>
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Payment Methods</div>
+                        <div className='policyText-content'>
+                            <p> Fiat wallets on the Jupit Platform may be funded via Electronic Funds Transfer, Mobile Money Payments as applicable on the Jupit Platform.</p>
+                           
+                        </div>
+
+                    </div>
+
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Responsibility</div>
+                        <div className='policyText-content'>
+                            <p>Jupit takes responsibility for all aspects relating to the Jupit Services, customer service and support, and dispute resolution.</p>
+                           
+                        </div>
+
+                    </div>
+
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Customer Privacy Policy</div>
+                        <div className='policyText-content'>
+                            <p>Jupit shall take all reasonable steps to protect the personal information of users in accordance with applicable data protection laws and our privacy policy which is available at <a href="https://www.jupitapp.co/privacy">https://jupitapp.co/privacy</a>.</p>
+                           
+                        </div>
+
+                    </div>
+                    <div className='policyText'>
+                        <div className='policyText-Title'>No Financial Advice</div>
+                        <div className='policyText-content'>
+                            <p>All contents published on the Jupit Platform or communicated through any of Jupit’s social media page and blogs or by any employee, agent or affiliate of Jupit are for informational or marketing purposes only. No contents or communication may be deemed to constitute professional and/or financial advice.</p>
+                            <p>Our website is for informational purposes only and no information contained therein may be deemed to constitute legal advice or an exhaustive statement of the law.</p>
+                            <p>You are solely responsible for any decision to store, buy or sell cryptocurrency, and such decision should take into account your risk tolerance and financial circumstances. For more information on the risks involved, see Risks and the Risk Warning on the Jupit website. You should consult your legal or tax professional in relation to your specific situation.</p>
+                           
+                        </div>
+
+                    </div>
+
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Termination and Restriction of Access</div>
+                        <div className='policyText-content'>
+                            <p>Jupit in its sole discretion, reserves the right to terminate this Agreement and/or access to the Jupit Services and Jupit Platform in the case of any suspicious activities that also include use of any robot, cyber codes or interface that affect or pose any risk to the functionality of Jupit Platform and at any time upon notice and payment to you of any unrestricted funds held in your wallet.</p>
+                            <p>You hereby acknowledge that Jupit reserves the right to restrict access to your Jupit account and/or the termination of this Agreement upon the reasonable suspicion that you have contravened any of the terms and conditions contained in this Terms of Use.</p>
+                            
+                           
+                        </div>
+
+                    </div>
+
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Rates and fees</div>
+                        <div className='policyText-content'>
+                            <p>Before selling or buying any digital assets on Jupit Platform please ensure you confirm the rates displayed.</p>
+                           
+                        </div>
+
+                    </div>
+
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Changes or Adjustment</div>
+                        <div className='policyText-content'>
+                            <p>We can also additionally regulate this Privacy Policy occasionally by posting or importing an updated model on our website. The updated model will be effective from the date of publication.</p>
+                            <p>However, users will also be notified by email (sent to the email address specified in your account) and via a notification on the Jupit platform if the updated model contains many terms.</p>
+                           
+                        </div>
+
+                    </div>
+
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Acknowledgement</div>
+                        <div className='policyText-content'>
+                            <p>By using this service or other services provided by us, you acknowledge that you have read these terms of service and agree to be bound by them.</p>
                             
                         </div>
 
                     </div>
+
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Contact Us</div>
+                        <div className='policyText-content'>
+                            <p>Please send your feedback, comments, requests for technical support:</p>
+                            <p>By email: <a href="mailto:hello@jupitapp.co">hello@jupitapp.co</a></p>
+                        </div>
+
+                    </div>
+
+                    
              </div>
           
         </div>
