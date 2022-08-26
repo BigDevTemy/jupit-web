@@ -296,6 +296,15 @@
     color:#000;
 }
 
+.a_signupDivScroll{
+    text-decoration: none;
+    color: #000;
+}
+.a_signupDiv{
+    text-decoration: none;
+    color: #fff;
+}
+
 .feature{
     background-color: #979797 !important;
     color: #fff;

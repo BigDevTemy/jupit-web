@@ -51,9 +51,9 @@ const Index = ({scroll})=>{
                     
                 </div>
                 <div className={scroll >0 ? 'signupDivScroll':'signupDiv'}>
-                    <div>Signin</div>
+                    <div><a href="https://app.jupitapp.co/client/signin" target="_blank" className={scroll >0 ? 'a_signupDivScroll':'a_signupDiv'} >Signin</a></div>
                     <button className='btn btn-md registerbtn'>
-                        Register
+                       <a className={scroll >0 ? 'a_signupDivScroll':'a_signupDiv'} href="https://app.jupitapp.co/client/signup" target="_blank">Register</a> 
                     </button>
                 </div>
             </div>
