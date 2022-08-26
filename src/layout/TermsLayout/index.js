@@ -14,7 +14,7 @@ const Index = ()=>{
                     <div className='policyText'>
                         <div className='policyText-Title'>Terms of Service</div>
                         <div className='policyText-content'>
-                        One of our top priorities at Jupit Technologies accessible through https://jupitapp.co, is the terms and condition that applies to our service. Please ensure to read this Agreement carefully.
+                        One of our top priorities at Jupit Technologies accessible through <a href="https://jupitapp.co">https://jupitapp.co</a>, is the terms and condition that applies to our service. Please ensure to read this Agreement carefully.
                         </div>
 
                     </div>
@@ -22,7 +22,7 @@ const Index = ()=>{
                     <div className='policyText'>
                         <div className='policyText-Title'>Overview</div>
                         <div className='policyText-content'>
-                        <p>These Terms of Use is entered into between you (hereinafter referred to as “you” or “your”) and Jupit Technologies (hereinafter referred to as Jupit Technologies). By accessing, using, downloading, or clicking on “I agree” to accept any Jupit Services, it will be regarded that you agreed to have read, understood and accepted all of the terms and conditions stipulated in these Terms of Use as well as our Privacy Policy at www.jupitapp.co/terms-of-service.</p>
+                        <p>These Terms of Use is entered into between you (hereinafter referred to as “you” or “your”) and Jupit Technologies (hereinafter referred to as Jupit Technologies). By accessing, using, downloading, or clicking on “I agree” to accept any Jupit Services, it will be regarded that you agreed to have read, understood and accepted all of the terms and conditions stipulated in these Terms of Use as well as our Privacy Policy at <a href="https://jupitapp.co/terms-of-service">https://jupitapp.co/terms-of-service</a></p>
                         <p>In addition, when using some features of the Services, you may be subject to specific additional terms and conditions applicable to those features. But if you disagree with any part of this context, please do not use the Jupit Platform or purchase any Jupit Services.</p>
                         
                         </div>
@@ -201,7 +201,7 @@ const Index = ()=>{
                     <div className='policyText'>
                         <div className='policyText-Title'>Customer Privacy Policy</div>
                         <div className='policyText-content'>
-                            <p>Jupit shall take all reasonable steps to protect the personal information of users in accordance with applicable data protection laws and our privacy policy which is available at <a href="https://www.jupitapp.co/privacy">https://jupitapp.co/privacy</a>.</p>
+                            <p>Jupit shall take all reasonable steps to protect the personal information of users in accordance with applicable data protection laws and our privacy policy which is available at <a href="https://www.jupitapp.co/privacy-policy">https://www.jupitapp.co/privacy-policy</a>.</p>
                            
                         </div>
 
