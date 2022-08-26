@@ -50,8 +50,8 @@ function App() {
           <Route path="/blog" element={<BLOG/>} />
           <Route path="/faq" element={<FAQ/>} />
           <Route path="/contact" element={<CONTACT/>} />
-          <Route path="/terms_of_service" element={<Terms/>} />
-          <Route path="/aml_policy" element={<Aml/>} />
+          <Route path="/terms-of-service" element={<Terms/>} />
+          <Route path="/aml-policy" element={<Aml/>} />
 
         </Routes>
     </div>

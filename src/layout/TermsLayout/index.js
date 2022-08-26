@@ -12,9 +12,9 @@ const Index = ()=>{
         <div className="policy">
              <div className='privacyText'>
                     <div className='policyText'>
-                        <div className='policyText-Title'>Privacy Policy</div>
+                        <div className='policyText-Title'>Terms of Service</div>
                         <div className='policyText-content'>
-                             One of our top priorities at Jupit Technologies accessible through https://jupitapp.co, is the privacy of our users and visitors.
+                        One of our top priorities at Jupit Technologies accessible through https://jupitapp.co, is the terms and condition that applies to our service. Please ensure to read this Agreement carefully.
                         </div>
 
                     </div>
@@ -22,112 +22,89 @@ const Index = ()=>{
                     <div className='policyText'>
                         <div className='policyText-Title'>Overview</div>
                         <div className='policyText-content'>
-                        This Privacy Policy applies to our online activities and is important to our website visitors who submit and/or collect data at https://jupitapp.co/. This clause is not applicable to data collected offline or via channels other than this website. Under any applicable law or regulation, each user reserves the right to privacy and security.
+                        <p>These Terms of Use is entered into between you (hereinafter referred to as “you” or “your”) and Jupit Technologies (hereinafter referred to as Jupit Technologies). By accessing, using, downloading, or clicking on “I agree” to accept any Jupit Services, it will be regarded that you agreed to have read, understood and accepted all of the terms and conditions stipulated in these Terms of Use as well as our Privacy Policy at www.jupitapp.co/terms-of-service.</p>
+                        <p>In addition, when using some features of the Services, you may be subject to specific additional terms and conditions applicable to those features. But if you disagree with any part of this context, please do not use the Jupit Platform or purchase any Jupit Services.</p>
+                        
                         </div>
 
                     </div>
 
                     <div className='policyText'>
-                        <div className='policyText-Title'>Consent</div>
+                        <div className='policyText-Title'>Jupit Services</div>
                         <div className='policyText-content'>
-                        You acknowledge and consent to the phrases of this Privacy Policy while you order, sign on or have interaction with us or any of our services irrespective of how they may be accessed or used.
+                        Jupit is an online wallet service that allows users to securely hold digital assets in their wallet or exchange it as settlement for transactional engagements.
                         </div>
 
                     </div>
 
-                    <div className='policyText'>
-                        <div className='policyText-Title'>Changes to this Privacy Policy</div>
-                        <div className='policyText-content'>
-                            <p>We can also additionally regulate this Privacy Policy occasionally by posting or importing an updated model on our website. The updated model will be effective from the date of publication.</p>
-                            <p>However, users will also be notified by email (sent to the email address specified in your account) and via a notification on the Jupit platform if the updated model contains many terms.</p>
-                        </div>
+                   
 
-                    </div>
+                    
 
                     <div className='policyText'>
-                        <div className='policyText-Title'>Custodian</div>
+                        <div className='policyText-Title'>Eligibility</div>
                         <div className='policyText-content'>
-                            <p>Jupit Technologies is the custodian and is responsible for protecting the privacy of all personal data that is shared and/or collected through access to https://jupitapp.co.</p>
-                            <p>If you have any questions about this Privacy Policy or our privacy practices, please contact us below –<br/><br/>
-                                Customer Service Desk<br/>
-                                Email address: hello@jupitapp.co
+                            <p>To be eligible to use or access any Jupit Services, the following conditions must be met by you: -.</p>
+                                <p className='paragraph'>
+                                
+                                    <p className='checkI'>
+                                        <span>I.</span> <p>You must have attained the age of eighteen (18) years or be of legal age to form a binding contract as required by law.</p>
+                                    </p>
+                                </p>
 
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div className='policyText'>
-                        <div className='policyText-Title'>Private Data We Collect About You</div>
-                        <div className='policyText-content'>
-                            <p>Private or personal data means any information about a natural person by which that individual can be identified. Data intentionally excluded (anonymous data) is not included.</p>
-                            <p className='paragraph'>
-                               <div>I.	Private Information</div> 
-                                <p>
-                                     Private information includes first name, last name and other name, username or related identifier, date of birth, gender, signature, residence address, billing address, email address and national identity card/number etc. 
+                                <p className='paragraph'>
+                                
+                                    <p className='checkI'>
+                                         <span>II.</span><p> You must be a duly registered customer on the Jupit website accessible through <a href="https://www.jupit.co/signup">www.jupit.co</a></p>
+                                    </p>
                                 </p>
-                                <p>
-                                    We may gather and process the identifying information for the purposes of product campaign or conducting direct marketing, complying with applicable laws and regulations, detecting and preventing fraud, protecting our corporate role and of others as it may relate to customer satisfaction and cooperate accomplishment.
+                                <p className='paragraph'>
+                                
+                                    <p className='checkI'>
+                                         <span>III.</span><p>As an individual, legal person, employee or agent of a legal business entity, you must have full power, authority and capacity to accept these Terms of Use;</p>
+                                    </p>
                                 </p>
-                            </p>
-                            <p className='paragraph'>
-                               <div>II.	Identity Documentation</div> 
-                                <p>
-                                    Official documents of identification include government-issued identification documents such as international passports, driver's licenses and national ID cards.
+                                <p className='paragraph'>
+                                
+                                    <p className='checkI'>
+                                         <span>IV.</span><p>You have not been previously restricted from using or accessing any Jupit Services</p>
+                                    </p>
                                 </p>
-                                <p>
-                                We provide our services, comply with applicable laws and regulations, detect and prevent fraud, protect the vital interests of us and others, provide communications within the Services, provide services to our customers and protect data; we may collect and process your publicly identifiable documents for storage.
+                                <p className='paragraph'>
+                                
+                                    <p className='checkI'>
+                                         <span>V.</span><p>Your use of Jupit Services will not violate any applicable laws and regulations applicable to you, including but not limited to regulations on anti-money laundering, anti-corruption, and counter-terrorist financing.</p>
+                                    </p>
                                 </p>
-                            </p>
-                            <p className='paragraph'>
-                               <div>III.	Transaction Data</div> 
-                                <p>
-                                    Transaction data includes payment details about you, bank account details and other information about the services you have received from us.
-                                </p>
-                                <p>
-                                    We provide our services within the applicable financial regulations, detect and prevent fraud, protect the vital interests of us and others. We're committed to provide you exceptional customer experience, ensure quality control, and store data and information and in order to do so, we may collect and process data about your transactions. Security, research and development, customer service improvement and direct marketing campaigns.
-                                </p>
-                            </p>
-                            <p className='paragraph'>
-                               <div>IV.	Comunication Data</div> 
-                                <p>
-                                    Communication records carries all messages, communications, demands, records, and so forth to make use of or related to the purpose of consumer management demands. 
-                                </p>
-                                <p>
-                                    We can gather and process your communication data for the purpose of customer satisfaction, maintain best control, facts security, inquire approximately and development reason, observe pertinent legal guidelines and controls, make strides consumer involvement, and execute coordinate marketing.
-                                </p>
-                            </p>
+                                    
                             
-                            <p className='paragraph'>
-                               <div>V.	Technical Data</div> 
-                                <p>
-                                Technical data includes User Activity, Time Zone and Location, Device or Browser Type and Version, Operating System, and Platform, Browser Plugin and Version, Authentication and Security data, Cookies or every other technology associated to CLICK-PATH technology.
-                                </p>
-                                <p>
-                                We may gather and process your technical data to improve user satisfaction and to comply with applicable laws and regulatory requirements. 
-                                </p>
-                            </p>
-                            <p className='paragraph'>
-                               <div>VI.	Anonymized and Amassed Information </div> 
-                                <p>
-                                     We may gather, utilize and share amassed Information as well as combine your exchange information with professional information such as factual or statistic data for the purpose of customer satisfaction, analyzing usefulness of our website and its traffic. 
-                                </p>
-                                <p>
-                                    For case; Totaled Information may well be inferred from your individual information but isn't considered individual information in law as this information will not straightforwardly or by implication uncover your identity.
-                                </p>
-                                <p>
-                                    In any event, if the collected information is combined or linked with your personal data to allow us to identify you specifically or indirectly, we will treat the combined information as individual information that can be used in accordance with necessary protection mechanism.
-                                </p>
-                            </p>
+                                
                         </div>
 
                     </div>
 
                     <div className='policyText'>
-                        <div className='policyText-Title'>Divulgence Of Your Individual Data</div>
+                        <div className='policyText-Title'>KYC Information</div>
                         <div className='policyText-content'>
                             <p>
-                            We might impart your information with certain third-party which we regard vital in arrange to supply our Administrations viably or comply with pertinent laws and administrative requirements. Our engagement terms with these third parties might entirely require them to as it were utilizing your data in association with the administrations, they perform for us and forbid them from offering your data to anybody else. Such engagements should moreover be subject to proficient obligation of privacy where appropriate.
+                                You hereby acknowledge that in order to use or access the Jupit Platform or Jupit Services, you must provide us with correct and updated Personal Information.
+                            </p>
+                            <p>
+                                Personal Information may include – identity data, identity documents, transaction data, and technical data. Your Personal Information shall be properly protected and kept confidential at all times.
+                            </p>
+                            <p>
+                                We may use, process, store and transfer your Personal Information in order to: -
+                                <p style={{marginTop:20,marginLeft:10}}><span className='alphabelt' >.</span> Provide Jupit services to you;</p>
+                                <p style={{marginTop:20,marginLeft:10}}><span className='alphabelt'>.</span> Comply with applicable laws and regulatory requirements;;</p>
+                                <p style={{marginTop:20,marginLeft:10}}><span className='alphabelt'>.</span> Secure your Jupit user account and maintain data and information security;</p>
+                                <p style={{marginTop:20,marginLeft:10}}><span className='alphabelt'>.</span> Verify the identity details and bank account details which you provide to us;</p>
+                                <p style={{marginTop:20,marginLeft:10}}><span className='alphabelt'>.</span> Protect our vital interests and that of others;</p>
+                                <p style={{marginTop:20,marginLeft:10}}><span className='alphabelt'>.</span> Provide service communications;</p>
+                                <p style={{marginTop:20,marginLeft:10}}><span className='alphabelt'>.</span> Provide customer service;</p>
+                                <p style={{marginTop:20,marginLeft:10}}><span className='alphabelt'>.</span> Facilitate corporate reorganizations; and</p>
+                                <p style={{marginTop:20,marginLeft:10}}><span className='alphabelt'>.</span> Implement direct marketing campaigns.</p>
+
+
                             </p>
                             
                         </div>

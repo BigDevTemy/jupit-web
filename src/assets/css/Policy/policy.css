@@ -52,3 +52,12 @@
 .divalphabelt{
     margin-left: 20px;
 }
+
+.checkI{
+    display: flex;
+
+}
+.checkI >span{
+    font-weight: bold;
+    margin-right: 10px;
+}

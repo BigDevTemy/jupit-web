@@ -46,9 +46,9 @@ const Index= ()=>{
                                     </div>
                                     <div>
                                         <div className='titleLink'>Legal</div>
-                                        <div><Link to='/privacy-policy' style={{textDecoration:'none',color:'#fff'}}>Terms Of Service</Link></div>
-                                        <div><Link to='/privacy-policy'style={{textDecoration:'none',color:'#fff'}}>Policy</Link></div>
-                                        <div><Link to='/privacy-policy'style={{textDecoration:'none',color:'#fff'}}>Anti-Money laundering Policy</Link></div>
+                                        <div><Link to='/terms-of-service' style={{textDecoration:'none',color:'#fff'}}>Terms Of Service</Link></div>
+                                        <div><Link to='/privacy-policy'style={{textDecoration:'none',color:'#fff'}}>Privacy Policy</Link></div>
+                                        <div><Link to='/aml-policy'style={{textDecoration:'none',color:'#fff'}}>Anti-Money laundering Policy</Link></div>
                                         
                                     </div>
                                     

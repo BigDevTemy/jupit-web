@@ -1,6 +1,6 @@
 // import Hero from '../../layout/HeroPolicy'
 import Hero from '../../layout/HeroOthers'
-import PolicyLayout from '../../layout/Policylayout'
+import TermsLayout from '../../layout/TermsLayout'
 import Footer from '../../component/Footer'
 import Header from '../../component/header'
 import { useEffect, useState } from 'react'
@@ -26,7 +26,7 @@ const Index = ()=>{
         <div className="Home">
             <Header scroll={5}/>
             <Hero  title="Terms of Service"/>
-            <PolicyLayout/>
+            <TermsLayout/>
             <Footer/>
         
             

@@ -156,47 +156,117 @@ const Index = ()=>{
                                 <p className='specialParagraph'>
                                     <p className='alphabelt'>a.</p>
                                         <p className='divalphabelt'>
-                                            <span className='alphabelt'>Public identity check specialist/organizations</span> - In request to distinguish and forestall deceitful transaction and conform to pertinent regulations and administrative prerequisites, we might impart your information to third party identity confirmation specialist/organizations who will verify your identity/personality against accessible openly available reports and other public database.
+                                            A user provides insufficient, false or suspicious information or is reluctant to provide complete information.
                                         </p>	
                                 </p>
                                 <p className='specialParagraph'>
                                     <p className='alphabelt'>b.</p>
                                         <p className='divalphabelt'>
-                                            <span className='alphabelt'>Banks and other monetary institution</span> - In request to handle payments and settlements and follow appropriate regulations and administrative necessities we might impart your information to banks and monetary establishments.
+                                        Methods or volumes of payment that are not consistent with the payment policy or that are not customarily used in the course of business, e.g., cash deposit by third party, payments with cheques, and/or payment transfer from unrelated third parties.
                                         </p>	
                                 </p>
 
                                 <p className='specialParagraph'>
                                     <p className='alphabelt'>c.</p>
                                         <p className='divalphabelt'>
-                                            <span className='alphabelt'>Service providers</span> - We might impart your information to service source that we connect with their administrations to execute different business capacities. Instances of these service instructions incorporate: cloud depository, network infrastructure, product campaigns, data analytics and so forth.
+                                        Structuring transactions to avoid government reporting or record keeping requirements.
                                         </p>	
                                 </p>
                                 <p className='specialParagraph'>
                                     <p className='alphabelt'>d.</p>
                                         <p className='divalphabelt'>
-                                            <span className='alphabelt'>Proficient consultants</span> - We might impart your information to proficient consultants to avail ourselves with specialized, monetary or lawful counseling administrations or in consistence with our lawful commitments.
+                                        Wire transfer activity that is not consistent with the activities of the customer, or which originates or terminates with parties unrelated to the transaction.
                                         </p>	
                                 </p>
                                 <p className='specialParagraph'>
                                     <p className='alphabelt'>e.</p>
                                         <p className='divalphabelt'>
-                                            <span className='alphabelt'>Organizations or other establishments during corporate redesigns</span> - If an adjustment of our corporate design happens because of the deal, move or consolidation of parts of our business or our resources or that of another establishment by us, then, at that point, the new corporate substance might involve your own information similarly as set out in this protection strategy. You will get earlier notification of any adjustment of appropriate approaches.
+                                        Unexpected spikes in a customer’s activities.
                                         </p>	
                                 </p>
-
-                                <p className='specialParagraph'>
-                                    <p className='alphabelt'>f.</p>
-                                        <p className='divalphabelt'>
-                                            <span className='alphabelt'>Law Enforcement/Regulatory proxy and authorities</span> - We might impart your information to regulation authorization proxy and authorities assuming we are limited by regulation or any legitimate technique to share same or when we trust sincerely that the exposure of your data is important to forestall actual damage or monetary misfortune, to report presumed criminal behavior, or to research infringement of our Terms of Services or some other relevant arrangements.
-                                        </p>	
-                                </p>
-
-
-
-
-                                
+ 
                             </p>
+                            
+                        </div>
+
+                    </div>
+                    <div className='policyText'>
+                        <div className='policyText-Title'>What's the Risk ?</div>
+                        <div className='policyText-content'>
+                            <p>Violating the Anti-money laundry laws may lead to severe civil and criminal penalties. These could include hefty fines, imprisonment, extradition, blacklisting, and the revocation business operation. In addition, violations of AML laws can have substantial consequences, such as damage to reputation and commercial relationships, restrictions in the way we can business, and the enormous time and cost of conducting internal investigations and/or defenses against government investigations and enforcement actions.</p>
+                            
+                        </div>
+
+                    </div>
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Compliance Controls</div>
+                        <div className='policyText-content'>
+                            <p>Jupit is responsible for ensuring that its business has a culture of compliance and effective controls to comply with AML laws and regulations to prevent, detect and respond to money laundering and counter-terrorism financing and to communicate the serious consequences of non-compliance to employees and users.</p>
+                            
+                        </div>
+
+                    </div>
+
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Know Your Customer (KYC) Procedures</div>
+                        <div className='policyText-content'>
+                            <p>Jupit Technologies is strongly committed to complying with all the applicable anti-money laundering rules within the regulatory framework and in order to adhere to these regulatory standards and to aid in prevention of money laundry or terrorist financing, Jupit will implement processes and procedures in its Line of Businesses (LOBs) to conduct appropriate customer due diligence ("DD") on the basis of the following “Know Your Customer” principles: ·</p>
+                            <p className='paragraph'>
+                              
+                                <p className='specialParagraph'>
+                                    <p className='alphabelt'>.</p>
+                                        <p className='divalphabelt'>
+                                            <span className='alphabelt'>Customer Personal Details (Account Opening);</span>
+                                           
+                                        </p>
+                               	
+                                </p>
+                                <p className='specialParagraph'>
+                                    <p className='alphabelt'>.</p>
+                                    <p className='divalphabelt'>
+                                            
+                                            <span className='alphabelt'>Bank Verification Number (Verification Checking);</span>
+                                            
+                                        </p>
+                                </p>
+                                <p className='specialParagraph'>
+                                    <p className='alphabelt'>.</p>
+                                    <p className='divalphabelt'>
+                                            
+                                        <span className='alphabelt'>Valid Government Issued Identity Card and Selfie (Ownership Verification).</span>
+                                            
+                                        </p>
+                                </p>
+                            </p>
+                            <p>
+                                As an extra measure to the procedure, Jupit may perform enhanced due diligence procedures for customers presenting a higher risk, such as those transacting large volumes frequently etc. Unusual activity during the customer due diligence process or customer engagement should be reported immediately to the designated Jupit Compliance department or Commercial department.
+                            </p>
+                           
+                        </div>
+
+
+                    </div>
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Applicable Regulatory Framework</div>
+                        <div className='policyText-content'>
+                            <p>Jupit complies with all applicable AML/CTF laws and regulations, Financial Action Task Force (FATF) Recommendations and additional local AML regulations as required.</p>
+                            
+                        </div>
+
+                    </div>
+
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Non-compliance</div>
+                        <div className='policyText-content'>
+                            <p>Any Jupit employee or customer, who violates this Policy may be subject to appropriate disciplinary action, independently from potential other penalties resulting from their behavior.</p>
+                            <p>Internal Audit shall conduct regular checks on business operations to ensure compliance with AML Laws.</p>
+                        </div>
+
+                    </div>
+                    <div className='policyText'>
+                        <div className='policyText-Title'>Updates, Review and Ownership</div>
+                        <div className='policyText-content'>
+                            <p>This Policy may be updated from time, and the updated version of the Policy will be immediately made available on the Jupit website.</p>
                             
                         </div>
 
