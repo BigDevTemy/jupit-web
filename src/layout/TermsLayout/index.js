@@ -55,7 +55,7 @@ const Index = ()=>{
                                 <p className='paragraph'>
                                 
                                     <p className='checkI'>
-                                         <span>II.</span><p> You must be a duly registered customer on the Jupit website accessible through <a href="https://www.jupit.co/signup">www.jupit.co</a></p>
+                                         <span>II.</span><p> You must be a duly registered customer on the Jupit website accessible through <a href="https://www.app.jupitapp.co/client/signup">www.app.jupitapp.co/client/signup</a></p>
                                     </p>
                                 </p>
                                 <p className='paragraph'>
