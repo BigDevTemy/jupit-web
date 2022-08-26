@@ -48,6 +48,9 @@ function App() {
           <Route path="/blog" element={<BLOG/>} />
           <Route path="/faq" element={<FAQ/>} />
           <Route path="/contact" element={<CONTACT/>} />
+          <Route path="/terms_of_service" element={<Policy/>} />
+          <Route path="/aml_policy" element={<Policy/>} />
+
         </Routes>
     </div>
   );
