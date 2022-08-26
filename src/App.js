@@ -4,6 +4,8 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from './container/Home'
 import Aboutus from './container/Aboutus'
 import Policy from './container/Policy'
+import Terms from './container/Terms'
+import Aml from './container/Aml'
 import OTC from './container/otc'
 import CRYTOASSET from './container/cryptoasset'
 import GIFTCARD from './container/giftcard'
@@ -48,8 +50,8 @@ function App() {
           <Route path="/blog" element={<BLOG/>} />
           <Route path="/faq" element={<FAQ/>} />
           <Route path="/contact" element={<CONTACT/>} />
-          <Route path="/terms_of_service" element={<Policy/>} />
-          <Route path="/aml_policy" element={<Policy/>} />
+          <Route path="/terms_of_service" element={<Terms/>} />
+          <Route path="/aml_policy" element={<Aml/>} />
 
         </Routes>
     </div>

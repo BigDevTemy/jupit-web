@@ -1,4 +1,5 @@
-import Hero from '../../layout/HeroPolicy'
+// import Hero from '../../layout/HeroPolicy'
+import Hero from '../../layout/HeroOthers'
 import PolicyLayout from '../../layout/Policylayout'
 import Footer from '../../component/Footer'
 import Header from '../../component/header'
@@ -24,7 +25,7 @@ const Index = ()=>{
     return (
         <div className="Home">
             <Header scroll={5}/>
-            <Hero/>
+            <Hero  title="Terms of Service"/>
             <PolicyLayout/>
             <Footer/>
         
