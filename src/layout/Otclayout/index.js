@@ -7,6 +7,8 @@ import feature7 from '../../assets/images/feature-7.png'
 import feature3 from '../../assets/images/feature-3.png'
 import serviceimage from '../../assets/images/service-image-1.png'
 import {FaArrowRight} from 'react-icons/fa'
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 import Aos from 'aos';
 import { useEffect } from 'react'
 const Index = ()=>{
@@ -155,38 +157,74 @@ const Index = ()=>{
                     <div className='xform'>
                         <div className='start'>Start Your Borderless Journey Here</div>
                         <div className='ourOTCtitle'>Complete the form and seatback, we will contact you soon.</div>
-                        <div className='myform'>
-                            <div className='form-group myInput'>
-                                <label>Provide your Name</label>
-                                <input type='text' className='form-control' placeholder='Provide your Name'/>
+                        <div className='forms'>
+                            <div className='formDiv'>
+
+                                <div className='form-group'>
+                                    <TextField id="filled-basic" label="Fullname " variant="filled" className='form-control' />
+                                </div>
+                                <div className='form-group'>
+                                    <TextField required id="filled-basic" label="Phone number" variant="filled" className='form-control' />
+                                </div>
                             </div>
-                            <div className='form-group myInput'>
-                                <label>Provide your Email Address</label>
-                                <input type='email' className='form-control' placeholder='Provide your Email Address'/>
+
+                            <div className='formDiv'>
+
+                                <div className='form-group'>
+                                    <TextField id="filled-basic" label="Alternate Phone number *" variant="filled" className='form-control' />
+                                </div>
+                                <div className='form-group'>
+                                    <TextField id="filled-basic" label="WhatsApp/Signal No *" variant="filled" className='form-control' />
+                                </div>
                             </div>
-                            <div className='form-group myInput'>
-                                <label>Provide your Phonenumber</label>
-                                <input type='text' className='form-control' placeholder='Provide your Phonenumber'/>
+                            <div className='formDiv'>
+
+                                <div className='form-group'>
+                                    <TextField id="filled-basic" label="Type of ID *" variant="filled" className='form-control' />
+                                </div>
+                                <div className='form-group'>
+                                    <TextField id="filled-basic" label="WhatsApp/Signal No*" variant="filled" className='form-control' />
+                                </div>
                             </div>
-                            <div className='form-group myInput'>
-                                <label>Provide your Address</label>
-                                <input type='text' className='form-control' placeholder='Provide your Address'/>
+                            <div className='formDiv'>
+
+                                <div className='form-group'>
+                                    <TextField id="filled-basic" label="Address *" variant="filled" className='form-control' />
+                                </div>
+                                <div className='form-group'>
+                                    <TextField id="filled-basic" label="Business Name *" variant="filled" className='form-control' />
+                                </div>
                             </div>
-                            <div className='form-group myInput'>
-                                <label>Provide your Alternative Phonenumber</label>
-                                <input type='text' className='form-control' placeholder='Provide your Alternative Phonenumber'/>
+                            <div className='formDiv'>
+
+                                <div className='form-group'>
+                                    <TextField id="filled-basic" label="Business Address *" variant="filled" className='form-control' />
+                                </div>
+                                <div className='form-group'>
+                                    <TextField id="filled-basic" label="Business Tel *" variant="filled" className='form-control' />
+                                </div>
                             </div>
-                            <div className='form-group myInput'>
-                                <label>Provide your Whatsapp No</label>
-                                <input type='text' className='form-control' placeholder='Provide your Whatsapp No.'/>
+                            <div className='formDiv'>
+
+                                <div className='form-group'>
+                                    <TextField id="filled-basic" 
+                                        label="write your message? *"
+                                        multiline
+                                        rows={5}
+                                        variant="filled" 
+                                        className='form-control' />
+                                </div>
+                                
                             </div>
-                            <div className='form-group myInput'>
-                                <label>Provide your ID Type.</label>
-                                <input type='text' className='form-control' placeholder='Provide your ID Type.'/>
+                            <div className='formDiv'>
+
+                                <div className='form-group'>
+                                    <Button fullWidth variant="contained" style={{backgroundColor:'#1c1c93',height:50}}>Send Message</Button>
+                                </div>
+                                
                             </div>
-                            <div className='form'>
-                                <input type='button' value='Submit' className='btn btn-primary'/>
-                            </div>
+
+                            
                         </div>
                     
                     </div>
