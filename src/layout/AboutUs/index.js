@@ -52,7 +52,7 @@ const Index = ()=>{
                 </div>
             </div>
 
-            <div className='ourmission'>
+            <div className='ourmission' data-aos="fade-up" >
                     <div>
                             <div className="mtitle">WHAT DEFINES US</div>
                             {/* <div className='msubtext'>Jupit Mission Statement</div> */}
@@ -65,7 +65,7 @@ const Index = ()=>{
             </div>
 
 
-            <div className='ourmission'>
+            <div className='ourmission' data-aos="fade-up">
                     <div>
                             <div className="mtitle">PROVIDING RELIABLE SOLUTIONS</div>
                             {/* <div className='msubtext'>Jupit Mission Statement</div> */}
@@ -77,7 +77,7 @@ const Index = ()=>{
                
             </div>
 
-            <div className='ourmission'>
+            <div className='ourmission' data-aos="fade-up">
                     <div>
                             <div className="mtitle">BORDERLESS FREEDOM</div>
                             {/* <div className='msubtext'>Jupit Vision Statement</div> */}
