@@ -20,7 +20,7 @@ const Index = ()=>{
                 <div>
                     <div className='title'>
                         <div>Who we are?</div>
-                        <small>who we are @ jupit.</small>
+                        {/* <small>who we are @ jupit.</small> */}
                     </div>
                     
                     <p>
@@ -34,70 +34,93 @@ const Index = ()=>{
                 </div>
 
             </div>
-            <div className='achievement'>
-                <div>
-                    <div>1,578</div>
-                    <div>Users</div>
+            <div className='achievement_parent'>
+                <div className='achievement'>
+                    <div>
+                        <div className='happy'>Trade per day</div>
+                        <div>1,578</div>
+                        
+                    </div>
+                    <div>
+                        <div className='happy'>Digital Assets</div>
+                        <div>100m+</div>
+                        
+                    </div>
+                    <div>
+                        <div className='happy'>Happy Users</div>
+                        <div>3.5k</div>
+                        
+                    </div>
+                    
                 </div>
-                <div>
-                    <div>1,200,578</div>
-                    <div>Asset Crypto</div>
-                </div>
-                <div>
-                    <div>1,500,578</div>
-                    <div>Asset Fiat</div>
-                </div>
-                <div>
-                    <div>1,500,578</div>
-                    <div>Assets</div>
-                </div>
+
             </div>
+            
 
-            <div className='missionDriven'>
-                 <div className='missionImage'>
-                 <img src={Vision} data-aos="fade-up-right" />
-
-                 </div>
+            
+                
                     <div className='missionStatement'>
                         <div className='ourmission' data-aos="fade-up" >
-                            <div>
-                                    <div className="mtitle">WHAT DEFINES US</div>
-                                    {/* <div className='msubtext'>Jupit Mission Statement</div> */}
-                            </div>
-                            <div className='aboutPlatform'>
-                                <div className='whatdefinesus'>At Jupit, we understand that digital currencies can be adopted in a fair and facilitated structure and that's why we've done a few exceptionally curious things to help you seamlessly and consistently trade or exchange your advanced digital currencies among friends and family. Jupit is preeminent with astonishing values.</div>
-                                
+                            <div className='whatdefinesus_parent'>
+                                   
+
+                                    <div className='whatdefinesus_txt'>
+                                        <div className='modify'>
+                                            <div className="mtitle">WHAT DEFINES US</div>
+                                                {/* <div className='msubtext'>Jupit Mission Statement</div> */}
+                                        </div>
+                                        <div className='aboutPlatform'>
+                                            <div className='whatdefinesus'>At Jupit, we understand that digital currencies can be adopted in a fair and facilitated structure and that's why we've done a few exceptionally curious things to help you seamlessly and consistently trade or exchange your advanced digital currencies among friends and family. Jupit is preeminent with astonishing values.</div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div className='whatdefinesus_img'>
+                                        <img src={about1} />
+                                    </div>
+
                             </div>
                     
                         </div>
 
-
-                        <div className='ourmission' data-aos="fade-up">
-                                <div>
-                                        <div className="mtitle">PROVIDING RELIABLE SOLUTIONS</div>
-                                        {/* <div className='msubtext'>Jupit Mission Statement</div> */}
-                                </div>
-                                <div className='aboutPlatform'>
-                                    <div>Our platform is intended mainly to simplify your daily exchange in a most reliable and secured way.</div>
-                                    <div className='smallText'>- Mission</div>
-                                </div>
+                        <div className='myMission'>
+                                <div data-aos="fade-right">
+                                    <div className='ourmission' data-aos="fade-up">
+                                    <div className='myMissionTitle'>
+                                            <div className="mtitle">PROVIDING RELIABLE SOLUTIONS</div>
+                                            {/* <div className='msubtext'>Jupit Mission Statement</div> */}
+                                    </div>
+                                    <div className='aboutPlatform'>
+                                        <div>Our platform is intended mainly to simplify your daily exchange in a most reliable and secured way.</div>
+                                        <div className='smallText'>- Mission</div>
+                                    </div>
                         
+                                    </div>
+                                </div>
+
+
+                                <div data-aos="fade-left">
+                                    <div className='ourmission' >
+                                        <div className='myMissionTitle'>
+                                                <div className="mtitle">BORDERLESS FREEDOM</div>
+                                                {/* <div className='msubtext'>Jupit Vision Statement</div> */}
+                                        </div>
+                                        <div className='aboutPlatformII'>
+                                            <div>Our vision is to advance the use of borderless currency within the Africa communities. We want to make sure anyone and everyone who wants to engage in borderless payments gets prompt and clear access in their transactions.</div>
+                                            <div className='smallText'>- Vision</div>
+                                        </div>
+                            
+                                    </div>
+
+
+                                </div>
                         </div>
 
-                        <div className='ourmission' data-aos="fade-up">
-                                <div>
-                                        <div className="mtitle">BORDERLESS FREEDOM</div>
-                                        {/* <div className='msubtext'>Jupit Vision Statement</div> */}
-                                </div>
-                                <div className='aboutPlatformII'>
-                                    <div>Our vision is to advance the use of borderless currency within the Africa communities. We want to make sure anyone and everyone who wants to engage in borderless payments gets prompt and clear access in their transactions.</div>
-                                    <div className='smallText'>- Vision</div>
-                                </div>
                         
-                        </div>
+
+                        
                     </div>
 
-            </div>
+            
 
             
             {/* <div className='ceopunditDiv'>

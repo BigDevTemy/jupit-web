@@ -39,18 +39,19 @@
     font-family: 'Montserrat',sans-serif;
     color:#1c1c93;
     font-size: 16px;
+
 }
 .whoweare{
     display: flex;
     width: 100%;
     align-items: flex-start;
     flex-direction: row;
-    width: 100%;
     font-family: 'Montserrat',sans-serif;
-    min-height: 30vh;
+    min-height: 50vh;
     height: 100%;
     padding-left: 4.5%;
-    margin-top: 40px;
+    margin-top: 0px;
+    background-color: #fff;
 }
 .whoweare> div:nth-child(1){
     flex:1 1 60%;
@@ -76,7 +77,7 @@
     color:#878C9F;
     font-size: 18px;
     font-family: '';
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 20px;
 }
 
@@ -90,17 +91,43 @@
     flex-direction: column;
     
 }
-.achievement{
+.achievement_parent{
     width:100%;
-    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    top: -1px;
+    
+}
+.achievement{
+    position: absolute;
+    width:80%;
+    height: 15vh;
     background-color: #1c1c93;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    top:-30px
 }
 .achievement > div{
     color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    font-size: 18px;
+   width: 100%;
+   
+   border-right: 2px solid #fff;
+}
+.achievement >div:nth-child(3){
+    border-right: 0px solid #fff;
+}
+.happy{
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
 }
 .mtitle{
     font-size: 16px;
@@ -119,11 +146,12 @@
     width: 100%;
     margin-top: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     font-size: 18px;
     font-family: 'Montserrat',sans-serif;
     flex-direction: column;
+   
     
    
 }
@@ -142,7 +170,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Montserrat',sans-serif;
     flex-direction: column;
 }
@@ -264,7 +292,10 @@
 }
 
 .aboutPlatform > .whatdefinesus{
-    width: 90%;
+    width: 100%;
+    font-size: 17px;
+    padding-right: 100px;
+    
     
 }
 .corevalues{
@@ -394,4 +425,65 @@
 
 .missionImage > img{
     width: 120%;
+}
+
+.whatdefinesus_parent{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.whatdefinesus_parent > div:nth-child(1){
+    flex:1 1 60%
+}
+.whatdefinesus_parent > div:nth-child(2){
+    flex:1 1 30%
+}
+
+.missionStatement{
+    margin-top: 5%;
+}
+.whatdefinesus_img{
+    text-align: right;
+    padding-right: 5%;
+}
+.whatdefinesus_img > img{
+    width: 100%;
+}
+.modify{
+    width: 100%;
+    text-align: left;
+}
+.whatdefinesus_txt{
+    text-align: left;
+    padding-left: 9%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myMission{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.myMission > div{
+    flex:1 1 calc(50% - 20px);
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+
+.myMissionTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
