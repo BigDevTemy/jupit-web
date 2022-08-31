@@ -67,11 +67,11 @@ const Index = ()=>{
 
                                     <div className='whatdefinesus_txt'>
                                         <div className='modify'>
-                                            <div className="mtitle">WHAT DEFINES US</div>
+                                            <div className="mtitle">What Defines Us</div>
                                                 {/* <div className='msubtext'>Jupit Mission Statement</div> */}
                                         </div>
                                         <div className='aboutPlatform'>
-                                            <div className='whatdefinesus'>At Jupit, we understand that digital currencies can be adopted in a fair and facilitated structure and that's why we've done a few exceptionally curious things to help you seamlessly and consistently trade or exchange your advanced digital currencies among friends and family. Jupit is preeminent with astonishing values.</div>
+                                            <div className='whatdefinesus'>At Jupit, we understand that digital assets can be adopted in a fair and facilitated structure and that's why we've done a few exceptionally curious things to help you seamlessly and consistently trade or exchange your digital assets from anywhere at anytime. Jupit is preeminent with astonishing values.</div>
                                             
                                         </div>
                                     </div>
@@ -86,14 +86,14 @@ const Index = ()=>{
                         <div className='myMission'>
                                 <div data-aos="fade-right">
                                     <div className='ourmission' data-aos="fade-up">
-                                    <div className='myMissionTitle'>
-                                            <div className="mtitle">PROVIDING RELIABLE SOLUTIONS</div>
-                                            {/* <div className='msubtext'>Jupit Mission Statement</div> */}
-                                    </div>
-                                    <div className='aboutPlatform'>
-                                        <div>Our platform is intended mainly to simplify your daily exchange in a most reliable and secured way.</div>
-                                        <div className='smallText'>- Mission</div>
-                                    </div>
+                                        <div className='myMissionTitle'>
+                                                <div className="mtitlex">PROVIDING RELIABLE SOLUTIONS</div>
+                                                {/* <div className='msubtext'>Jupit Mission Statement</div> */}
+                                        </div>
+                                        <div className='aboutPlatform'>
+                                            <div>Our platform is intended mainly to simplify your daily exchange in a most reliable and secured way.</div>
+                                            <div className='smallText'>- Mission</div>
+                                        </div>
                         
                                     </div>
                                 </div>
@@ -102,11 +102,11 @@ const Index = ()=>{
                                 <div data-aos="fade-left">
                                     <div className='ourmission' >
                                         <div className='myMissionTitle'>
-                                                <div className="mtitle">BORDERLESS FREEDOM</div>
+                                                <div className="mtitlex">BORDERLESS FREEDOM</div>
                                                 {/* <div className='msubtext'>Jupit Vision Statement</div> */}
                                         </div>
                                         <div className='aboutPlatformII'>
-                                            <div>Our vision is to advance the use of borderless currency within the Africa communities. We want to make sure anyone and everyone who wants to engage in borderless payments gets prompt and clear access in their transactions.</div>
+                                            <div>Our vision is to advance the use of borderless currency within the Africa communities. We want to make sure everyone and who wants to engage in borderless payments gets prompt and clear access in their transactions.</div>
                                             <div className='smallText'>- Vision</div>
                                         </div>
                             
