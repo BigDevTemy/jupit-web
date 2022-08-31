@@ -167,7 +167,7 @@ const Index = ()=>{
                     <div className='t' data-aos="fade-up">
                         <div><span className='span_name'>T</span>eam Spirit</div>
                         <div>
-                        Our team is made of the most brilliant minds that are consistently demonstrating an unselfish commitment to work with others to create a collaborative culture.
+                            Our team is made of the most brilliant minds that are consistently demonstrating an unselfish commitment to work with others to create a collaborative culture.
                         </div>
                     </div>
                 </div>

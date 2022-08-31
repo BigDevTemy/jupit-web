@@ -351,6 +351,8 @@
     flex-direction: column;
     padding: 20px;
     text-align: justify;
+   
+    word-break: break-all;
     font-family: 'Montserrat' sans-serif;
     box-shadow: 2px 3px #888888;
     
