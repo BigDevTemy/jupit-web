@@ -1,5 +1,6 @@
 import '../../assets/css/aboutus/aboutus.css'
-import about1 from '../../assets/images/about1.png'
+import about1 from '../../assets/images/about-2.jpg'
+import about2 from '../../assets/images/about-3.png'
 import googleplay from '../../assets/images/googleplay.svg'
 import image1 from '../../assets/images/1.jpg'
 import image4 from '../../assets/images/4.jpg'
@@ -38,7 +39,7 @@ const Index = ()=>{
                 <div className='achievement'>
                     <div>
                         <div className='happy'>Trades per day</div>
-                        <div>1,578</div>
+                        <div>418+</div>
                         
                     </div>
                     <div>
@@ -75,7 +76,7 @@ const Index = ()=>{
                                         </div>
                                     </div>
                                     <div className='whatdefinesus_img'>
-                                        <img src={about1} />
+                                        <img src={about2} />
                                     </div>
 
                             </div>

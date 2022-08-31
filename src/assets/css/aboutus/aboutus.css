@@ -456,6 +456,7 @@
 
 .missionStatement{
     margin-top: 5%;
+    
 }
 .whatdefinesus_img{
     text-align: right;
@@ -470,9 +471,8 @@
 }
 .whatdefinesus_txt{
     text-align: left;
-    padding-left: 9%;
+    padding-left:5%;
     width: 100%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
