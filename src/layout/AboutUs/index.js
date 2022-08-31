@@ -20,14 +20,12 @@ const Index = ()=>{
             <div className='whoweare' data-aos="fade-up">
                 <div>
                     <div className='title'>
-                        <div>Who we are?</div>
+                        <div>Who We Are</div>
                         {/* <small>who we are @ jupit.</small> */}
                     </div>
                     
                     <p>
-                        We're all about simplifying your daily exchange.<br/>
-                        Beyond operating a secure channel, we're dedicated to providing you with the best service,
-                        with a focus on dependability matched with satisfaction.
+                    To put it simple, we are all about simplifying your daily exchange. Beyond operating a secure channel, we're dedicated to providing you with the best service, with a focus on dependability matched with satisfaction.
                     </p>
                 </div>
                 <div data-aos="fade-up">
@@ -150,13 +148,13 @@ const Index = ()=>{
                     <div className='u' data-aos="fade-down">
                         <div><span className='span_name'>U</span>nity</div>
                         <div>
-                        Diversity is celebrated in unity. Combining the individual experiences, diverse abilities, and distinctive talents of each team member creates unstoppable momentum and propels unthinkable accomplishments.
+                            Our diversity is celebrated in unity by combining the individual experiences, diverse abilities, and distinctive talents of each team member to create an unstoppable momentum and propels unthinkable accomplishments.
                         </div>
                     </div>
                     <div className='p' data-aos="fade-up">
                         <div><span className='span_name'>P</span>assion</div>
                         <div>
-                            With our Passion at the heart of everything we do, we nurture ideas, inspire excellence, and find creative ways to eliminate obstacles to help us serve our customers better.
+                        Through innovation, we generate solutions for our customers and raise the bar both within our workplace and throughout our industry.
                         </div>
                     
                     </div>
@@ -187,12 +185,10 @@ const Index = ()=>{
                    
                    <div>
                         <div data-aos="zoom-out">
-                            “I believe a few things are difficult to get done in life and your digital currency exchanges shouldn't be one of them.
-                            That's why at Jupit, we have created a secure channel to help you seamlessly and consistently trade your advanced
-                            digital currencies. And it is also important that people can hold their advanced digital currency securely when
-                            exchanging with friends and families around world. Now this isn´t just about opportunity anymore; we want to
-                            make sure everyone who wants to engage in borderless payments gets prompt and clear access in their
-                            transactions.”
+                            “
+                                I believe few things are difficult to get done in life and your digital asset exchanges shouldn't be one of them. That's why at Jupit, we have created a secure channel to help you seamlessly and consistently trade your digital assets. It is also important that people can hold their digital assets securely, or exchange it with friends, families or business partners around the world. Now this isn´t just about the one percent; we want to make sure everyone and anyone who wants to engage in borderless payments gets prompt and clear access in their transactions.
+                            
+                            ”
                         </div>
                    </div>
                 </div>

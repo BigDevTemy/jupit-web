@@ -192,7 +192,7 @@
     font-family: 'Montserrat',sans-serif;
     flex-direction: column;
 }
-.aboutPlatformII >div{
+.aboutPlatformII > div{
     width: 100%;
     text-align: justify;
 }
