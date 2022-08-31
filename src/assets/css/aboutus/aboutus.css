@@ -151,6 +151,8 @@
     font-size: 18px;
     font-family: 'Montserrat',sans-serif;
     flex-direction: column;
+    
+    padding-right: 40px;
    
     
    
@@ -158,10 +160,17 @@
 .smallText{
     font-size: 18px;
     text-align: right;
-    color:#1c1c93
+    color:#1c1c93;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
 }
 .aboutPlatform >div{
-    width: 80%;
+    width: 100%;
+    text-align: justify;
+
 }
 
 .aboutPlatformII{
@@ -171,11 +180,14 @@
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-family: 'Montserrat',sans-serif;
     flex-direction: column;
 }
 .aboutPlatformII >div{
-    width: 80%;
+    width: 100%;
+    text-align: justify;
 }
 .ceopunditDiv{
     width: 100%;
@@ -295,6 +307,8 @@
     width: 100%;
     font-size: 17px;
     padding-right: 100px;
+    text-align: justify;
+    
     
     
 }

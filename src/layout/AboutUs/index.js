@@ -37,7 +37,7 @@ const Index = ()=>{
             <div className='achievement_parent'>
                 <div className='achievement'>
                     <div>
-                        <div className='happy'>Trade per day</div>
+                        <div className='happy'>Trades per day</div>
                         <div>1,578</div>
                         
                     </div>
@@ -47,7 +47,7 @@ const Index = ()=>{
                         
                     </div>
                     <div>
-                        <div className='happy'>Happy Users</div>
+                        <div className='happy'>Happy users</div>
                         <div>3.5k</div>
                         
                     </div>
