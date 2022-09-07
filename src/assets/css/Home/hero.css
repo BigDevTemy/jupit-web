@@ -376,7 +376,7 @@
 }
 .contentHero > div:nth-child(2){
     font-family: 'Montserrat', sans-serif; 
-    font-size: 14px;
+    font-size: 20px;
     text-align: left;
     margin-top: 40px;
     color: #fff;
@@ -390,8 +390,8 @@
     
 }
 .heroButton > div{
-    width: 150px;
-    height: 40px;
+    width: 250px;
+    height: 50px;
     border-radius: 10px;
     background-color: #FFA000;
     display: flex;
@@ -399,6 +399,7 @@
     align-items: center;
     color: #fff;
     font-family: 'Montserrat'sans-serif;
+    font-size: 20px;
 } 
 .heroButton>div:nth-child(2){
     margin-left: 10px;

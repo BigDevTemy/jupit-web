@@ -12,7 +12,7 @@ const Index = ()=>{
         <div className='section7' data-aos="fade-up">
             <div >
                 <div className='bestService'>We make crypto easy.</div>
-                <div className='startJourney'>Start your journey with us, you can't go wrong with the classics.</div>
+                <div className='startJourney'>We make sure that every cryptocurrency payment and transaction are processed seamlessly and quickly so that you could enjoy the result without any stress.</div>
                 <div className='instantTransaction'>
                     <div><FaCheckDouble color='#4bb543' style={{marginRight:5}}/>Instant Transaction</div>
                     <div><FaCheckDouble color='#4bb543' style={{marginRight:5}}/>Real Time Value</div>

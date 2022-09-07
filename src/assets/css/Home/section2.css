@@ -6,6 +6,7 @@
     display: flex;
     justify-content:center;
     margin-top:150px;
+    
 
 }
 .statement{
@@ -19,25 +20,25 @@
 
 }
 .statement > div:nth-child(1){
-    flex: 1 1 30%;
+    flex: 1 1 40%;
     text-align: left;
 }
 .statement > div:nth-child(2){
-    flex: 1 1 60%;
+    flex: 1 1 50%;
     padding-left: 30px;
   
 }
 .wemakecrypoeasy{
     font-family: Inter;
-    font-size: 42px;
+    font-size: 40px;
     font-weight: bold;
     color: #1D2D3F;
 }
 .specific{
     margin-top: 20px;
     color: #848484;
-    font-family: Inter;
-    font-size: 16px;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 20px;
 }
 
 .specificIcon{

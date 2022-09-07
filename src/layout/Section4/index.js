@@ -13,7 +13,7 @@ const Index = ()=>{
         <div className="section4">
             <div className='card'>
                 <div className='testimonia'>
-                    <div className='easiest'>The Easiest and Most</div>
+                    <div className='easiest'>Comments from our Customers</div>
                     <div className='quote'><img src={quote} className="quoteImg"/></div>
                    
                 </div>

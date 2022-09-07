@@ -24,11 +24,11 @@ const Index = ()=>{
                         <div className='Installapp'>
                             The PWA works just like your regular App, it’s super easy and convenient. To install, please follow the process below:
                         </div>
-                        <div>On your Mobile device:</div>
-                        <div>- Launch Browser</div>
-                        <div>- Navigate to the Browser Options (Android) or</div>
-                        <div>- Tap the share button (IOS)</div>
-                        <div>- Select Add Page to Home Screen.</div>
+                        <div className='mobiledevice'>On your Mobile device:</div>
+                        <div className='step'><span>1.</span> <div>Launch www.jupitapp.co/signin from your Mobile Device or Tablet</div></div>
+                        <div className='step'><span>2.</span> <div>Navigate to the Browser Option on your Android device or tap the share button on your IOS device</div></div>
+                        <div className='step'><span>3.</span> <div>Select Add Page to Home Screen.</div></div>
+                        <div className='step'><span>4.</span> <div>Return to Home Menu to launch the Application shortcut.</div></div>
                         
 
 

@@ -10,8 +10,7 @@ const Index = ()=>{
             <div className='statement'>
                     <div data-aos="zoom-out-down">
                             <div className='wemakecrypoeasy'>Best Service that Works for You.</div>
-                            <div className='specific'>We make sure that every cryptocurrency payment and transaction are processed
-seamlessly and quickly so that you could enjoy the result and avoid any trouble.</div>
+                            <div className='specific'>We provide a wide range of services to our users. Take a look at few of the solutions that you can expect from us.</div>
                             <div className='getitnow'>
                                 <div className='getitnowBtn'>
                                     Learn more

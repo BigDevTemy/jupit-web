@@ -97,6 +97,17 @@
 .Install > div{
     margin-bottom: 15px;
     font-family: 'Montserrat'sans-serif;
+    font-weight: bold;
 }
 
+.mobiledevice{
+    font-size: 30px;
+}
+
+.step{
+    display: flex;
+}
+.step >div{
+    margin-left: 5px;
+}
 

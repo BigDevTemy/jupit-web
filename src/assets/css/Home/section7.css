@@ -31,8 +31,8 @@
     
 }
 .bestService{
-    font-size: 30px;
-    font-family: Inter;
+    font-size: 40px;
+    font-family: 'Montserrat'sans-serif sans-serif;
     font-weight: bold;
     color: #1D2D3F;
     width: 100%;
@@ -40,9 +40,13 @@
     margin-top: 10px;
 }
 .startJourney{
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Montserrat'sans-serif;
-    font-weight: 300;
+    text-align: justify;
+    width: 90%;
+    margin-top: 20px;
+    color: #848484;
+   
 }
 
 .instantTransaction{

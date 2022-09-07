@@ -9,7 +9,7 @@ const Index = ()=>{
             <div className='mycontainer'>
                 <div className='gateway'>Gateway to the global economy</div>
                 <div className='CryptoWalletIn'>
-                    Cryptocurrency in Every Wallet™
+                    Cryptocurrency in Every Wallet
                 </div>
                     <div className='motto'>
                          <div data-aos="flip-right">
