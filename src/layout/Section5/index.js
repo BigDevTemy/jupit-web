@@ -3,6 +3,7 @@ import Processor from '../../assets/images/processor.png'
 import Server from '../../assets/images/server.png'
 import Security from '../../assets/images/security.png'
 import Aos from 'aos'
+import { Link } from 'react-router-dom'
 const Index = ()=>{
     return (
         <div className="section5">
@@ -22,9 +23,11 @@ const Index = ()=>{
                                 <div className='mottonText'>
                                     BCQ crypto supports a variety of the most popular digital crypto currencies.
                                 </div>
-                                <div className='readmore'>
-                                    Read more
-                                </div>
+                               
+                                    <Link to="/blog">
+                                        <div className='readmore'> Read more</div>
+                                    </Link>
+                                
                         </div>
                         <div data-aos="flip-right">
                             <div className='motoImageDiv'>
@@ -36,9 +39,9 @@ const Index = ()=>{
                             <div className='mottonText'>
                                     BCQ crypto supports a variety of the most popular digital crypto currencies.
                             </div>
-                            <div className='readmore'>
-                                    Read more
-                            </div>
+                            <Link to="/blog">
+                                <div className='readmore'> Read more</div>
+                            </Link>
                             
                         </div>
                         <div data-aos="flip-right">
@@ -51,9 +54,10 @@ const Index = ()=>{
                             <div className='mottonText'>
                                     BCQ crypto supports a variety of the most popular digital crypto currencies.
                             </div>
-                            <div className='readmore'>
-                                    Read more
-                            </div>
+                            
+                            <Link to="/blog">
+                                <div className='readmore'> Read more</div>
+                            </Link>
                            
                         </div>
                     </div>
