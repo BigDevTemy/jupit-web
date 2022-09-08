@@ -26,7 +26,7 @@ const Index = ()=>{
                                 <div>
                                     <div className='securestorage'>Fast Transaction</div>
                                     <div className='We_store'>
-                                    Fast and easy-to-use trading services in one integrated platform.
+                                        Fast and easy-to-use trading services in one integrated platform.
                                     </div>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ const Index = ()=>{
                                 <div>
                                     <div className='securestorage'>Secure Wallet</div>
                                     <div className='We_store'>
-                                    You can rest easy knowing that your asset is safe with us anytime!.
+                                        You can rest easy knowing that your asset is safe with us anytime!.
                                     </div>
                                 </div>
                             </div>
