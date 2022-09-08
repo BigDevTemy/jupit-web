@@ -220,6 +220,38 @@ const Index = ()=>{
                             <div className='formDiv'>
 
                                 <div className='form-group'>
+                                        <InputLabel id="demo-simple-select-label">Select Type of User</InputLabel>
+                                        <Select
+                                        labelId="demo-simple-select-label"
+                                        id="demo-simple-select"
+                                        className='form-control'
+                                        label="Age"
+                                        
+                                        >
+                                            <MenuItem value="">Select User</MenuItem>
+                                            <MenuItem value="jupit">Jupit User</MenuItem>
+                                            <MenuItem value="non-jupit">Non-Jupit User (Individuals)</MenuItem>
+                                            <MenuItem value="business">Business/Institution</MenuItem>
+                                        </Select>
+                                </div>
+                                <div className='form-group'>
+                                        <InputLabel id="demo-simple-select-label">Preferred Means of Communication</InputLabel>
+                                        <Select
+                                        labelId="demo-simple-select-label"
+                                        id="demo-simple-select"
+                                        className='form-control'
+                                        label="Age"
+                                        >
+                                            <MenuItem value="">Select Age</MenuItem>
+                                            <MenuItem value="whatsapp">Whatsapp</MenuItem>
+                                            <MenuItem value="signal-messaging">Signal Messaging App</MenuItem>
+                                            <MenuItem value="email">Email</MenuItem>
+                                        </Select>
+                                </div>
+                            </div>
+                            <div className='formDiv'>
+
+                                <div className='form-group'>
                                     <TextField id="filled-basic" 
                                         label="write your message? *"
                                         multiline
