@@ -23,12 +23,12 @@
 }
 .jupitTitle{
     font-family: 'Montserrat',sans-serif;
-    font-size: 25px;
+    font-size: 40px;
     text-align: left;
 
 }
 .jupittext{
-    font-size: 16px;
+    font-size: 20px;
    
     margin-top: 7%;
     text-align: start;
@@ -46,10 +46,10 @@
 }
 .largeOrders{
     font-family: 'Montserrat',sans-serif;
-    font-size: 25px;
+    font-size: 40px;
 }
 .ourOTCtitle{
-    font-size: 14px;
+    font-size: 20px;
     font-family: 'Montserrat',sans-serif;
     color: #848484;
     margin-top: 10px;
@@ -74,7 +74,7 @@
 }
 .moreFacts> div:nth-child(2){
     font-family: 'Montserrat',sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 10px;
 }
 .moreFacts> div:nth-child(3){
@@ -132,7 +132,7 @@
 }
 .ourtradeflow{
     font-family: 'Montserrat',sans-serif;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .checks > div{
@@ -162,13 +162,14 @@
     margin-left: 20px;
 }
 .signupTitle{
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Montserrat',sans-serif;
 }
 .signupmessage{
    text-align: left;
    margin-top: 10px;
-   font-family: 'Poppins',sans-serif;
+   font-size: 18px;
+   font-family: 'Montserrat',sans-serif;
    
     
 }
@@ -191,8 +192,6 @@
     width: 40%;
     align-self: center;
     margin-top: 20px;
-    
-
 }
 
 .myform > div > input{

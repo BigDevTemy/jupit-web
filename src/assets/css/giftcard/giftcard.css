@@ -39,7 +39,7 @@
 }
 
 .section1-giftcard > div:nth-child(2) p{
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Montserrat',sans-serif;
 
 }
@@ -48,12 +48,15 @@
 .h2-join{
     margin-bottom: 20px;
     font-family: 'Montserrat',sans-serif;
+    font-size: 40px;
 }
 
 .section2-giftcard{
     margin-top: 0px;
     padding: 40px;
     display: flex;
+    font-size:40px;
+    font-family: 'Montserrat',sans-serif;
     flex-direction: column;
 }
 
@@ -83,7 +86,7 @@
 }
 .ourdiff > div>div:nth-child(3){
     font-family: 'Montserrat',sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     padding: 20px;
    
 }

@@ -9,6 +9,9 @@ import serviceimage from '../../assets/images/service-image-1.png'
 import {FaArrowRight} from 'react-icons/fa'
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import Select from '@mui/material/Select';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
 import Aos from 'aos';
 import { useEffect } from 'react'
 const Index = ()=>{
@@ -173,14 +176,24 @@ const Index = ()=>{
                                 <div className='form-group'>
                                     <TextField id="filled-basic" label="Alternate Phone number *" variant="filled" className='form-control' />
                                 </div>
-                                <div className='form-group'>
-                                    <TextField id="filled-basic" label="WhatsApp/Signal No *" variant="filled" className='form-control' />
-                                </div>
+                                
                             </div>
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Type of ID *" variant="filled" className='form-control' />
+                                    
+                                        <Select
+                                        labelId="demo-simple-select-label"
+                                        id="demo-simple-select"
+                                        className='form-control'
+                                        label="Age"
+                                        
+                                        >
+                                            <MenuItem value="">Select Age</MenuItem>
+                                            <MenuItem value="driver license">Driver License</MenuItem>
+                                            <MenuItem value="intl passport">Int'l Passport</MenuItem>
+                                            <MenuItem value="nimc">NIMC</MenuItem>
+                                        </Select>
                                 </div>
                                 <div className='form-group'>
                                     <TextField id="filled-basic" label="WhatsApp/Signal No*" variant="filled" className='form-control' />

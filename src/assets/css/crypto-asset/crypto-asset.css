@@ -74,6 +74,7 @@
 
 .transaction{
     color:#000;
+    font-size: 20px;
     font-family: 'Montserrat',sans-serif;
     
     
@@ -88,7 +89,7 @@
     color:#000;
     margin-top: 10px;
     font-family: 'Montserrat',sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
@@ -178,7 +179,7 @@
 
 .whatyoucando_title{
     font-family: 'Montserrat',sans-serif;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .getStarted{
@@ -204,5 +205,7 @@
     width: 20%;
 }
 .acctImageText{
-    margin-top: 10px
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
 }

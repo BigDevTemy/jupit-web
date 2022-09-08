@@ -37,81 +37,8 @@ const Index = ()=>{
                         <img src={buynsell}/>
                     </div>
             </div>
-            <div className='mostused'>
-                    <div className='mosttrusted'>The most trusted crypto exchange platform</div>
-                    <div className='smallTalk'>Here are a few reasons why you should choose Jupit</div>
-                    <div className='whychooseus'>
-                        <div data-aos="fade-up">
-                            <div className='transaction-img'><img src={fast}/></div>
-                            <div className='transaction'>Fast Transaction</div>
-                            <div className='transaction-text'>Fast and easy-to-use trading services in one integrated platform.</div>
-                        </div>
-                        <div data-aos="fade-down">
-                            <div className='transaction-img'><img src={secure}/></div>
-                            <div className='transaction'>Secure Transaction</div>
-                            <div className='transaction-text'>
-                                You can rest easy knowing that your crypto is safe with us anytime!
-                            </div>
-                        </div>
-                        <div data-aos="fade-up">
-                            <div className='transaction-img'><img src={customer}/></div>
-                            <div className='transaction'>Customer First</div>
-                            <div className='transaction-text'>
-                                You can rest easy knowing that your crypto is safe with us anytime!
-                            </div>
-                        </div>
-                        <div data-aos="fade-down">
-                            <div className='transaction-img'><img src={happyclient}/></div>
-                            <div className='transaction'>Built For You</div>
-                            <div className='transaction-text'>
-                                You can rest easy knowing that your crypto is safe with us anytime!
-                            </div>
-                        </div>
-                    </div>
-            </div>
-
-            <div class="your-crypto">
-                <div className='laptopDiv'>
-                    <div className='mockup' data-aos="fade-left"></div>
-                    <div>
-                        <div className='spotlight'>
-                            <div className='SportlightDiv' data-aos="fade-up">
-                                <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
-                                <div className='Yourcrypto'>Your crypto on-the-go</div>
-                            </div>
-                            <div className='YourcryptoText' data-aos="fade-up" >
-                                Manage your wallet easily anywhere, anytime, and from any device.
-                            </div>
-                        </div>
-
-                        <div className='spotlight' >
-                            <div className='SportlightDiv' data-aos="fade-up">
-                                <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
-                                <div className='Yourcrypto'>You are in control</div>
-                            </div>
-                            <div className='YourcryptoText' data-aos="fade-up" >
-                            Have complete control of your funds on our secured platform.
-                            </div>
-                        </div>
-
-                        <div className='spotlight' >
-                            <div className='SportlightDiv' data-aos="fade-up">
-                                <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
-                                <div className='Yourcrypto'>Move Beyond borders</div>
-                            </div>
-                            <div className='YourcryptoText' data-aos="fade-up">
-                                Complete your payments around the world instantly with your asset on Jupit.
-                            </div>
-                        </div>
-
-                        
-                        
-                        
-                    </div>
-                </div>
-            </div>
             <div className='whatyoucando'>
-                    <div className='whatyoucando_title'>What can you do  with your Jupit Account?</div>
+                    <div className='whatyoucando_title'>What Can You Do With Your Crypto Wallet?</div>
                     <div className='whychooseus'>
                         <div data-aos="fade-up" class="fade-up">
                             <div className='transaction-img' data-aos="flip-right"><img src={buy1}/></div>
@@ -163,6 +90,80 @@ const Index = ()=>{
                     </div>
                     <div><button className='btn btn-primary btn-lg'>Get Started</button></div>
             </div>
+            {/* <div className='mostused'>
+                    <div className='mosttrusted'>The most trusted crypto exchange platform</div>
+                    <div className='smallTalk'>Here are a few reasons why you should choose Jupit</div>
+                    <div className='whychooseus'>
+                        <div data-aos="fade-up">
+                            <div className='transaction-img'><img src={fast}/></div>
+                            <div className='transaction'>Fast Transaction</div>
+                            <div className='transaction-text'>Fast and easy-to-use trading services in one integrated platform.</div>
+                        </div>
+                        <div data-aos="fade-down">
+                            <div className='transaction-img'><img src={secure}/></div>
+                            <div className='transaction'>Secure Transaction</div>
+                            <div className='transaction-text'>
+                                You can rest easy knowing that your crypto is safe with us anytime!
+                            </div>
+                        </div>
+                        <div data-aos="fade-up">
+                            <div className='transaction-img'><img src={customer}/></div>
+                            <div className='transaction'>Customer First</div>
+                            <div className='transaction-text'>
+                                You can rest easy knowing that your crypto is safe with us anytime!
+                            </div>
+                        </div>
+                        <div data-aos="fade-down">
+                            <div className='transaction-img'><img src={happyclient}/></div>
+                            <div className='transaction'>Built For You</div>
+                            <div className='transaction-text'>
+                                You can rest easy knowing that your crypto is safe with us anytime!
+                            </div>
+                        </div>
+                    </div>
+            </div> */}
+
+            <div class="your-crypto">
+                <div className='laptopDiv'>
+                    <div className='mockup' data-aos="fade-left"></div>
+                    <div>
+                        <div className='spotlight'>
+                            <div className='SportlightDiv' data-aos="fade-up">
+                                <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
+                                <div className='Yourcrypto'>Your crypto on-the-go</div>
+                            </div>
+                            <div className='YourcryptoText' data-aos="fade-up" >
+                                Manage your wallet easily anywhere, anytime, and from any device.
+                            </div>
+                        </div>
+
+                        <div className='spotlight' >
+                            <div className='SportlightDiv' data-aos="fade-up">
+                                <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
+                                <div className='Yourcrypto'>You are in control</div>
+                            </div>
+                            <div className='YourcryptoText' data-aos="fade-up" >
+                            Have complete control of your funds on our secured platform.
+                            </div>
+                        </div>
+
+                        <div className='spotlight' >
+                            <div className='SportlightDiv' data-aos="fade-up">
+                                <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
+                                <div className='Yourcrypto'>Move Beyond borders</div>
+                            </div>
+                            <div className='YourcryptoText' data-aos="fade-up">
+                                Complete your payments around the world instantly with your asset on Jupit.
+                            </div>
+                        </div>
+
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
             
         </div>
     )
