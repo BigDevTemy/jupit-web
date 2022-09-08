@@ -78,7 +78,7 @@
 
 .installapp{
     width: 100%;
-    font-size: 12px;
+    font-size: 25px;
     font-weight: bold;
     font-family: 'Montserrat' sans-serif;
 }
@@ -101,11 +101,12 @@
 }
 
 .mobiledevice{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .step{
     display: flex;
+    font-size: 18px;
 }
 .step >div{
     margin-left: 5px;
