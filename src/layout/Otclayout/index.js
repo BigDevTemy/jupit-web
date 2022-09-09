@@ -181,7 +181,7 @@ const Index = ()=>{
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    
+                                        <InputLabel id="demo-simple-select-label">Select ID Card Type</InputLabel>
                                         <Select
                                         labelId="demo-simple-select-label"
                                         id="demo-simple-select"
@@ -225,10 +225,10 @@ const Index = ()=>{
                                         labelId="demo-simple-select-label"
                                         id="demo-simple-select"
                                         className='form-control'
-                                        label="Age"
+                                        label=""
                                         
                                         >
-                                            <MenuItem value="">Select User</MenuItem>
+                                            
                                             <MenuItem value="jupit">Jupit User</MenuItem>
                                             <MenuItem value="non-jupit">Non-Jupit User (Individuals)</MenuItem>
                                             <MenuItem value="business">Business/Institution</MenuItem>
@@ -242,7 +242,7 @@ const Index = ()=>{
                                         className='form-control'
                                         label="Age"
                                         >
-                                            <MenuItem value="">Select Age</MenuItem>
+                                            
                                             <MenuItem value="whatsapp">Whatsapp</MenuItem>
                                             <MenuItem value="signal-messaging">Signal Messaging App</MenuItem>
                                             <MenuItem value="email">Email</MenuItem>
