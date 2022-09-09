@@ -271,6 +271,15 @@ const Index = ()=>{
 
                             
                         </div>
+
+                        <div className='terms_of_service'>
+                            <div className='terms_OTC'>OTC Terms of Service</div>
+                            <div className='list-terms'>
+                                <li>The minimum  order size is $5,000</li>
+                                <li>Jupit OTC does not custody assets on behalf of trading partners.</li>
+                                <li>Eligibility for OTC trading are subject to AML/KYC and other requirement</li>
+                            </div>
+                        </div>
                     
                     </div>
                     

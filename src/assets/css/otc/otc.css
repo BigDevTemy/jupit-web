@@ -219,3 +219,30 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.terms_of_service{
+    width:100%;
+    height: 50vh;
+    padding-left: 5%;
+}
+
+.terms_OTC{
+    width: 100%;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.list-terms{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 50px;
+
+   
+}
+
+.list_terms  li{
+    font-size: 20px;
+    
+}
