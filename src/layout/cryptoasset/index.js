@@ -61,6 +61,47 @@ const Index = ()=>{
                         </div>
                        
                     </div>
+
+                    <div class="your-crypto">
+                        <div className='laptopDiv'>
+                            <div className='mockup' data-aos="fade-up"></div>
+                            <div>
+                                <div className='spotlight'>
+                                    <div className='SportlightDiv' data-aos="fade-up">
+                                        <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
+                                        <div className='Yourcrypto'>Your crypto on-the-go</div>
+                                    </div>
+                                    <div className='YourcryptoText' data-aos="fade-up" >
+                                        Manage your wallet easily anywhere, anytime, and from any device.
+                                    </div>
+                                </div>
+
+                                <div className='spotlight' >
+                                    <div className='SportlightDiv' data-aos="fade-up">
+                                        <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
+                                        <div className='Yourcrypto'>You are in control</div>
+                                    </div>
+                                    <div className='YourcryptoText' data-aos="fade-up" >
+                                    Have complete control of your funds on our secured platform.
+                                    </div>
+                                </div>
+
+                                <div className='spotlight' >
+                                    <div className='SportlightDiv' data-aos="fade-up">
+                                        <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
+                                        <div className='Yourcrypto'>Move Beyond borders</div>
+                                    </div>
+                                    <div className='YourcryptoText' data-aos="fade-up">
+                                        Complete your payments around the world instantly with your asset on Jupit.
+                                    </div>
+                                </div>
+
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
                     
                     <div className="whatyoucando_title getStarted">Get started in a few minutes</div>
                     <div className='createAccount'  data-aos="fade-up">
@@ -123,46 +164,7 @@ const Index = ()=>{
                     </div>
             </div> */}
 
-            <div class="your-crypto">
-                <div className='laptopDiv'>
-                    <div className='mockup' data-aos="fade-up"></div>
-                    <div>
-                        <div className='spotlight'>
-                            <div className='SportlightDiv' data-aos="fade-up">
-                                <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
-                                <div className='Yourcrypto'>Your crypto on-the-go</div>
-                            </div>
-                            <div className='YourcryptoText' data-aos="fade-up" >
-                                Manage your wallet easily anywhere, anytime, and from any device.
-                            </div>
-                        </div>
-
-                        <div className='spotlight' >
-                            <div className='SportlightDiv' data-aos="fade-up">
-                                <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
-                                <div className='Yourcrypto'>You are in control</div>
-                            </div>
-                            <div className='YourcryptoText' data-aos="fade-up" >
-                            Have complete control of your funds on our secured platform.
-                            </div>
-                        </div>
-
-                        <div className='spotlight' >
-                            <div className='SportlightDiv' data-aos="fade-up">
-                                <div className='check'><FiCheckCircle size={30} color="#4BB543"/></div>
-                                <div className='Yourcrypto'>Move Beyond borders</div>
-                            </div>
-                            <div className='YourcryptoText' data-aos="fade-up">
-                                Complete your payments around the world instantly with your asset on Jupit.
-                            </div>
-                        </div>
-
-                        
-                        
-                        
-                    </div>
-                </div>
-            </div>
+         
             
             
         </div>
