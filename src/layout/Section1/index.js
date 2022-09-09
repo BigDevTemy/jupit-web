@@ -12,7 +12,7 @@ const Index = ()=>{
     return (
         <div className="section1">
             <div className='globeSession'>
-                <div className='globe' data-aos="fade-down-right">
+                <div className='globe' data-aos="fade-up">
                     <img src={Globe}/>
                 </div>
                 <div className='BCQparent' data-aos="fade-up">

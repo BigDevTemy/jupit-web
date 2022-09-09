@@ -38,10 +38,10 @@ const Index= ()=>{
                                     </div>
                                     <div>
                                         <div className='titleLink'>Product</div>
-                                        <div>Bitcoin</div>
-                                        <div>Usdt</div>
-                                        <div>Gift Card</div>
-                                        <div>OTC</div>
+                                        <div><Link to="/our-cryptoasset" style={{textDecoration:'none',color:'#fff'}}>Bitcoin</Link></div>
+                                        <div><Link to="/our-cryptoasset" style={{textDecoration:'none',color:'#fff'}}>Usdt</Link></div>
+                                        <div><Link to="/our-giftcard" style={{textDecoration:'none',color:'#fff'}}>Gift Card</Link></div>
+                                        <div><Link to="/otc" style={{textDecoration:'none',color:'#fff'}}>OTC</Link></div>
                                         
                                     </div>
                                     <div>

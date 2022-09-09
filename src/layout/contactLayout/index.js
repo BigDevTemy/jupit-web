@@ -35,7 +35,7 @@ const chat = ()=>{
                             
                         </div>
                         <div className='say_hello'>Say Hello to Us</div>
-                        <div className='question'>Do you have any questions? Are you ready to reduce cost and create new revenue? Or you simply want to say hi? Drop us a message.</div>
+                        <div className='question'>Do you have any question or simply want to say hi? Drop us a message.</div>
                         <div className='forms'>
                             <div className='formDiv'>
 
