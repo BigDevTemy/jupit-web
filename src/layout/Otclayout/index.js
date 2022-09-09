@@ -186,8 +186,6 @@ const Index = ()=>{
                                         labelId="demo-simple-select-label"
                                         id="demo-simple-select"
                                         className='form-control'
-                                        label="Age"
-                                        
                                         >
                                             <MenuItem value="">Select Age</MenuItem>
                                             <MenuItem value="driver license">Driver License</MenuItem>
