@@ -125,7 +125,7 @@ const Index = ()=>{
 
             <div class="your-crypto">
                 <div className='laptopDiv'>
-                    <div className='mockup' data-aos="fade-left"></div>
+                    <div className='mockup' data-aos="fade-up"></div>
                     <div>
                         <div className='spotlight'>
                             <div className='SportlightDiv' data-aos="fade-up">

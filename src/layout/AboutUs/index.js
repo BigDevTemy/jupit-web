@@ -82,7 +82,7 @@ const Index = ()=>{
                         </div>
 
                         <div className='myMission'>
-                                <div data-aos="fade-right">
+                                <div data-aos="fade-down">
                                     <div className='ourmission' data-aos="fade-up">
                                         <div className='myMissionTitle'>
                                                 <div className="mtitlex">PROVIDING RELIABLE SOLUTIONS</div>
@@ -97,7 +97,7 @@ const Index = ()=>{
                                 </div>
 
 
-                                <div data-aos="fade-left">
+                                <div data-aos="fade-down">
                                     <div className='ourmission' >
                                         <div className='myMissionTitle'>
                                                 <div className="mtitlex">BORDERLESS FREEDOM</div>
