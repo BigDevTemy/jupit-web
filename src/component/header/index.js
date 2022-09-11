@@ -7,14 +7,25 @@ import umbrella from '../../assets/images/umbrella.svg'
 import { Link } from 'react-router-dom'
 import { Link as ScrollLink } from 'react-scroll'
 import { useEffect, useState } from 'react'
+import {GiHamburgerMenu} from 'react-icons/gi'
+import {FcAbout} from 'react-icons/fc'
+import {FaHome} from 'react-icons/fa'
+import {GiRegeneration} from 'react-icons/gi'
+import {GrResources} from 'react-icons/gr'
+import {BiSupport} from 'react-icons/bi'
+import { Offcanvas } from "react-bootstrap";
+
 const Index = ({scroll})=>{
-    
+    const [show,setshow] = useState(false);
+    const handleClose = ()=>{
+        setshow(false)
+    }
     return (
             <div className={scroll > 0 ? 'Tab TabCg' :'Tab Tabbg'}>
                 <div>
                     <Link to="/"><img src={scroll > 0 ? jupit :logo} className="imgLogo"/></Link>
                 </div>
-                <div className='navItems'>
+                <div className='navItems Itemnav'>
                     <div className={scroll > 0 ? 'navLinkScroll':'navLink'}><Link to='/aboutus'><button className='btn btn-md feature'>About us</button></Link></div>
                     <div className={scroll > 0 ? 'navLinkScroll product':'navLink product'}>
                         
@@ -55,7 +66,82 @@ const Index = ({scroll})=>{
                     <button className='btn btn-md registerbtn'>
                        <a className={scroll >0 ? 'a_signupDivScroll':'a_signupDiv'} href="https://app.jupitapp.co/client/signup" target="_blank">Register</a> 
                     </button>
+                    <div className="hamburg">
+                    <GiHamburgerMenu  color={scroll === 0 ? '#fff':'#000'} size={35} className="hamburger" onClick={()=>setshow(true)}/>
                 </div>
+
+                </div>
+
+                <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'70%',backgroundColor:'#070722'}}>
+                    <Offcanvas.Header closeButton closeVariant='white' >
+                        <Offcanvas.Title></Offcanvas.Title>
+                    </Offcanvas.Header>
+                    <Offcanvas.Body>
+                        <div className=''>
+                        <Link  to="/" spy={true} smooth={true} onClick={handleClose}>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <FaHome color='#fff' size={20} />
+                                </div>
+                                <div className='tagName'>Home</div>
+                            </div>
+                        </Link>
+                        <Link  to="aboutus" spy={true} smooth={true} onClick={handleClose}>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <FcAbout color='#fff' size={20} />
+                                </div>
+                                <div className='tagName'>About Us</div>
+                            </div>
+                        </Link>
+                        <Link  to="product" spy={true} smooth={true} onClick={handleClose}>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <GiRegeneration color='#fff' size={20} />
+                                </div>
+                                <div className='tagName'>Product</div>
+                            </div>
+                        </Link>
+                        <Link  to="what_defines_us" spy={true} smooth={true} onClick={handleClose}>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <GrResources color='#fff' size={20} />
+                                </div>
+                                <div className='tagName'>Resources</div>
+                            </div>
+                        </Link>
+                        {/* 
+                        <Link  to="faq" spy={true} smooth={true} onClick={handleClose}>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <MdVideoLibrary color='#fff' size={20} />
+                                </div>
+                                <div className='tagName'>faq</div>
+                            </div>
+                        </Link> */}
+                        {/* <Link  to="roadmap" spy={true} smooth={true} onClick={handleClose}>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <ImPriceTags color='#fff' size={20} />
+                                </div>
+                                <div className='tagName'>Roadmap</div>
+                            </div>
+                        </Link> */}
+                        
+
+                       
+                        <Link  to="getIntouch" spy={true} smooth={true} onClick={handleClose}>
+                            <div className='tag'>
+                                <div className='tagIcon'>
+                                     <BiSupport color='#fff' size={20} />
+                                </div>
+                                <div className='tagName'>Get In Touch</div>
+                            </div>
+                        </Link>
+                        
+                       </div>
+                    </Offcanvas.Body>
+                </Offcanvas>
             </div>
     )
 }

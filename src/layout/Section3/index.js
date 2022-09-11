@@ -14,11 +14,11 @@ const Index = ()=>{
                             </div>
                         </div>
                     </div> */}
-                    <div className='mobile' data-aos="fade-up-right">
+                    <div className='mobile' data-aos="fade-up-up">
                         <img src={mobile}/>
                     </div>
 
-                    <div className='Install' data-aos="fade-left">
+                    <div className='Install' data-aos="fade-down">
                         <div className='installapp'>INSTALL THE APP</div>
                         <div className='installprogress'>Install Our Progressive Web App(PWA) for faster access</div>
                         <div className='Installapp'>

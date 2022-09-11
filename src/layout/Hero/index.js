@@ -10,7 +10,7 @@ const Index = ()=>{
    
     return (
         <div className="Hero">
-           <img src={banner} />
+           <img src={banner} className="cardDraw"/>
             <div className='navTab'>
                   
                    <div className='heroContent'>
@@ -19,7 +19,7 @@ const Index = ()=>{
                             <div>A place for everyone who want to simply buy and sell digital assets. It takes just 120 seconds!</div>
                         </div>
                         <div>
-                            <img src={umbrella}/>
+                            <img src={umbrella} className="umbrella"/>
                         </div>
                    </div>
                    <div className='heroButton'>
