@@ -529,6 +529,9 @@
         .hamburg{
             display: flex;
         }
+        .Tab{
+            display: none;
+        }
     .Hero{
        min-height: 25vh;
         height: 100%;

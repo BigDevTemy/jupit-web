@@ -111,3 +111,34 @@
     margin-left: 5px;
 }
 
+@media only screen 
+and (min-device-width: 100px) 
+and (max-device-width: 200px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .section3{
+        margin-top: 0px;
+
+    }
+    .Install{
+        padding: 20px;
+    }
+    .installapp{
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .installprogress{
+        font-size: 16px;
+        text-align: center;
+    }
+    .Installapp{
+        font-size: 12px;
+    }
+    .mobiledevice{
+        font-size: 16px;
+    }
+    .step{
+        font-size: 12px;
+    }
+   
+}

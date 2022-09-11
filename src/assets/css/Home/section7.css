@@ -65,3 +65,36 @@
     margin-bottom: 20px;
     font-family: 'Montserrat' sans-serif;
 }
+
+@media only screen 
+and (min-device-width: 100px) 
+and (max-device-width: 200px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+        .section7{
+            margin-top: 0px;
+            flex-direction: column;
+            width: 100%;
+            min-height: 30vh;
+            height: 100%;
+        }
+
+        .bestService{
+            font-size: 16px;
+            text-align: center;
+        }
+        .startJourney{
+            font-size: 12px;
+        }
+        .instantTransaction{
+            flex-direction: column;
+        }
+        .instantTransaction>div{
+            flex:1 1 100%;
+            margin-bottom: 20px;
+            font-size: 10px;
+            font-family: 'Montserrat' sans-serif;
+        }
+
+      
+}

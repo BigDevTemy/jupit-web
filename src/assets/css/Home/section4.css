@@ -102,3 +102,12 @@
 .item{
     background-color: transparent;
 }
+
+@media only screen 
+and (min-device-width: 100px) 
+and (max-device-width: 200px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .section4{
+        display: none;
+    }
+}
