@@ -131,3 +131,37 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 100%;
     }
 }
+
+
+@media only screen 
+and (min-device-width: 301px) 
+and (max-device-width: 400px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .section7{
+        margin-top: 0px;
+        flex-direction: column;
+        width: 100%;
+        min-height: 30vh;
+        height: 100%;
+    }
+
+    .bestService{
+        font-size: 20px;
+        text-align: center;
+    }
+    .startJourney{
+        font-size: 16px;
+    }
+    .instantTransaction{
+        flex-direction: column;
+    }
+    .instantTransaction>div{
+        flex:1 1 100%;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-family: 'Montserrat' sans-serif;
+    }
+    .section7 >div:nth-child(2) > img{
+        width: 100%;
+    }
+}

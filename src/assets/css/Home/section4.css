@@ -141,3 +141,46 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 50%;
      }
 }
+
+
+@media only screen 
+and (min-device-width: 301px) 
+and (max-device-width: 400px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .mycard{
+        width: 100%;
+        height: 100%;
+    }
+    .clientName{
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+    .country{
+        font-size: 12px;
+        margin-bottom:40px;
+        text-align: center;
+        
+    }
+    .easiest{
+        font-size: 25px;   
+     }
+     .quote{
+        display: none;
+     }
+     .all_crypto{
+        display: none;
+     }
+     .message{
+        font-size: 12px;
+        text-align: justify;
+        padding: 0px;
+        
+    }
+     .name{
+        font-size: 12px;
+     }
+     .clientName >div>img{
+        width: 50%;
+     }
+}

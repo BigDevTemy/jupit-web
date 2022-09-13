@@ -191,3 +191,55 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
    
 }
+
+
+@media only screen 
+and (min-device-width: 301px) 
+and (max-device-width: 400px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .section3{
+        margin-top: 50px;
+        
+
+    }
+    .Install{
+        padding: 0px;
+       
+    }
+    .installapp{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+       
+    }
+    .installprogress{
+        font-size: 18px;
+        text-align: center;
+        padding-right: 0%;
+        
+    }
+    .Installapp{
+        font-size: 18px;
+    }
+    .mobiledevice{
+        font-size: 18px;
+    }
+    .step{
+        font-size: 16px;
+    }
+    .mobilephone{
+        display: flex;
+        width: 100%;
+    }
+    .yourgateway{
+        width: 100%;
+        margin-right: 20px;
+        margin-left: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        
+        
+    }
+   
+}
