@@ -634,7 +634,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none;
     }
     .imgLogo{
-        width: 100%;
+        width: 150%;
     }
     .Hero{
         min-height: 80vh;
