@@ -19,7 +19,7 @@ const Index = ()=>{
                 </div>
                
                 <div className='Comment'>
-                    <OwlCarousel className='owl-theme' items={2} lazyLoad  loop margin={10} dots >
+                    <OwlCarousel className='owl-theme' items={1} lazyLoad  loop margin={10} dots >
                         <div className='item'>
                             <div className='mycard'>
                                 <div className='clientName'>

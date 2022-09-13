@@ -176,3 +176,96 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 }
+
+@media only screen 
+and (min-device-width: 201px) 
+and (max-device-width: 300px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .section5{
+        width:100%;
+        min-height: 50vh;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin-top:100px;
+        margin-bottom: 0px;
+        padding: 10px;
+     
+    }
+
+    .CryptoWalletIn{
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+.motto{
+    width: 100%;
+    display: flex;
+    flex-wrap: no-wrap;
+    margin-top: 0px;
+    flex-direction: column;
+}
+
+.motto > div{
+    
+    height: 100%;
+    margin: 0px;
+    flex-direction: column;
+    
+    
+   
+}
+
+
+.motoImageDiv{
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 20px;
+
+}
+.mottonText{
+    font-size: 16px;
+    font-family: 'Montserrat'sans-serif;
+    color: #848484;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.section5{
+    width:100%;
+    min-height: 50vh;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    margin-top:10px;
+    margin-bottom: 50px;
+    padding: 20px;
+ 
+}
+.mottoTextTitle{
+    font-size: 20px;
+    font-family: 'Montserrat'sans-serif;
+    color:#1D2D3F;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.gateway{
+    font-size: 20px;
+    font-family: 'Montserrat'sans-serif;
+    color: #FFB74A;
+}
+.readmore{
+    font-size: 16px;
+}
+
+}
