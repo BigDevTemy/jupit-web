@@ -896,3 +896,104 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 
+@media only screen 
+and (min-device-width: 701px) 
+and (max-device-width: 900px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .hamburg{
+        display: flex;
+    }
+    .Tab{   
+        padding-right: 20px;
+        
+    }
+    .signupDiv{
+        border-left:0px solid #fff; 
+    }
+    .signupDivScroll{
+        border-left:0px solid #fff; 
+    }
+    
+    .navItems > div{
+        display: none;
+    }
+    .imgLogo{
+        width: 120%;
+    }
+    .Hero{
+        min-height: 130vh;
+        width: 100%;
+        height: 100%;
+        background:url('../../images/banner.png');
+        background-position: center;
+        background-size: cover;
+        background-color: #00003e;
+    }
+    .cardDraw{
+        display: none;
+    }
+
+    .contentHero{
+        flex-direction: column;
+        margin-top: 10%;
+        width: 100%;
+        
+    }
+    .heroContent{
+        flex-direction: column;
+    
+    }
+
+    .umbrella{
+        display: flex;
+        width: 30%;
+    }
+
+    .contentHero > div:nth-child(1){
+        font-size: 30px;
+        text-align: left;
+        margin-top: 10px;
+        width: 60%;
+
+       
+    }
+    .contentHero >div:nth-child(2){
+        font-size: 18px;
+        text-align: left;
+        width: 60%;
+        margin-top: 20px;
+    }
+
+    .heroButton{
+        margin-top: 20px;
+    }
+    .heroButton > div{
+        width: 25%;
+        font-size: 16px;
+    }
+    .heroContent>div:nth-child(2){
+        margin-top: 15%;
+    }
+    .Itemnav{
+        display: none;
+    }
+    .signupDivScroll >div:nth-child(1){
+        display: none;
+    }
+    .signupDiv >div:nth-child(1){
+        display: none;
+    }
+    .signupDivScroll button{
+        display: none;
+    }
+    .signupDiv button{
+        display: none;
+    }
+    .heroContent{
+        margin-top: 0%;
+    }
+
+
+
+}
+
