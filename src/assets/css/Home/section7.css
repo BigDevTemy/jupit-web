@@ -135,7 +135,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media only screen 
 and (min-device-width: 301px) 
-and (max-device-width: 500px)
+and (max-device-width: 600px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .section7{
         margin-top: 0px;
