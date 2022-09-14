@@ -389,6 +389,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 .linkParent{
     flex-direction: column;
+    
 }
 
 .link{
