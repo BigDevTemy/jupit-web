@@ -256,3 +256,64 @@ and (-webkit-min-device-pixel-ratio: 2) {
         
     }
 }
+
+@media only screen 
+and (min-device-width: 401px) 
+and (max-device-width: 500px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .globe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .globe > img{
+        width: 100%;
+    }
+   
+    .section1{
+        width:100%;
+        min-height: 50vh;
+        height: 100%;
+        display: flex;
+        justify-content:center;
+        margin-top:-300px;
+      
+       
+    }
+
+    .gateway{
+        font-size: 25px;
+        width: 100%;
+    }
+    .gatewayText{
+        color:#1D2D3F;
+        font-size: 25px;
+        text-align: center;
+        font-weight: bolder;
+        font-family: 'Montserrat'sans-serif;
+        width: 100%;
+        margin-top: 10px;
+        
+    }
+    .Institution{
+        width: 100%;
+        font-family: 'Montserrat'sans-serif;
+        font-size: 18px;
+        color: #848484;
+        text-align: left;
+        margin-top: 20px;
+       
+    }
+    .globeSession{
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        flex-direction: column;
+       
+        
+    }
+}

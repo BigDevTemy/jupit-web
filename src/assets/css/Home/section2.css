@@ -271,7 +271,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media only screen 
 and (min-device-width: 301px) 
-and (max-device-width: 400px)
+and (max-device-width: 500px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .section2{
        
