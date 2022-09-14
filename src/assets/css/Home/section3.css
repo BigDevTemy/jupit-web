@@ -243,3 +243,122 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
    
 }
+
+@media only screen 
+and (min-device-width: 601px) 
+and (max-device-width: 700px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .section3{
+        width:100%;
+        min-height: 50vh;
+        height: 100%;
+        display: flex;
+        justify-content:center;
+        margin-top:100px;
+        
+    }
+    
+    .yourgateway{
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    
+    .yourgateway > div{
+        flex:1 1 50%;
+        
+    }
+    
+    .yourgateway > div:nth-child(2){
+        
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: left;
+        
+        
+    }
+    .yourgateway > div:nth-child(1) > img{
+        
+      width: 100%;
+        
+    }
+    .yourgateway > div:nth-child(1){
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align:left;
+        
+    }
+    .globaleconomy{
+        font-size: 16px;
+        color: #FFB74A;
+    }
+    .CryptoWallet{
+        font-size: 42px;
+        font-family: Inter;
+        font-weight: bold;
+        color: #1D2D3F;
+    }
+    .bitcoinuses{
+        margin-top: 40px;
+        width: 80%;
+        font-size: 16px;
+        font-family: Inter;
+        color:#848484;
+        text-align: justify;
+    }
+    .cardTestimonia{
+        width:400px;
+        margin: 10px;
+        height: 250px;
+        border-radius: 15px;
+        background-color: #fff;
+    }
+    .item{
+        background-color: #848484;
+       
+    }
+    
+    .installapp{
+        width: 100%;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Montserrat' sans-serif;
+    }
+    .installprogress{
+        font-family: 'Montserrat' sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        padding-right: 5%;
+    }
+    .Install{
+        display: flex;
+        justify-content: space-between;
+          
+    }
+    .Install > div{
+        margin-bottom: 15px;
+        font-family: 'Montserrat'sans-serif;
+        font-weight: bold;
+    }
+    
+    .mobiledevice{
+        font-size: 25px;
+    }
+    
+    .step{
+        display: flex;
+        font-size: 16px;
+    }
+    .step >div{
+        margin-left: 5px;
+    }
+    
+   
+}
