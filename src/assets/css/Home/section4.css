@@ -338,3 +338,111 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
 }
 
+
+@media only screen 
+and (min-device-width: 701px) 
+and (max-device-width: 900px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .section4{
+        width:100%;
+        min-height: 50vh;
+        height: 100%;
+        display: flex;
+        justify-content:center;
+        margin-top:100px;
+        margin-bottom: 50px;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:90%;
+        height: 500px;
+        border-radius: 15px;
+        background-color: #1c1c93;
+        padding:40px;
+           
+    
+    }
+    .testimonia{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height:100px ;
+        
+    }
+    .easiest{
+        
+        font-size: 30px;
+        font-family: 'Montserrat'sans-serif;
+        color: #fff;
+    }
+    .quote{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .Comment{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+    }
+    .mycard{
+        width: 500px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: #fff;
+        margin: 20px;
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px;
+        flex-direction: column;
+        
+    }
+    .clientName{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    
+    .name{
+        color:#1D2D3F;
+        font-size: 20px;
+        font-family: 'Montserrat' sans-serif;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .country{
+        font-size: 20px;
+        
+        font-family: 'Montserrat' sans-serif;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .all_crypto{
+        font-family: 'Montserrat' sans-serif;
+        font-weight: bold;
+        color: #1D2D3F;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .message{
+        font-size: 16px;
+        font-family: 'Montserrat' sans-serif;
+        padding: 20px;
+    }
+    .owl{
+        width: 100%;
+    }
+    
+    .item{
+        background-color: transparent;
+    }
+    
+}
+

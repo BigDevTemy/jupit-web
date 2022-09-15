@@ -239,3 +239,77 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-family: 'Montserrat' sans-serif;
     }
 }
+
+
+@media only screen 
+and (min-device-width: 701px) 
+and (max-device-width: 900px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .section7{
+        width: 100%;
+        min-height: 80vh;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding:5%;
+        
+    }
+    
+    .section7 > div{
+        flex:1 1 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .section7 >div:nth-child(1){
+        width: 100%;
+       
+    }
+    .section7 >div:nth-child(2){
+        width: 100%;
+        
+    }
+    .section7 >div:nth-child(2) img{
+        width: 100%;
+        
+    }
+    .bestService{
+        font-size: 30px;
+        font-family: 'Montserrat'sans-serif sans-serif;
+        font-weight: bold;
+        color: #1D2D3F;
+        width: 100%;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .startJourney{
+        font-size: 18px;
+        font-family: 'Montserrat'sans-serif;
+        text-align: justify;
+        width: 90%;
+        margin-top: 20px;
+        color: #848484;
+       
+    }
+    
+    .instantTransaction{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        margin-top: 20px;
+        font-size: 18px;
+        font-family: 'Montserrat'sans-serif;
+        
+        
+    }
+    
+    .instantTransaction>div{
+        flex:1 1 50%;
+        margin-bottom: 20px;
+        font-family: 'Montserrat' sans-serif;
+    }
+}
