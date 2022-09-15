@@ -28,7 +28,7 @@ const Index = ()=>{
                         <div className='tradewithjupit'>
                             Trade with Jupit and experience one of the most convenient, fastest and secure way to sell your crypto. It takes just 120 seconds!
                         </div>
-                        <div>
+                        <div className="getstartedbtn">
                             <button className='btn btn-primary btn-lg'>Get Started</button>
                         </div>
 
