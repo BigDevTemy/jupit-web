@@ -210,7 +210,7 @@ const Index = ()=>{
                                     <div className='teambody'>
                                         <div className='teamdescription'>
                                         <div className='circleDetails'>
-                                                <div>
+                                                <div >
                                                     Femi A. Somoye.
                                                 </div>
                                                 <div>

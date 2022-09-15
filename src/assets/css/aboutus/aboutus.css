@@ -767,15 +767,17 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 100%;
         min-height: 50vh;
         height: 100%;
-        margin-top: 50px;
+        margin-top: 20px;
+        
     }
     .teamDiv{
         
         display: flex;
+        flex-direction: column;
         width: 100%;
         height: 100%;
         margin-top: 10px;
-        padding: 40px;
+        padding: 10px;
     }
     
     .teamDiv > div{
@@ -800,6 +802,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 100%;
         justify-content: space-between;
         align-items: center;
+    }
+    .circleDetails > div{
+        font-size: 12px;
     }
     .teamdescription >div:nth-child(1){
         font-size: 13px;
@@ -892,13 +897,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        height: 80vh;
+        height: 100%;
         background-color: #1c1c93;
         margin-top: 50px;
         padding: 0px;
         font-family: 'Montserrat',sans-serif;
-        font-size: 20px;
-        margin-top: 40px;
+        font-size: 14px;
+        margin-top: 0px;
     }
     .ceoSpeech > div:nth-child(1){
         flex:1 1 calc(30% - 20px);
@@ -914,7 +919,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-family: 'Montserrat',sans-serif;
         display: flex;
         align-items: center;
-        font-size: 18px;
+        font-size: 12px;
         text-align: center;
     
         margin: 10px;
@@ -933,17 +938,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
         color: #fff;
     }
     .circleCEOimg{
-        width: 75%;
-        height: 75%;
-        border-radius: 50%;
-        background-color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: url('../../images/4.jpg');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        display: none;
+        
     }
     .missionDriven{
         display: flex;
