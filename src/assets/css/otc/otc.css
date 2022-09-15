@@ -246,3 +246,284 @@
     font-size: 20px;
     
 }
+
+@media only screen 
+and (min-device-width: 100px) 
+and (max-device-width: 200px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+    .whatis{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        padding:0px;
+        padding-left: 0%;
+        background-color: #fff;
+        
+    }
+    .whatis > div{
+        
+        flex:1 1 100%;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .whatis >div:nth-child(2){
+        display: none;
+    }
+    
+    .whatis > img{
+        margin-top: 20px;
+       
+        
+    }
+    .jupitTitle{
+        font-family: 'Montserrat',sans-serif;
+        font-size: 16px;
+        text-align: left;
+        width: 100%;
+        
+    
+    }
+    .jupittext{
+        font-size: 14px;
+        margin-top: 7%;
+        text-align: justify;
+        word-break: break-all;
+
+        font-family: 'Montserrat',sans-serif;
+    }
+    .jupitBuilt{
+        width: 100%;
+        min-height: 100vh;
+        height: 100%;
+        padding: 0px;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .largeOrders{
+        font-family: 'Montserrat',sans-serif;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .ourOTCtitle{
+        font-size: 14px;
+        font-family: 'Montserrat',sans-serif;
+        color: #848484;
+        margin-top: 10px;
+    }
+    .tradeType{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5%;
+        height: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+       
+    
+    }
+    .tradeType > div{
+        flex: 1 1 calc(40% - 20px);
+        
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .moreFacts> div:nth-child(1) img{
+        width: 50%;
+    }
+    .moreFacts> div:nth-child(2){
+        font-family: 'Montserrat',sans-serif;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .moreFacts> div:nth-child(3){
+        font-family: 'Montserrat',sans-serif;
+        font-size: 12px;
+        margin-top: 10px;
+        color: #838383;
+    }
+    .moreFacts{
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .inadditonal > div{
+        
+        font-size: 16px;
+        font-family: 'Montserrat',sans-serif;
+    }
+    .checks{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .tradeflow{
+        width: 100%;
+        min-height: 100vh;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #f5f7fb;
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+    
+    .tradeflow > div:nth-child(2){
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .tradeflow > div:nth-child(1){
+        flex:1 1 40%;
+        display: none;
+        
+    }
+    .tradeflow > div:nth-child(2){
+        flex:1 1 100%;
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ourtradeflow{
+        font-family: 'Montserrat',sans-serif;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .checks > div{
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+        
+    }
+    .checks > div>div{
+        margin-top: 10px;
+    }
+    
+    .signup{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 20px;
+        padding: 20px;
+    
+    }
+    .signup > div:nth-child(2){
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+       
+        width: 100%;
+        margin-left: 20px;
+    }
+    .signupTitle{
+        font-size: 14px;
+        font-family: 'Montserrat',sans-serif;
+    }
+    .signupmessage{
+       text-align: left;
+       margin-top: 10px;
+       font-size: 12px;
+       font-family: 'Montserrat',sans-serif;
+       
+        
+    }
+    .xform{
+    
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        min-height: 25vh;
+        height: 100%;
+        background-color: #fff;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 16px;
+        padding-top: 3%;
+        
+    }
+    .myform{
+        width: 40%;
+        align-self: center;
+        margin-top: 20px;
+    }
+    
+    .myform > div > input{
+        height: 50px;
+    }
+    .myform >div>label{
+        font-family:'Montserrat',sans-serif;
+        font-size: 16px;
+        
+    }
+    .myform > div{
+        margin: 0px;
+    }
+    .myInput{
+        text-align: left;
+    }
+    
+    .btn-primary{
+        margin-top: 20px;
+        background-color: #1c1c93 !important;
+    }
+    
+    .forms{
+       
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .terms_of_service{
+        width:100%;
+        height: 50vh;
+        padding-left: 5%;
+    }
+    
+    .terms_OTC{
+        width: 100%;
+        text-align: left;
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    .list-terms{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+        font-size: 12px;
+    
+       
+    }
+    
+    .list_terms  li{
+        font-size: 14px;
+        
+    }
+
+}
