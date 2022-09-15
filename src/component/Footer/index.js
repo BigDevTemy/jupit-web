@@ -33,7 +33,7 @@ const Index= ()=>{
                                         <div className='titleLink'>Company</div>
                                        
                                         <div> <Link to='/aboutus' style={{textDecoration:'none',color:'#fff'}}>About Us</Link></div>
-                                        <div> <ScrollLink to='contact' style={{textDecoration:'none',color:'#fff',cursor:'pointer'}}>Contact Us</ScrollLink></div>
+                                        <div> <Link to='/contact' style={{textDecoration:'none',color:'#fff',cursor:'pointer'}}>Contact Us</Link></div>
                                         
                                     </div>
                                     <div>
