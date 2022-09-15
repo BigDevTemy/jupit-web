@@ -90,3 +90,546 @@
     padding: 20px;
    
 }
+
+@media only screen 
+and (min-device-width: 100px) 
+and (max-device-width: 200px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .giftcardParent{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+        padding: 20px;
+       
+        
+    }
+    
+    .section1-giftcard{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    .section1-giftcard > div:nth-child(1){
+        flex:1 1 50%;
+        
+        display: none;
+        
+    }
+    .section1-giftcard > div:nth-child(1) img{
+        
+        width: 100%;
+    }
+    .section1-giftcard > div:nth-child(2){
+        flex:1 1 100%;
+        padding: 0px;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 0px;
+        text-align: justify;
+    
+    }
+    
+    .section1-giftcard > div:nth-child(2) p{
+        font-size: 14px;
+        font-family: 'Montserrat',sans-serif;
+    
+    }
+    
+    
+    .h2-join{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 18px;
+    }
+    
+    .section2-giftcard{
+        margin-top: 20px;
+        padding: 0px;
+        display: flex;
+        
+        font-family: 'Montserrat',sans-serif;
+        flex-direction: column;
+    }
+    .section2-giftcard >h3{
+        font-size: 18px;
+    }
+    
+    .section2-giftcard > small{
+        font-size: 14px !important;
+        font-family: 'Montserrat'sans-serif;
+        color: #848484;
+    }
+    .ourdiff{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;   
+    }
+    
+    .ourdiff > div{
+        flex:1 1 calc(100%);
+        margin: 10px;
+    }
+    .ourdiff > div>div:nth-child(1) >img{
+        width: 80%;
+    }
+    .ourdiff > div>div:nth-child(2){
+        font-family: 'Montserrat',sans-serif;
+        font-size: 16px;
+    }
+    .ourdiff > div>div:nth-child(3){
+        font-family: 'Montserrat',sans-serif;
+        font-size: 14px;
+        padding: 20px;
+       
+    }
+
+
+}
+
+
+@media only screen 
+and (min-device-width: 201px) 
+and (max-device-width: 300px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .giftcardParent{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+       
+        
+    }
+    
+    .section1-giftcard{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    .section1-giftcard > div:nth-child(1){
+        flex:1 1 50%;
+        
+        display: none;
+        
+    }
+    .section1-giftcard > div:nth-child(1) img{
+        
+        width: 100%;
+    }
+    .section1-giftcard > div:nth-child(2){
+        flex:1 1 100%;
+        padding: 0px;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 0px;
+        text-align: justify;
+    
+    }
+    
+    .section1-giftcard > div:nth-child(2) p{
+        font-size: 14px;
+        font-family: 'Montserrat',sans-serif;
+    
+    }
+    
+    
+    .h2-join{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 18px;
+    }
+    
+    .section2-giftcard{
+        margin-top: 20px;
+        padding: 0px;
+        display: flex;
+        
+        font-family: 'Montserrat',sans-serif;
+        flex-direction: column;
+    }
+    .section2-giftcard >h3{
+        font-size: 16px;
+    }
+    
+    .section2-giftcard > small{
+        font-size: 14px !important;
+        font-family: 'Montserrat'sans-serif;
+        color: #848484;
+    }
+    .ourdiff{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        margin-top: 30px; 
+       
+    }
+    
+    .ourdiff > div{
+        flex:1 1 calc(100%);
+        margin-top: 5px;
+        
+    }
+    .ourdiff > div>div:nth-child(1) >img{
+        width: 80%;
+    }
+    .ourdiff > div>div:nth-child(2){
+        font-family: 'Montserrat',sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .ourdiff > div>div:nth-child(3){
+        font-family: 'Montserrat',sans-serif;
+        font-size: 14px;
+        padding: 10px;
+       
+    }
+
+
+}
+
+
+
+@media only screen 
+and (min-device-width: 301px) 
+and (max-device-width: 400px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .giftcardParent{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+       
+        
+    }
+    
+    .section1-giftcard{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    .section1-giftcard > div:nth-child(1){
+        flex:1 1 50%;
+        
+        display: none;
+        
+    }
+    .section1-giftcard > div:nth-child(1) img{
+        
+        width: 100%;
+    }
+    .section1-giftcard > div:nth-child(2){
+        flex:1 1 100%;
+        padding: 0px;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 0px;
+        text-align: justify;
+    
+    }
+    
+    .section1-giftcard > div:nth-child(2) p{
+        font-size: 18px;
+        font-family: 'Montserrat',sans-serif;
+    
+    }
+    
+    
+    .h2-join{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 25px;
+    }
+    
+    .section2-giftcard{
+        margin-top: 20px;
+        padding: 0px;
+        display: flex;
+        
+        font-family: 'Montserrat',sans-serif;
+        flex-direction: column;
+    }
+    .section2-giftcard >h3{
+        font-size: 25px;
+    }
+    
+    .section2-giftcard > small{
+        font-size: 16px !important;
+        font-family: 'Montserrat'sans-serif;
+        color: #848484;
+    }
+    .ourdiff{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        margin-top: 30px; 
+       
+    }
+    
+    .ourdiff > div{
+        flex:1 1 calc(100%);
+        margin-top: 5px;
+        
+    }
+    .ourdiff > div>div:nth-child(1) >img{
+        width: 80%;
+    }
+    .ourdiff > div>div:nth-child(2){
+        font-family: 'Montserrat',sans-serif;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .ourdiff > div>div:nth-child(3){
+        font-family: 'Montserrat',sans-serif;
+        font-size: 18px;
+        padding: 10px;
+       
+    }
+
+
+}
+
+
+@media only screen 
+and (min-device-width: 401px) 
+and (max-device-width: 500px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .giftcardParent{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+       
+        
+    }
+    
+    .section1-giftcard{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    .section1-giftcard > div:nth-child(1){
+        flex:1 1 50%;
+        
+        display: none;
+        
+    }
+    .section1-giftcard > div:nth-child(1) img{
+        
+        width: 100%;
+    }
+    .section1-giftcard > div:nth-child(2){
+        flex:1 1 100%;
+        padding: 0px;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 0px;
+        text-align: justify;
+    
+    }
+    
+    .section1-giftcard > div:nth-child(2) p{
+        font-size: 20px;
+        font-family: 'Montserrat',sans-serif;
+    
+    }
+    
+    
+    .h2-join{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 30px;
+    }
+    
+    .section2-giftcard{
+        margin-top: 20px;
+        padding: 0px;
+        display: flex;
+        
+        font-family: 'Montserrat',sans-serif;
+        flex-direction: column;
+    }
+    .section2-giftcard >h3{
+        font-size: 30px;
+    }
+    
+    .section2-giftcard > small{
+        font-size: 16px !important;
+        font-family: 'Montserrat'sans-serif;
+        color: #848484;
+    }
+    .ourdiff{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        margin-top: 30px; 
+       
+    }
+    
+    .ourdiff > div{
+        flex:1 1 calc(100%);
+        margin-top: 5px;
+        
+    }
+    .ourdiff > div>div:nth-child(1) >img{
+        width: 80%;
+    }
+    .ourdiff > div>div:nth-child(2){
+        font-family: 'Montserrat',sans-serif;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .ourdiff > div>div:nth-child(3){
+        font-family: 'Montserrat',sans-serif;
+        font-size: 20px;
+        padding: 10px;
+       
+    }
+
+
+}
+
+
+@media only screen 
+and (min-device-width: 501px) 
+and (max-device-width: 600px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .giftcardParent{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+       
+        
+    }
+    
+    .section1-giftcard{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    .section1-giftcard > div:nth-child(1){
+        flex:1 1 50%;
+        
+        display: none;
+        
+    }
+    .section1-giftcard > div:nth-child(1) img{
+        
+        width: 100%;
+    }
+    .section1-giftcard > div:nth-child(2){
+        flex:1 1 100%;
+        padding: 0px;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 0px;
+        text-align: justify;
+    
+    }
+    
+    .section1-giftcard > div:nth-child(2) p{
+        font-size: 25px;
+        font-family: 'Montserrat',sans-serif;
+    
+    }
+    
+    
+    .h2-join{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 35px;
+    }
+    
+    .section2-giftcard{
+        margin-top: 20px;
+        padding: 0px;
+        display: flex;
+        
+        font-family: 'Montserrat',sans-serif;
+        flex-direction: column;
+    }
+    .section2-giftcard >h3{
+        font-size: 35px;
+    }
+    
+    .section2-giftcard > small{
+        font-size: 16px !important;
+        font-family: 'Montserrat'sans-serif;
+        color: #848484;
+    }
+    .ourdiff{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        margin-top: 30px; 
+       
+    }
+    
+    .ourdiff > div{
+        flex:1 1 calc(100%);
+        margin-top: 5px;
+        
+    }
+    .ourdiff > div>div:nth-child(1) >img{
+        width: 80%;
+    }
+    .ourdiff > div>div:nth-child(2){
+        font-family: 'Montserrat',sans-serif;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .ourdiff > div>div:nth-child(3){
+        font-family: 'Montserrat',sans-serif;
+        font-size: 25px;
+        padding: 10px;
+       
+    }
+
+
+}
