@@ -104,7 +104,7 @@ const Index = ()=>{
                                                 {/* <div className='msubtext'>Jupit Vision Statement</div> */}
                                         </div>
                                         <div className='aboutPlatformII'>
-                                            <div>Our vision is to advance the use of borderless currency within the Africa communities. We want to make sure everyone and who wants to engage in borderless payments gets prompt and clear access in their transactions.</div>
+                                            <div className='borderlessText'>Our vision is to advance the use of borderless currency within the Africa communities. We want to make sure everyone and who wants to engage in borderless payments gets prompt and clear access in their transactions.</div>
                                             <div className='smallText'>- Vision</div>
                                         </div>
                             
