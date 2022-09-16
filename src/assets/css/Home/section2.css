@@ -145,8 +145,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .specificIcon > div{
         flex: 1 1 100%;
         margin: 10px;
-        height: 200px;
-   
+        height: 150px;
+        
         display: flex;
         flex-direction: column;
 
