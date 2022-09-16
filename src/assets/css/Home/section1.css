@@ -216,6 +216,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         height: 100%;
         display: flex;
         justify-content:center;
+        
         margin-top:-300px;
       
        
@@ -277,9 +278,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
         height: 100%;
         display: flex;
         justify-content:center;
-        margin-top:-300px;
-      
-       
+        margin-top:-400px;
+         
     }
 
     .gateway{
