@@ -13,14 +13,16 @@
     margin: 10px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    align-self: center;
     flex-direction: column;
 }
 
-.whatis > img{
-    margin-top: 20px;
-    
+.whatis >div:nth-child(2) img{
+   
+    width: 90%;
 }
+
 .jupitTitle{
     font-family: 'Montserrat',sans-serif;
     font-size: 40px;
@@ -1680,17 +1682,18 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-color: #fff;
 }
 .whatis > div{
-    flex:1 1 100%;
+    flex:0 0 calc(100%);
     margin: 10px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    align-self: center;
     flex-direction: column;
 }
 
-.whatis > img{
-    margin-top: 20px;
-    
+.whatis >div:nth-child(2) img{
+   
+    width: 50%;
 }
 .jupitTitle{
     font-family: 'Montserrat',sans-serif;
