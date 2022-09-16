@@ -13,12 +13,20 @@ import {FaHome} from 'react-icons/fa'
 import {GiRegeneration} from 'react-icons/gi'
 import {GrResources} from 'react-icons/gr'
 import {BiSupport} from 'react-icons/bi'
-import { Offcanvas } from "react-bootstrap";
-
+import { Offcanvas,Collapse  } from "react-bootstrap";
+import {BsArrowRightShort} from 'react-icons/bs'
 const Index = ({scroll})=>{
     const [show,setshow] = useState(false);
     const handleClose = ()=>{
         setshow(false)
+    }
+    const [isVisible, setisVisible] = useState(false)
+    const[isVisibleResource,setisVisibleResource] =useState(false)
+    const handleProductClick = ()=>{
+        setisVisible(!isVisible);
+    }
+    const handleResourceClick = ()=>{
+        setisVisibleResource(!isVisibleResource);
     }
     return (
             <div className={scroll > 0 ? 'Tab TabCg' :'Tab Tabbg'}>
@@ -86,7 +94,7 @@ const Index = ({scroll})=>{
                                 <div className='tagName'>Home</div>
                             </div>
                         </Link>
-                        <Link  to="aboutus" spy={true} smooth={true} onClick={handleClose}>
+                        <Link  to="/aboutus" spy={true} smooth={true} onClick={handleClose}>
                             <div className='tag'>
                                 <div className='tagIcon'>
                                      <FcAbout color='#fff' size={20} />
@@ -94,22 +102,43 @@ const Index = ({scroll})=>{
                                 <div className='tagName'>About Us</div>
                             </div>
                         </Link>
-                        <Link  to="product" spy={true} smooth={true} onClick={handleClose}>
+                        
                             <div className='tag'>
                                 <div className='tagIcon'>
                                      <GiRegeneration color='#fff' size={20} />
                                 </div>
-                                <div className='tagName'>Product</div>
+                                <div className='tagName'  onClick={()=>handleProductClick()}>Product <BsArrowRightShort size={20} /></div><br/>
+                                    
+                                        <Collapse in={isVisible}>
+                                            <div className='collpaseP'>
+                                               <Link to="/our-cryptoasset" style={{marginBottom:10,marginTop:10}}> <div className='tagName'>Crypto Assets</div></Link>
+                                               <Link to="/our-giftcard" style={{marginBottom:10}}> <div className='tagName'>Gift Card</div></Link>
+                                               <Link to="/otc" style={{marginBottom:10}}> <div className='tagName'>OTC</div></Link>
+                                        
+                                            </div>
+                                                
+                                            
+                                        </Collapse>
+                                    
                             </div>
-                        </Link>
-                        <Link  to="what_defines_us" spy={true} smooth={true} onClick={handleClose}>
+                    
+                       
                             <div className='tag'>
                                 <div className='tagIcon'>
                                      <GrResources color='#fff' size={20} />
                                 </div>
-                                <div className='tagName'>Resources</div>
+                                <div className='tagName' onClick={()=>handleResourceClick()}>Resources<BsArrowRightShort size={20} /></div>
+                                <Collapse in={isVisibleResource}>
+                                            <div className='collpaseP'>
+                                               <Link to="/blog" style={{marginBottom:10,marginTop:10}}> <div className='tagName'>Blog</div></Link>
+                                                <Link to="/faq" style={{marginBottom:10}}><div className='tagName'>Faq</div></Link>
+                                                
+                                            </div>
+                                                
+                                            
+                                        </Collapse>
                             </div>
-                        </Link>
+                        
                         {/* 
                         <Link  to="faq" spy={true} smooth={true} onClick={handleClose}>
                             <div className='tag'>
@@ -130,7 +159,7 @@ const Index = ({scroll})=>{
                         
 
                        
-                        <Link  to="getIntouch" spy={true} smooth={true} onClick={handleClose}>
+                        <Link  to="contact" spy={true} smooth={true} onClick={handleClose}>
                             <div className='tag'>
                                 <div className='tagIcon'>
                                      <BiSupport color='#fff' size={20} />
@@ -138,6 +167,7 @@ const Index = ({scroll})=>{
                                 <div className='tagName'>Get In Touch</div>
                             </div>
                         </Link>
+
                         
                        </div>
                     </Offcanvas.Body>
