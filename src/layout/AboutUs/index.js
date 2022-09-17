@@ -89,7 +89,7 @@ const Index = ()=>{
                                                 {/* <div className='msubtext'>Jupit Mission Statement</div> */}
                                         </div>
                                         <div className='aboutPlatform'>
-                                            <div>Our platform is intended mainly to simplify your daily exchange in a most reliable and secured way.</div>
+                                            <div className='borderlessText'>Our platform is intended mainly to simplify your daily exchange in a most reliable and secured way.</div>
                                             <div className='smallText'>- Mission</div>
                                         </div>
                         

@@ -1610,7 +1610,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-top: 0px;
         font-family: 'Montserrat',sans-serif;
         color:#1c1c93;
-        font-size: 18px;
+        font-size: 15px;
     
     }
     .whoweare{
@@ -1649,14 +1649,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
         color:#858585;
         font-family: 'Montserrat',sans-serif;
         margin-top: 10px;
-        font-size: 18px;
+        font-size: 15px;
     }
     
     .ourmission{
         display: flex;
         flex-direction: column;
         width: 100%;
-        min-height: 40vh;
+        min-height: 20vh;
         height: 100%;
         padding: 20px;
         
@@ -1692,7 +1692,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 16px;
+        font-size: 15px;
         font-family: 'Montserrat',sans-serif;
         width: 100%;
         border-right: 2px solid #fff;
@@ -1701,18 +1701,18 @@ and (-webkit-min-device-pixel-ratio: 2) {
         border-right: 0px solid #fff;
     }
     .happy{
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Montserrat',sans-serif;
     }
     .mtitle{
-        font-size: 25px;
+        font-size: 15px;
         font-weight: bold;
         font-family: 'Montserrat',sans-serif;
          
     }
     
     .mtitlex{
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
         font-family: 'Montserrat',sans-serif;
          
@@ -1732,7 +1732,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
-        font-size: 18px;
+        font-size: 15px;
         font-family: 'Montserrat',sans-serif;
         flex-direction: column;
         padding-right: 0px;
@@ -1741,7 +1741,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
        
     }
     .smallText{
-        font-size: 16px;
+        font-size: 12px;
         text-align: right;
         color:#1c1c93;
         width:100%;
@@ -1764,12 +1764,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Montserrat',sans-serif;
         flex-direction: column;
     }
     .borderlessText{
-        font-size: 18px;
+        font-size: 12px;
     }
     .aboutPlatformII > div{
         width: 100%;
@@ -1800,7 +1800,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         
     }
     .ceopundit{
-        font-size: 26px;
+        font-size: 25px;
         color:#fff;
         font-weight: bold;
         position: absolute;
@@ -1860,7 +1860,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     .teamdescription{
         font-family: 'Montserrat',sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         display: flex;
         width: 100%;
         justify-content: space-between;
@@ -1899,7 +1899,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     .aboutPlatform > .whatdefinesus{
         width: 100%;
-        font-size: 18px;
+        font-size: 15px;
         padding-right: 0px;
         text-align: justify;
         color:#858585;
@@ -1935,7 +1935,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         flex-direction: column;
         padding: 10px;
         text-align: justify;
-        word-spacing: -2px;
         word-break: break-all;
         font-family: 'Montserrat' sans-serif;
         /* box-shadow: 2px 3px #888888; */
@@ -1945,10 +1944,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 
     .jupitvalues > div > div:nth-child(2){
-        font-size: 18px;
+        font-size: 12px;
         margin-top: 10px;
         text-align: justify;
-        word-spacing: -2px;
+        
         font-family: 'Montserrat',sans-serif;
     }
     .span_name{
@@ -1983,7 +1982,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-family: 'Montserrat',sans-serif;
         display: flex;
         align-items: center;
-        font-size: 16px;
+        font-size: 12px;
         text-align: center;
     
         margin: 10px;
@@ -1991,7 +1990,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     .ceo-name{
         margin-top: 10px;
-        font-size: 16px;
+        font-size: 15px;
         font-family: 'Montserrat',sans-serif;
         color: #fff;
     }
@@ -2072,6 +2071,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .myMission{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 5%;
@@ -2079,6 +2079,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     .myMission > div{
         flex:1 1 calc(50% - 20px);
+        
         margin: 10px;
         border-radius: 15px;
         padding: 0px;
@@ -2182,12 +2183,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     .ourmission{
         display: flex;
-        
         flex-direction: column;
         width: 100%;
         min-height: 40vh;
         height: 100%;
         padding: 20px;
+       
         
         
         
@@ -2261,7 +2262,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
-        font-size: 18px;
+        font-size: 12px;
         font-family: 'Montserrat',sans-serif;
         flex-direction: column;
         padding-right: 0px;
@@ -2270,7 +2271,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
        
     }
     .smallText{
-        font-size: 16px;
+        font-size: 12px;
         text-align: right;
         color:#1c1c93;
         width:100%;
@@ -2282,9 +2283,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .aboutPlatform >div{
         width: 100%;
         text-align: justify;
-        
         word-spacing: -2px;
     
+    }
+    .ourplatform{
+        font-size: 12px;
+        display: none;
     }
     
     .aboutPlatformII{
@@ -2293,12 +2297,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Montserrat',sans-serif;
         flex-direction: column;
     }
     .borderlessText{
-        font-size: 18px;
+        font-size: 15px;
     }
     .aboutPlatformII > div{
         width: 100%;
