@@ -243,6 +243,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         justify-content:center;
         margin-top:100px;
         margin-bottom: 50px;
+        background-color: #000;
     }
     .card{
         display: flex;
@@ -281,7 +282,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         z-index: 1;
     }
     .mycard{
-        width: 500px;
+        width: 100%;
         height: 250px;
         border-radius: 10px;
         background-color: #fff;
@@ -291,6 +292,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         padding: 20px;
         flex-direction: column;
         
+    }
+    .quote{
+        display: none;
     }
     .clientName{
         width: 100%;

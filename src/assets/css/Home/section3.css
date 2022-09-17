@@ -129,14 +129,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-top: 20px;
     }
     .installprogress{
-        font-size: 16px;
+        font-size: 12px;
         text-align: center;
     }
     .Installapp{
         font-size: 12px;
     }
     .mobiledevice{
-        font-size: 16px;
+        font-size: 12px;
     }
     .step{
         font-size: 12px;
@@ -158,25 +158,25 @@ and (-webkit-min-device-pixel-ratio: 2) {
        
     }
     .installapp{
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
         margin-top: 20px;
        
     }
     .installprogress{
-        font-size: 20px;
+        font-size: 12px;
         text-align: center;
         padding-right: 0%;
         
     }
     .Installapp{
-        font-size: 16px;
+        font-size: 12px;
     }
     .mobiledevice{
-        font-size: 18px;
+        font-size: 12px;
     }
     .step{
-        font-size: 14px;
+        font-size: 12px;
     }
     .mobilephone{
         display: flex;
@@ -207,25 +207,26 @@ and (-webkit-min-device-pixel-ratio: 2) {
        
     }
     .installapp{
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         margin-top: 20px;
        
     }
     .installprogress{
-        font-size: 18px;
+        font-size: 14px;
         text-align: center;
         padding-right: 0%;
+        font-weight: 100px;
         
     }
     .Installapp{
-        font-size: 18px;
+        font-size: 14px;
     }
     .mobiledevice{
-        font-size: 18px;
+        font-size: 14px;
     }
     .step{
-        font-size: 16px;
+        font-size: 14px;
     }
     .mobilephone{
         display: flex;
@@ -258,68 +259,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         
     }
     
-    .yourgateway{
-        width: 100%;
-        margin-right: 0px;
-        margin-left: 0px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        
-    }
     
-    .yourgateway > div{
-        flex:1 1 50%;
-        
-    }
-    
-    .yourgateway > div:nth-child(2){
-        
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        text-align: left;
-        
-        
-    }
-    .yourgateway > div:nth-child(1) > img{
-        
-      width: 100%;
-        
-    }
-    .yourgateway > div:nth-child(1){
-        
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align:left;
-        
-    }
-    .globaleconomy{
-        font-size: 16px;
-        color: #FFB74A;
-    }
-    .CryptoWallet{
-        font-size: 42px;
-        font-family: Inter;
-        font-weight: bold;
-        color: #1D2D3F;
-    }
-    .bitcoinuses{
-        margin-top: 40px;
-        width: 80%;
-        font-size: 16px;
-        font-family: Inter;
-        color:#848484;
-        text-align: justify;
-    }
-    .cardTestimonia{
-        width:400px;
-        margin: 10px;
-        height: 250px;
-        border-radius: 15px;
-        background-color: #fff;
-    }
     .item{
         background-color: #848484;
        
@@ -327,13 +267,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     .installapp{
         width: 100%;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold;
         font-family: 'Montserrat' sans-serif;
     }
     .installprogress{
         font-family: 'Montserrat' sans-serif;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold;
         padding-right: 5%;
     }
@@ -349,7 +289,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     
     .mobiledevice{
-        font-size: 25px;
+        font-size: 16px;
     }
     
     .step{

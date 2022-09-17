@@ -112,11 +112,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .bestService{
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
     }
     .startJourney{
-        font-size: 16px;
+        font-size: 12px;
     }
     .instantTransaction{
         flex-direction: column;
@@ -124,7 +124,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .instantTransaction>div{
         flex:1 1 100%;
         margin-bottom: 20px;
-        font-size: 14px;
+        font-size: 12px;
         font-family: 'Montserrat' sans-serif;
     }
     .section7 >div:nth-child(2) > img{
@@ -146,11 +146,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .bestService{
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
     }
     .startJourney{
-        font-size: 18px;
+        font-size: 14px;
     }
     .instantTransaction{
         flex-direction: column;
@@ -158,7 +158,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .instantTransaction>div{
         flex:1 1 100%;
         margin-bottom: 20px;
-        font-size: 16px;
+        font-size: 14px;
         font-family: 'Montserrat' sans-serif;
     }
     .section7 >div:nth-child(2) > img{
@@ -213,7 +213,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-top: 10px;
     }
     .startJourney{
-        font-size: 18px;
+        font-size: 16px;
         font-family: 'Montserrat'sans-serif;
         text-align: justify;
         width: 90%;
