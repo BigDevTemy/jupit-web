@@ -297,13 +297,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .userCount{
-        font-size: 18px;
+        font-size: 12px;
         margin-top:60px;
         
        
     }
     .userText{
-        font-size: 14px;
+        font-size: 12px;
     }
     .whatareyou{
         width: 100%;
@@ -322,7 +322,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
    
 }
 .footerlogo{
-    width: 40%;
+    width: 20%;
 }
 .linkParent{
     flex-direction: column;
@@ -333,6 +333,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 .link >div{
     margin: 10px;
+    font-size: 12px;
+}
+
+.titleLink{
+    font-size: 16px;
 }
    
 .QuickLink{
@@ -340,7 +345,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 16px;
 }
 .socialmedia-img{
-    width: 15%;
+    width: 10%;
 }
 
 
@@ -360,17 +365,17 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .userCount{
-        font-size: 18px;
+        font-size: 16px;
         margin-top:60px;
         
        
     }
     .userText{
-        font-size: 14px;
+        font-size: 16px;
     }
     .whatareyou{
         width: 100%;
-        font-size: 12px;
+        font-size: 14px;
         font-family: 'Montserrat',sans-serif;
         color:#fff;
         margin-top: 3%;
@@ -385,7 +390,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
    
 }
 .footerlogo{
-    width: 40%;
+    width: 30%;
 }
 .linkParent{
     flex-direction: column;
@@ -397,6 +402,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 .link >div{
     margin: 10px;
+    font-size: 16px;
 }
    
 .QuickLink{
