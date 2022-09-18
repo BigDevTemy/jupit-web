@@ -315,7 +315,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
         height: 100%;
         display: flex;
         justify-content:center;
-        margin-top:100px;
+        margin-top:150px;
+       
         
     }
     
@@ -361,16 +362,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
         color: #FFB74A;
     }
     .CryptoWallet{
-        font-size: 42px;
-        font-family: Inter;
+        font-size: 30px;
+        font-family: 'Montserrat'sans-serif;
         font-weight: bold;
         color: #1D2D3F;
     }
     .bitcoinuses{
         margin-top: 40px;
         width: 80%;
-        font-size: 16px;
-        font-family: Inter;
+        font-size: 18px;
+        font-family: 'Montserrat'sans-serif;
         color:#848484;
         text-align: justify;
     }
@@ -394,7 +395,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     .installprogress{
         font-family: 'Montserrat' sans-serif;
-        font-size: 30px;
+        font-size: 18px;
         font-weight: bold;
         padding-right: 5%;
     }
@@ -410,7 +411,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     
     .mobiledevice{
-        font-size: 30px;
+        font-size: 18px;
     }
     
     .step{

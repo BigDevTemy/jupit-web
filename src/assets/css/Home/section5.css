@@ -577,12 +577,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
         align-items: center;
     }
     .gateway{
-        font-size: 16px;
+        font-size: 18px;
         font-family: 'Montserrat'sans-serif;
         color: #FFB74A;
     }
     .CryptoWalletIn{
-        font-size: 25px;
+        font-size: 30px;
         font-family: 'Montserrat'sans-serif;
         font-weight: bold;
         color: #1D2D3F;
@@ -620,7 +620,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         text-align: left;
     }
     .mottonText{
-        font-size: 16px;
+        font-size: 18px;
         font-family: 'Montserrat'sans-serif;
         color: #848484;
         margin-top: 20px;
@@ -629,7 +629,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     .readmore{
         color:#1c1c93;
-        font-size: 16px;
+        font-size: 18px;
         font-family: 'Montserrat'sans-serif;
         font-weight: bold;
         text-align: left;

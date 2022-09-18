@@ -80,7 +80,7 @@ const Index = ({scroll})=>{
 
                 </div>
 
-                <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'70%',backgroundColor:'#070722'}}>
+                <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'25%',backgroundColor:'#070722'}}>
                     <Offcanvas.Header closeButton closeVariant='white' >
                         <Offcanvas.Title></Offcanvas.Title>
                     </Offcanvas.Header>
@@ -125,7 +125,7 @@ const Index = ({scroll})=>{
                        
                             <div className='tag'>
                                 <div className='tagIcon'>
-                                     <GrResources color='#fff' size={20} />
+                                     <GiRegeneration color='#ffffff' size={20} />
                                 </div>
                                 <div className='tagName' onClick={()=>handleResourceClick()}>Resources<BsArrowRightShort size={20} /></div>
                                 <Collapse in={isVisibleResource}>
