@@ -15,7 +15,9 @@
 .collpaseP{
 
     display: flex;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+    
     flex-direction: column;
     
 }
@@ -511,12 +513,21 @@
     display: flex;
     justify-content: flex-start;
      padding: 19px;
-     cursor: pointer;
-    
-   
+     cursor: pointer;  
 }
+
+.dropDowning{
+    display: flex;
+    justify-content: flex-start;
+     padding: 19px;
+     cursor: pointer;  
+     flex-direction: column;
+    
+}
+
 .tagIcon{
   padding: 0px;
+  display: flex;
 }
 .tagName{
 padding-left: 5px;
@@ -541,7 +552,9 @@ padding-left: 5px;
         padding-right: 20px;
     }
 
-    
+    .tagName{
+        font-size: 12px;
+    }
     .HeroOthers{
         width:100%;
         height: 50vh;
@@ -670,6 +683,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         padding-right: 20px;
         
     }
+    .tagName{
+        font-size: 13px;
+    }
     .OpacityText h1{
         margin-top: 20px;
         font-size: 20px;
@@ -753,6 +769,26 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media only screen 
 and (min-device-width: 301px) 
+and (max-device-width: 500px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .tagName{
+        font-size: 14px;
+    }
+}
+
+@media only screen 
+and (min-device-width: 501px) 
+and (max-device-width: 600px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .tagName{
+        font-size: 15px;
+    }
+}
+
+
+
+@media only screen 
+and (min-device-width: 301px) 
 and (max-device-width: 600px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .hamburg{
@@ -766,6 +802,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         padding-right: 20px;
         
     }
+    
     .signupDiv{
         border-left:0px solid #fff; 
     }
@@ -860,6 +897,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .Tab{   
         padding-right: 20px;
         
+    }
+    .tagName{
+        font-size: 16px;
     }
     .OpacityText h1{
         margin-top: 20px;
@@ -959,6 +999,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 701px) 
 and (max-device-width: 900px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .tagName{
+        font-size: 20px;
+    }
     .hamburg{
         display: flex;
     }
@@ -966,6 +1009,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         padding-right: 20px;
         
     }
+
     .signupDiv{
         border-left:0px solid #fff; 
     }

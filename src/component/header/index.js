@@ -103,23 +103,21 @@ const Index = ({scroll})=>{
                             </div>
                         </Link>
                         
-                            <div className='tag'>
+                            <div className='dropDowning'>
                                 <div className='tagIcon'>
                                      <GiRegeneration color='#fff' size={20} />
+                                     <div className='tagName'  onClick={()=>handleProductClick()}>Product <BsArrowRightShort size={20} /></div>
                                 </div>
-                                <div className='tagName'  onClick={()=>handleProductClick()}>Product <BsArrowRightShort size={20} /></div><br/>
-                                    
-                                        <Collapse in={isVisible}>
+                                <div>
+                                    <Collapse in={isVisible}>
                                             <div className='collpaseP'>
                                                <Link to="/our-cryptoasset" style={{marginBottom:10,marginTop:10}}> <div className='tagName'>Crypto Assets</div></Link>
                                                <Link to="/our-giftcard" style={{marginBottom:10}}> <div className='tagName'>Gift Card</div></Link>
                                                <Link to="/otc" style={{marginBottom:10}}> <div className='tagName'>OTC</div></Link>
                                         
-                                            </div>
-                                                
-                                            
-                                        </Collapse>
-                                    
+                                            </div>  
+                                    </Collapse>
+                                </div>      
                             </div>
                     
                        
