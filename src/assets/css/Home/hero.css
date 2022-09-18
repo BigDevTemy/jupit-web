@@ -987,6 +987,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         background-position: center;
         background-size: cover;
         background-color: #00003e;
+        
     }
     .cardDraw{
         display: none;
