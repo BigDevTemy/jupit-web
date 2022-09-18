@@ -14,7 +14,7 @@ import {GiRegeneration} from 'react-icons/gi'
 import {GrResources} from 'react-icons/gr'
 import {BiSupport} from 'react-icons/bi'
 import { Offcanvas,Collapse  } from "react-bootstrap";
-import {BsArrowRightShort} from 'react-icons/bs'
+import {BsArrowDownShort} from 'react-icons/bs'
 const Index = ({scroll})=>{
     const [show,setshow] = useState(false);
     const handleClose = ()=>{
@@ -106,7 +106,7 @@ const Index = ({scroll})=>{
                             <div className='dropDowning'>
                                 <div className='tagIcon'>
                                      <GiRegeneration color='#fff' size={20} />
-                                     <div className='tagName'  onClick={()=>handleProductClick()}>Product <BsArrowRightShort size={20} /></div>
+                                     <div className='tagName'  onClick={()=>handleProductClick()}>Product <BsArrowDownShort size={20} /></div>
                                 </div>
                                 <div>
                                     <Collapse in={isVisible}>
@@ -121,20 +121,22 @@ const Index = ({scroll})=>{
                             </div>
                     
                        
-                            <div className='tag'>
+                            <div className='dropDowning'>
                                 <div className='tagIcon'>
                                      <GiRegeneration color='#ffffff' size={20} />
+                                     <div className='tagName' onClick={()=>handleResourceClick()}>Resources<BsArrowDownShort size={20} /></div>
                                 </div>
-                                <div className='tagName' onClick={()=>handleResourceClick()}>Resources<BsArrowRightShort size={20} /></div>
-                                <Collapse in={isVisibleResource}>
+                                <div>
+                                        <Collapse in={isVisibleResource}>
                                             <div className='collpaseP'>
                                                <Link to="/blog" style={{marginBottom:10,marginTop:10}}> <div className='tagName'>Blog</div></Link>
                                                 <Link to="/faq" style={{marginBottom:10}}><div className='tagName'>Faq</div></Link>
                                                 
-                                            </div>
-                                                
-                                            
+                                            </div>    
                                         </Collapse>
+
+                                </div>
+                                
                             </div>
                         
                         {/* 
