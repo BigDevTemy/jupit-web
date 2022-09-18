@@ -80,7 +80,7 @@ const Index = ({scroll})=>{
 
                 </div>
 
-                <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'25%',backgroundColor:'#070722'}}>
+                <Offcanvas show={show} onHide={handleClose} placement="end" style={{width:'50%',backgroundColor:'#070722'}}>
                     <Offcanvas.Header closeButton closeVariant='white' >
                         <Offcanvas.Title></Offcanvas.Title>
                     </Offcanvas.Header>
