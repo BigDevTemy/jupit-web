@@ -159,7 +159,7 @@ const Index = ({scroll})=>{
                         
 
                        
-                        <Link  to="contact" spy={true} smooth={true} onClick={handleClose}>
+                        <Link  to="/contact" spy={true} smooth={true} onClick={handleClose}>
                             <div className='tag'>
                                 <div className='tagIcon'>
                                      <BiSupport color='#fff' size={20} />
