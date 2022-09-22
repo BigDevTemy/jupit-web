@@ -143,6 +143,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 100%;
         min-height: 30vh;
         height: 100%;
+       
     }
 
     .bestService{
@@ -289,7 +290,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .startJourney{
         font-size: 18px;
         font-family: 'Montserrat'sans-serif;
-        text-align: justify;
+        text-align: left;
         width: 90%;
         margin-top: 20px;
         color: #848484;

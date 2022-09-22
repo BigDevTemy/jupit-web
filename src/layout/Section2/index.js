@@ -8,7 +8,7 @@ const Index = ()=>{
     return (
         <div className="section2">
             <div className='statement'>
-                    <div data-aos="zoom-out-down">
+                    <div>
                             <div className='wemakecrypoeasy'>Best Service that Works for You.</div>
                             <div className='specific'>We provide a wide range of services to our users. Take a look at few of the solutions that you can expect from us.</div>
                             <div className='getitnow'>

@@ -199,8 +199,6 @@ and (max-device-width: 600px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .section3{
         margin-top: 50px;
-        
-
     }
     .Install{
         padding: 0px;
