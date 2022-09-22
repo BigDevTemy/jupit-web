@@ -1175,6 +1175,21 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
 }
 
+@media only screen
+and (min-device-width:701px)
+and (max-device-width:1100px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .laptopDiv > div:nth-child(1){
+        
+        background:url('../../images/laptoporiginal.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 50vh;
+        
+     }
+}
 
 @media only screen 
 and (min-device-width: 701px) 
@@ -1299,15 +1314,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     
     
-    .laptopDiv > div:nth-child(1){
-        
-       background:url('../../images/laptoporiginal.png');
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size: cover;
-       height: 100vh;
-       
-    }
     .spotlight{
         display: flex;
         width: 100%;
