@@ -1,6 +1,7 @@
 import '../../assets/css/Footer/footer.css'
 import backgroundFooter from '../../assets/images/BackgroundFooter.svg'
-import footerLogo from '../../assets/images/footerlogo.svg'
+//import footerLogo from '../../assets/images/footerlogo.svg'
+import footerLogo from '../../assets/images/jupit_white.svg'
 import blogpost1 from '../../assets/images/blogpost1.png'
 import blogpost2 from '../../assets/images/blogpost2.png'
 import blogpost3 from '../../assets/images/blogpost3.png'
