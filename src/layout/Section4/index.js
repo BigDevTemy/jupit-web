@@ -4,7 +4,7 @@ import quote from '../../assets/images/2x.png';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import Client1 from '../../assets/images/Mask Group.png'
+import Client1 from '../../assets/images/profile-img.png'
 import Client2 from '../../assets/images/Mask Group (1).png'
 import { useEffect, useState } from 'react';
 
@@ -64,7 +64,7 @@ const Index = ()=>{
                             <div className='mycard'>
                                 <div className='clientName'>
                                     <div>
-                                        <img src={Client2} />
+                                        <img src={Client1} />
                                         
                                     </div>
                                     <div>
@@ -92,7 +92,7 @@ const Index = ()=>{
                                     </div>
                                     
                                 </div>
-                                <div className='all_crypto'>All your crypto in one place</div>
+                                {/* <div className='all_crypto'>All your crypto in one place</div> */}
                                 <div className='message'>
                                 I am grateful to my Neighbor who first introduced me to Jupit WhatsApp Exchange in 2021. Trading gift card with them was honestly convenient and transparent. They had good rate and fast settlement.
                                 </div>
