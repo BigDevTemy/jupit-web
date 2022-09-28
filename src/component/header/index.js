@@ -87,7 +87,7 @@ const Index = ({scroll})=>{
                     <Offcanvas.Body>
                         <div className=''>
                             <div className='tag'>
-                                <a href="https://app.jupitapp.co/client/signin" target="_blank"><a></a><button className='btn btn-secondary'>Login</button></a> <a href="https://app.jupitapp.co/client/signup"><button className='btn btn-warning'>Signup</button></a>
+                                <a href="https://app.jupitapp.co/client/signin" target="_blank"><a></a><button className='btn btn-secondary'>Login</button></a>or <a href="https://app.jupitapp.co/client/signup"><button className='btn btn-warning'>Signup</button></a>
                             </div>
                         <Link  to="/" spy={true} smooth={true} onClick={handleClose}>
                             <div className='tag'>
