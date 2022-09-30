@@ -40,7 +40,7 @@ const Index = ()=>{
                 </div>
                
                 <div className='Comment'>
-                    <OwlCarousel className='owl-theme' items={windowSize.innerWidth < 1200 ? 1: 2} lazyLoad  loop margin={10} dots >
+                    <OwlCarousel className='owl-theme' items={windowSize.innerWidth < 1200 ? 1: 2} lazyLoad  loop margin={windowSize.innerWidth < 1200 ? 20: 10} dots >
                         <div className='item'>
                             <div className='mycard'>
                                 <div className='clientName'>

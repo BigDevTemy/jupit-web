@@ -49,7 +49,7 @@
     height: 250px;
     border-radius: 10px;
     background-color: #fff;
-    margin: 20px;
+    margin: 0px;
     display: flex;
     justify-content: flex-start;
     padding: 20px;
@@ -147,6 +147,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (min-device-width: 301px) 
 and (max-device-width: 500px)
 and (-webkit-min-device-pixel-ratio: 2) {
+    .item{
+        background-color: black;
+    }
     .mycard{
       
         width: 100%;
