@@ -4,6 +4,7 @@ import about2 from '../../assets/images/about-3.png'
 import googleplay from '../../assets/images/googleplay.svg'
 import image1 from '../../assets/images/ceo.png'
 import image4 from '../../assets/images/eji.png'
+import oriola from '../../assets/images/oriola.png'
 import image5 from '../../assets/images/empty_boy.png'
 import favicon from '../../assets/images/favicon.svg'
 import Aos from 'aos';
@@ -268,7 +269,7 @@ const Index = ()=>{
                                 </div>
                                 <div className='teammember'  data-aos="flip-left">
                                     <div>
-                                        <img src={image5}/>
+                                        <img src={oriola}/>
                                     </div>
                                     <div className='teambody'>
                                         <div className='teamdescription'>
