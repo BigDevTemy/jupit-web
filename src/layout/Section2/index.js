@@ -13,7 +13,7 @@ const Index = ()=>{
                             <div className='specific'>We provide a wide range of services to our users. Take a look at few of the solutions that you can expect from us.</div>
                             <div className='getitnow'>
                                 <div className='getitnowBtn'>
-                                    Learn more
+                                   <a href="/blog" style={{textDecoration:'none',color:'#fff'}}>Learn more</a> 
                                 </div>
                             </div>
                     </div>

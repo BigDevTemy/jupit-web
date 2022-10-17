@@ -25,7 +25,7 @@ const Index = ()=>{
                     </div>
                     <div className='getitnow'>
                         <div className='getitnowBtn'>
-                                Get it now
+                               <a href='https://app.jupitapp.co/client/signin' target="_blank" style={{textDecoration:'none',color:'#fff'}}>Get it now</a> 
                         </div>
                     </div>
 

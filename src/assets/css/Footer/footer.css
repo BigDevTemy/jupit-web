@@ -132,11 +132,12 @@
 .link >div>div{
     margin-top: 10px;
     font-family: 'Montserrat' sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 .titleLink{
     font-family: 'Montserrat'sans-serif;
     font-weight: bold;
+    
 }
 .linkParent{
     display: flex;

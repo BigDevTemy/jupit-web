@@ -22,10 +22,14 @@ const Index = ()=>{
                             <img src={umbrella} className="umbrella"/>
                         </div>
                    </div>
-                   <div className='heroButton'>
+                   
+             
+                        <a href='https://app.jupitapp.co/client/signin' className='heroButton' target="_blank" style={{textDecoration:'none'}}>
                             <div>Get Started</div>
-                            {/* <div>View more</div> */}
-                   </div>
+                        </a> 
+                        
+                   
+                  
             </div>
         </div>
     )

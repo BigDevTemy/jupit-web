@@ -19,7 +19,9 @@ const Index= ()=>{
                 <div className='userText'>Users & Still Counting</div>
 
                 <div className='whatareyou'>What are you waiting for?</div>
-                <div className='footerBtn'>Get Started</div>
+                <a href='https://app.jupitapp.co/client/signin' target="_blank" style={{textDecoration:'none'}}>
+                    <div className='footerBtn'>Get Started</div>
+                </a>
 
                 <div className='footerInfor'>
                         <div className='footerlogoarea'>
