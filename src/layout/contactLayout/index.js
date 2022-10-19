@@ -40,27 +40,27 @@ const chat = ()=>{
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="What is your full name ? *" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Full name *" variant="filled" className='form-control' />
                                 </div>
                                 <div className='form-group'>
-                                    <TextField required id="filled-basic" label="What is your email ? *" variant="filled" className='form-control' />
+                                    <TextField required id="filled-basic" label="Email" variant="filled" className='form-control' />
                                 </div>
                             </div>
 
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="what is your phone number ? *" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Phone number *" variant="filled" className='form-control' />
                                 </div>
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="what is your company ?" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Company" variant="filled" className='form-control' />
                                 </div>
                             </div>
                             <div className='formDiv'>
 
                                 <div className='form-group'>
                                     <TextField id="filled-basic" 
-                                        label="write your message? *"
+                                        label="Message *"
                                         multiline
                                         rows={5}
                                         variant="filled" 

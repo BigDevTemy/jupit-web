@@ -373,6 +373,7 @@
     position: absolute;
     
     
+    
 }
 .heroContent>div:nth-child(2)> img{
    margin-top: 40px;
@@ -399,6 +400,7 @@
     justify-content: flex-start;
     padding-left: 5%;
     margin-top: 50px;
+    z-index: 2;
     
 }
 .heroButton > div{
