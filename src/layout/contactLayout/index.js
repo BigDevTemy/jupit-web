@@ -8,6 +8,8 @@ import 'aos/dist/aos.css'
 import { useEffect, useState } from 'react';
 import Button from '@mui/material/Button';
 import {RiWhatsappFill} from 'react-icons/ri'
+// ES6 Modules or TypeScript
+import Swal from 'sweetalert2'
 const Index = ()=>{
     useEffect(()=>{
         Aos.init({duration:2000})
@@ -25,7 +27,13 @@ const RegisterValidForm = !Form.fullname?.length
     || !Form.message?.length
     
 const submitContact =()=>{
-        setForm('');
+    setForm({...Form,'fullname':'','email':'','phonenumber':'','message':'','company':''});
+    Swal.fire({
+        title: 'Success',
+        text: 'Message successfully submitted..A feedback will be provided shortly.',
+        icon: 'success',
+        confirmButtonText: 'Thank you'
+      })
 }
     
 const chat = ()=>{
@@ -57,20 +65,20 @@ const chat = ()=>{
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Full name *" onChange={handleChange} name='fullname' variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Full name *" value={Form.fullname || ''}  onChange={handleChange} name='fullname' variant="filled" className='form-control' />
                                 </div>
                                 <div className='form-group'>
-                                    <TextField required id="filled-basic" label="Email" onChange={handleChange} name='email' variant="filled" className='form-control' />
+                                    <TextField required id="filled-basic" label="Email" value={Form.email || ''}  onChange={handleChange} name='email' variant="filled" className='form-control' />
                                 </div>
                             </div>
 
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Phone number *" onChange={handleChange} name="phonenumber" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Phone number *" value={Form.phonenumber || ''}  onChange={handleChange} name="phonenumber" variant="filled" className='form-control' />
                                 </div>
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Company" onChange={handleChange} name="company" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Company" onChange={handleChange} name="company" variant="filled" className='form-control' value={Form.company || ''}  />
                                 </div>
                             </div>
                             <div className='formDiv'>
@@ -80,7 +88,8 @@ const chat = ()=>{
                                         label="Message *"
                                         multiline
                                         rows={5}
-                                        variant="filled" 
+                                        variant="filled"
+                                        value={Form.message || ''} 
                                         className='form-control' name="message" onChange={handleChange} />
                                 </div>
                                 
