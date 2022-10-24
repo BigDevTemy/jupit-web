@@ -13,11 +13,36 @@ import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import Aos from 'aos';
-import { useEffect } from 'react'
+import Swal from 'sweetalert2'
+import { useEffect,useState } from 'react'
 const Index = ()=>{
     useEffect(()=>{
         Aos.init({duration:2000})
 },[])
+
+
+const [Form,setForm] = useState({})
+
+const handleChange = (e)=>{
+    const {name,value} = e.target
+    setForm({...Form,[name]:value});
+}
+
+const RegisterValidForm = !Form.fullname?.length 
+    || !Form.email?.length 
+    || !Form.phonenumber?.length
+    || !Form.message?.length
+    
+const submitContact =()=>{
+    setForm({...Form,'fullname':'','email':'','phonenumber':'','message':'','company':''});
+    Swal.fire({
+        title: 'Success',
+        text: 'Message successfully submitted..A feedback will be provided shortly.',
+        icon: 'success',
+        confirmButtonText: 'Thank you'
+      })
+}
+    
     return (
         <div>
             <div className="whatis" >
@@ -164,24 +189,24 @@ const Index = ()=>{
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Fullname " variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Fullname " value={Form.fullname || ''}  name="fullname" variant="filled" className='form-control' />
                                 </div>
                                 <div className='form-group'>
-                                    <TextField required id="filled-basic" label="Phone number" variant="filled" className='form-control' />
+                                    <TextField required id="filled-basic" label="Phone number *" variant="filled" value={Form.phonenumber || ''} name="phonenumber" className='form-control' />
                                 </div>
                             </div>
 
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Alternate Phone number *" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Alternate Phone number " variant="filled" className='form-control'  value={Form.alternate_phonenumber || ''} name="alternate_phonenumber"  />
                                 </div>
                                 
                             </div>
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                        <InputLabel id="demo-simple-select-label">Select ID Card Type</InputLabel>
+                                        <InputLabel id="demo-simple-select-label" name="idcard"  value={Form.idcard || ''} >Select ID Card Type</InputLabel>
                                         <Select
                                         labelId="demo-simple-select-label"
                                         id="demo-simple-select"
@@ -194,25 +219,25 @@ const Index = ()=>{
                                         </Select>
                                 </div>
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="WhatsApp/Signal No*" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="WhatsApp/Signal No*"  value={Form.whatsapp_no || ''} name="whatsapp_no" variant="filled" className='form-control' />
                                 </div>
                             </div>
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Address *" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Address *" variant="filled" className='form-control' value={Form.address || ''} name="address"  />
                                 </div>
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Business Name *" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Business Name *" variant="filled" className='form-control'  value={Form.business_name || ''} name="business_name" />
                                 </div>
                             </div>
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Business Address *" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Business Address *" variant="filled" className='form-control'  value={Form.business_address || ''} name="business_address"  />
                                 </div>
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Business Tel *" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Business Tel *" variant="filled" className='form-control'  value={Form.business_tel || ''} name="business_tel"  />
                                 </div>
                             </div>
                             <div className='formDiv'>
@@ -224,6 +249,7 @@ const Index = ()=>{
                                         id="demo-simple-select"
                                         className='form-control'
                                         label=""
+                                        value={Form.usertype || ''} name="usertype" 
                                         
                                         >
                                             
@@ -239,6 +265,7 @@ const Index = ()=>{
                                         id="demo-simple-select"
                                         className='form-control'
                                         label="Age"
+                                        value={Form.means_commm || ''} name="means_commm" 
                                         >
                                             
                                             <MenuItem value="whatsapp">Whatsapp</MenuItem>
@@ -255,14 +282,16 @@ const Index = ()=>{
                                         multiline
                                         rows={5}
                                         variant="filled" 
-                                        className='form-control' />
+                                        className='form-control'
+                                        value={Form.means_commm || ''} name="means_commm" 
+                                        />
                                 </div>
                                 
                             </div>
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <Button fullWidth variant="contained" style={{backgroundColor:'#1c1c93',height:50}}>Send Message</Button>
+                                    <Button fullWidth variant="contained" style={{backgroundColor:'#1c1c93',height:50}} disabled={RegisterValidForm} onClick={()=>submitContact()}>Send Message</Button>
                                 </div>
                                 
                             </div>
