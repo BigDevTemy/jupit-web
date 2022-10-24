@@ -189,7 +189,7 @@ const submitContact =()=>{
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Fullname " value={Form.fullname || ''}  name="fullname" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" label="Fullname *" value={Form.fullname || ''}  name="fullname" variant="filled" className='form-control' />
                                 </div>
                                 <div className='form-group'>
                                     <TextField required id="filled-basic" label="Phone number *" variant="filled" value={Form.phonenumber || ''} name="phonenumber" className='form-control' />
