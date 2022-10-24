@@ -58,8 +58,8 @@ const chat = ()=>{
                             </Link>
                             
                         </div>
-                        <div className='say_hello'>Say Hello to Us</div>
-                        <div className='question'>Do you have any question or simply want to say hi? Drop us a message.</div>
+                        <div className='say_hello'>Contact Us</div>
+                        <div className='question'>Do you have any question ? Drop us a message.</div>
                         <div className='forms'>
                             
                             <div className='formDiv'>
