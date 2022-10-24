@@ -21,10 +21,12 @@ const handleChange = (e)=>{
 
 const RegisterValidForm = !Form.fullname?.length 
     || !Form.email?.length 
-    || !Form.password?.length 
     || !Form.phonenumber?.length
     || !Form.message?.length
     
+const submitContact =()=>{
+        setForm('');
+}
     
 const chat = ()=>{
 
@@ -86,7 +88,7 @@ const chat = ()=>{
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <Button fullWidth variant="contained" disabled={RegisterValidForm} style={{backgroundColor:'#1c1c93',height:50}} >Send Message</Button>
+                                    <Button fullWidth variant="contained" disabled={RegisterValidForm} style={{backgroundColor:'#1c1c93',height:50}} onClick={()=>{submitContact()}} >Send Message</Button>
                                 </div>
                                 
                             </div>
