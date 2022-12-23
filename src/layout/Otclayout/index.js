@@ -23,6 +23,8 @@ const Index = ()=>{
 
 
 const [Form,setForm] = useState({})
+const [btn_name,setbtnname] = useState('Send Message')
+const [disabled,setDisabled] = useState(false)
 
 const handleChange = (e)=>{
     const {name,value} = e.target
@@ -43,12 +45,8 @@ const RegisterValidForm = !Form.fullname?.length
 const submitContact =()=>{
     
    
-    Swal.fire({
-        title: 'Success',
-        text: 'Message successfully submitted..A feedback will be provided shortly.',
-        icon: 'success',
-        confirmButtonText: 'Thank you'
-      })   
+    setbtnname('Please Wait')
+    setDisabled(true)
      
     axios({
             method: "POST",
@@ -59,6 +57,8 @@ const submitContact =()=>{
             data:JSON.stringify({Form})
         })
     .then(res=>{
+        setbtnname('Send Message')
+        setDisabled(false)
         setForm({...Form,
             'fullname':'',
             'email':'',
@@ -86,6 +86,8 @@ const submitContact =()=>{
     
     })
     .catch(err=>{
+        setbtnname('Send Message')
+        setDisabled(false)
         Swal.fire({
             title: 'opps',
             text: 'An Error Occurred.pls try again',
@@ -362,7 +364,7 @@ const submitContact =()=>{
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <Button fullWidth variant="contained" style={{backgroundColor:'#1c1c93',height:50}} disabled={RegisterValidForm} onClick={()=>submitContact()}>Send Message</Button>
+                                    <Button fullWidth variant="contained" style={{backgroundColor:'#1c1c93',height:50}} disabled={RegisterValidForm || disabled} onClick={()=>submitContact()}>{btn_name}</Button>
                                 </div>
                                 
                             </div>
