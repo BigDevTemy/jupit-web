@@ -86,7 +86,11 @@ const submitContact =()=>{
     
     })
     .catch(err=>{
-        
+        Swal.fire({
+            title: 'opps',
+            text: 'An Error Occurred.pls try again',
+            icon: 'error'
+          })
        console.log(err)
         // console.log('REs',err.response)
     
