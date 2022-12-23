@@ -13,6 +13,7 @@ import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import Aos from 'aos';
+import axios from 'axios'
 import Swal from 'sweetalert2'
 import { useEffect,useState } from 'react'
 const Index = ()=>{
@@ -26,21 +27,71 @@ const [Form,setForm] = useState({})
 const handleChange = (e)=>{
     const {name,value} = e.target
     setForm({...Form,[name]:value});
+    console.log(Form)
 }
 
 const RegisterValidForm = !Form.fullname?.length 
     || !Form.email?.length 
     || !Form.phonenumber?.length
     || !Form.message?.length
+    || !Form.address?.length
+    || !Form.business_name?.length
+    || !Form.whatsapp_no?.length
+    || !Form.business_address?.length
+    || !Form.business_tel?.length
     
 const submitContact =()=>{
-    setForm({...Form,'fullname':'','email':'','phonenumber':'','message':'','company':''});
+    
+   
     Swal.fire({
         title: 'Success',
         text: 'Message successfully submitted..A feedback will be provided shortly.',
         icon: 'success',
         confirmButtonText: 'Thank you'
-      })
+      })   
+     
+    axios({
+            method: "POST",
+            url: `https://jupit.app/otc/submit/request`,
+            headers: {
+            "Content-Type": "application/json"
+            },
+            data:JSON.stringify({Form})
+        })
+    .then(res=>{
+        setForm({...Form,
+            'fullname':'',
+            'email':'',
+            'phonenumber':'',
+            'message':'',
+            'alternate_phonenumber':'',
+            'idcard':'',
+            'whatsapp_no':'',
+            'address':'',
+            'business_name':'',
+            'business_tel':'',
+            'business_address':'',
+            'user_type':'',
+            'means_comm':''
+    
+    
+        });
+        Swal.fire({
+            title: 'Success',
+            text: 'Message successfully submitted..A feedback will be provided shortly.',
+            icon: 'success',
+            confirmButtonText: 'Thank you'
+          })
+    
+    
+    })
+    .catch(err=>{
+        
+       console.log(err)
+        // console.log('REs',err.response)
+    
+    })
+   
 }
     
     return (
@@ -189,28 +240,34 @@ const submitContact =()=>{
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Fullname *" value={Form.fullname || ''}  name="fullname" variant="filled" className='form-control' />
+                                    <TextField id="filled-basic" onChange={handleChange} label="Fullname *" value={Form.fullname || ''}  name="fullname" variant="filled" className='form-control'  />
                                 </div>
                                 <div className='form-group'>
-                                    <TextField required id="filled-basic" label="Phone number *" variant="filled" value={Form.phonenumber || ''} name="phonenumber" className='form-control' />
+                                    <TextField required id="filled-basic" onChange={handleChange} label="Phone number *" variant="filled" value={Form.phonenumber || ''} name="phonenumber" className='form-control' />
                                 </div>
                             </div>
 
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Alternate Phone number " variant="filled" className='form-control'  value={Form.alternate_phonenumber || ''} name="alternate_phonenumber"  />
+                                    <TextField id="filled-basic" onChange={handleChange} label="Alternate Phone number " variant="filled" className='form-control'  value={Form.alternate_phonenumber || ''} name="alternate_phonenumber"  />
                                 </div>
+                                <div className='form-group'>
+                                        <TextField id="filled-basic" onChange={handleChange} label="Email*"  value={Form.email || ''} name="email" variant="filled" className='form-control' />
+                                    </div>
                                 
                             </div>
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                        <InputLabel id="demo-simple-select-label" name="idcard"  value={Form.idcard || ''} >Select ID Card Type</InputLabel>
+                                        <InputLabel id="demo-simple-select-label">Select ID Card Type</InputLabel>
                                         <Select
                                         labelId="demo-simple-select-label"
                                         id="demo-simple-select"
                                         className='form-control'
+                                        onChange={handleChange}
+                                        value={Form.idcard || ''}
+                                        name="idcard"
                                         >
                                             <MenuItem value="">Select Age</MenuItem>
                                             <MenuItem value="driver license">Driver License</MenuItem>
@@ -218,26 +275,29 @@ const submitContact =()=>{
                                             <MenuItem value="nimc">NIMC</MenuItem>
                                         </Select>
                                 </div>
-                                <div className='form-group'>
-                                    <TextField id="filled-basic" label="WhatsApp/Signal No*"  value={Form.whatsapp_no || ''} name="whatsapp_no" variant="filled" className='form-control' />
+                                <div className='formDiv'>
+                                    <div className='form-group'>
+                                        <TextField id="filled-basic" onChange={handleChange} label="WhatsApp/Signal No*"  value={Form.whatsapp_no || ''} name="whatsapp_no" variant="filled" className='form-control' />
+                                    </div>
+                                    
                                 </div>
                             </div>
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Address *" variant="filled" className='form-control' value={Form.address || ''} name="address"  />
+                                    <TextField id="filled-basic" onChange={handleChange} label="Address *" variant="filled" className='form-control' value={Form.address || ''} name="address"  />
                                 </div>
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Business Name *" variant="filled" className='form-control'  value={Form.business_name || ''} name="business_name" />
+                                    <TextField id="filled-basic" onChange={handleChange} label="Business Name *" variant="filled" className='form-control' name="business_name" value={Form.business_name || ''}  />
                                 </div>
                             </div>
                             <div className='formDiv'>
 
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Business Address *" variant="filled" className='form-control'  value={Form.business_address || ''} name="business_address"  />
+                                    <TextField id="filled-basic" onChange={handleChange} label="Business Address *" variant="filled" className='form-control'  value={Form.business_address || ''} name="business_address"  />
                                 </div>
                                 <div className='form-group'>
-                                    <TextField id="filled-basic" label="Business Tel *" variant="filled" className='form-control'  value={Form.business_tel || ''} name="business_tel"  />
+                                    <TextField id="filled-basic" onChange={handleChange} label="Business Tel *" variant="filled" className='form-control'  value={Form.business_tel || ''} name="business_tel"  />
                                 </div>
                             </div>
                             <div className='formDiv'>
@@ -245,11 +305,13 @@ const submitContact =()=>{
                                 <div className='form-group'>
                                         <InputLabel id="demo-simple-select-label">Select Type of User</InputLabel>
                                         <Select
+                                        onChange={handleChange}
                                         labelId="demo-simple-select-label"
                                         id="demo-simple-select"
                                         className='form-control'
                                         label=""
-                                        value={Form.usertype || ''} name="usertype" 
+                                        name="usertype"
+                                        value={Form.usertype || ''}  
                                         
                                         >
                                             
@@ -264,8 +326,11 @@ const submitContact =()=>{
                                         labelId="demo-simple-select-label"
                                         id="demo-simple-select"
                                         className='form-control'
+                                        onChange={handleChange}
                                         label="Age"
-                                        value={Form.means_commm || ''} name="means_commm" 
+                                        name="means_commm"
+                                        value={Form.means_commm || ''} 
+                                         
                                         >
                                             
                                             <MenuItem value="whatsapp">Whatsapp</MenuItem>
@@ -283,7 +348,9 @@ const submitContact =()=>{
                                         rows={5}
                                         variant="filled" 
                                         className='form-control'
-                                        value={Form.means_commm || ''} name="means_commm" 
+                                        name="message"
+                                        onChange={handleChange}
+                                        value={Form.message || ''}  
                                         />
                                 </div>
                                 

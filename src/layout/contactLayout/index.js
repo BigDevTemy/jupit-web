@@ -24,6 +24,7 @@ const handleChange = (e)=>{
 const RegisterValidForm = !Form.fullname?.length 
     || !Form.email?.length 
     || !Form.phonenumber?.length
+    || Form.phonenumber.length > 12
     || !Form.message?.length
     
 const submitContact =()=>{
